@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en-US"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en-US"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+<base href="http://emaker.github.io/Fisher" />
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Electronics &#8211; Fisher Delta 3D printer</title>
+<meta name='robots' content='noindex,follow' />
+
+
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/localhost\/wordpress\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='kadence_theme-css'  href='http://emaker.github.io/Fisher/wp-content/themes/virtue/assets/css/virtue.css?ver=266' type='text/css' media='all' />
+<link rel='stylesheet' id='virtue_skin-css'  href='http://emaker.github.io/Fisher/wp-content/themes/virtue/assets/css/skins/default.css' type='text/css' media='all' />
+<link rel='stylesheet' id='virtue_child-css'  href='http://emaker.github.io/Fisher/wp-content/themes/virtue-child/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='redux-google-fonts-virtue-css'  href='http://fonts.googleapis.com/css?family=Lato%3A400%2C700&#038;ver=1457962026' type='text/css' media='all' />
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-content/themes/virtue/assets/js/vendor/modernizr.min.js'></script>
+<link rel='https://api.w.org/' href='http://emaker.github.io/Fisher/wp-json/' />
+
+ 
+
+<link rel='next' title='Hot end assembly' href='http://emaker.github.io/Fisher/documentation/hot-end-assembly/' />
+
+<link rel="canonical" href="http://emaker.github.io/Fisher/documentation/electronics/" />
+<link rel='shortlink' href='http://emaker.github.io/Fisher/?p=17213' />
+
+
+<style type="text/css">#logo {padding-top:25px;}#logo {padding-bottom:12px;}#logo {margin-left:0px;}#logo {margin-right:0px;}#nav-main {margin-top:40px;}#nav-main {margin-bottom:10px;}.headerfont, .tp-caption {font-family:Lato;} 
+  .topbarmenu ul li {font-family:Lato;}
+  #kadbreadcrumbs {font-family:Verdana, Geneva, sans-serif;}input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; } input[type=number] {-moz-appearance: textfield;}.quantity input::-webkit-outer-spin-button,.quantity input::-webkit-inner-spin-button {display: none;}.topclass {background:#d6dfee    ;}.product_item .product_details h5 {text-transform: none;}.product_item .product_details h5 {min-height:40px;}.kad-topbar-left, .kad-topbar-left .topbarmenu {float:right;} .kad-topbar-left .topbar_social, .kad-topbar-left .topbarmenu ul, .kad-topbar-left .kad-cart-total,.kad-topbar-right #topbar-search .form-search{float:left}.topbarmenu ul li a {
+  color: black;
+}
+.sidebar ul.sf-dropdown-menu li {
+  border-bottom: none;
+}
+
+.subhead, .postdate {
+  display: none;
+}
+
+header h1.entry-title {
+  background: #d6dfee;
+  margin-top: 0px;
+}
+
+.nav-prev {
+    float: left;
+    width: 50%;
+}
+.nav-next {
+    float: right;
+    text-align: right;
+    width: 50%;
+}
+
+.single-article article {
+  margin-top: 0px;
+}
+.single-article aside {
+  margin-top: 30px;
+}
+body.single-documentation table.docs-table-container {vertical-align:top;}
+body.single-documentation table.docs-table-container td {padding: 0px 20px 0px 0px; border: 0px;}
+
+body.single-documentation table.docs-table-parts {border-collapse: collapse;}
+body.single-documentation table.docs-table-parts thead {font-weight:bold;font-size:90%;}
+body.single-documentation table.docs-table-parts td {font-size:90% ;padding: 2px 8px 5px 5px; border: 1px solid #ccc;}
+body.single-documentation table.docs-table-parts tr td:nth-child(3) {text-align: center;}
+body.single-documentation table.docs-table-parts tbody tr:hover {background:#AAFFAA;}
+
+body.single-documentation table.docs-table-parts-4col {border-collapse: collapse;}
+body.single-documentation table.docs-table-parts-4col thead {font-weight:bold;font-size:90%;}
+body.single-documentation table.docs-table-parts-4col td {font-size:90% ;padding: 2px 8px 5px 5px; border: 1px solid #ccc;}
+body.single-documentation table.docs-table-parts-4col tr td:nth-child(1) {text-align: center;}
+body.single-documentation table.docs-table-parts-4col tbody tr:hover {background:#AAFFAA;}
+
+body.single-documentation table.docs-table {border-collapse: collapse;}
+body.single-documentation table.docs-table td {vertical-align:top; padding: 0px; border-bottom: 1px solid #eee;}
+body.single-documentation table.docs-table td:first-child {width:465px; padding: 2px 20px 5px 5px;}
+body.single-documentation table.docs-table tr:hover {background:#AAFFAA;}
+
+</style><!--[if lt IE 9]>
+<script src="http://emaker.github.io/Fisher/wp-content/themes/virtue/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+<style type="text/css" title="dynamic-css" class="options-output">header #logo a.brand,.logofont{font-family:Lato;line-height:40px;font-weight:400;font-style:normal;font-size:32px;}.kad_tagline{font-family:Lato;line-height:24px;font-weight:400;font-style:normal;color:#444444;font-size:14px;}.product_item .product_details h5{font-family:Lato;line-height:20px;font-weight:700;font-style:normal;font-size:16px;}h1{font-family:Lato;line-height:40px;font-weight:400;font-style:normal;font-size:38px;}h2{font-family:Lato;line-height:40px;font-weight:normal;font-style:normal;font-size:32px;}h3{font-family:Lato;line-height:40px;font-weight:400;font-style:normal;font-size:28px;}h4{font-family:Lato;line-height:40px;font-weight:400;font-style:normal;font-size:24px;}h5{font-family:Lato;line-height:24px;font-weight:700;font-style:normal;font-size:18px;}body{font-family:Verdana, Geneva, sans-serif;line-height:20px;font-weight:400;font-style:normal;font-size:14px;}#nav-main ul.sf-menu a{font-family:Lato;line-height:18px;font-weight:normal;font-style:400;font-size:12px;}#nav-second ul.sf-menu a{font-family:Lato;line-height:22px;font-weight:normal;font-style:400;font-size:18px;}.kad-nav-inner .kad-mnav, .kad-mobile-nav .kad-nav-inner li a,.nav-trigger-case{font-family:Lato;line-height:20px;font-weight:normal;font-style:400;font-size:16px;}</style></head>
+  <body class="single single-documentation postid-17213 wide electronics">
+    <div id="wrapper" class="container">
+    <div id="kt-skip-link"><a href="#content">Skip to Main Content</a></div><header class="banner headerclass">
+  <div id="topbar" class="topclass">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-6 kad-topbar-left">
+          <div class="topbarmenu clearfix">
+                                </div>
+        </div><!-- close col-md-6 --> 
+        <div class="col-md-6 col-sm-6 kad-topbar-right">
+          <div id="topbar-search" class="topbar-widget">
+                    </div>
+        </div> <!-- close col-md-6-->
+      </div> <!-- Close Row -->
+    </div> <!-- Close Container -->
+  </div><div class="container">
+  <div class="row">
+      <div class="col-md-4 clearfix kad-header-left">
+            <div id="logo" class="logocase">
+              <a class="brand logofont" href="http://emaker.github.io/Fisher/">
+                                  <div id="thelogo">
+                    <img src="http://emaker.limited/wp-content/uploads/2015/12/eMARKER-web.png" alt="Fisher Delta 3D printer" class="kad-standard-logo" />
+                                      </div>
+                              </a>
+                              <p class="kad_tagline belowlogo-text">RepRap Fisher build instructions</p>
+                         </div> <!-- Close #logo -->
+       </div><!-- close logo span -->
+                <div class="col-md-8 kad-header-right">
+           <nav id="nav-main" class="clearfix">
+              <ul id="menu-main" class="sf-menu"><li  class="menu-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor sf-dropdown menu-item-18317"><a href="http://emaker.github.io/Fisher/">Home</a>
+<ul class="sf-dropdown-menu">
+	<li  class="menu-base-assembly menu-item-18320"><a href="http://emaker.github.io/Fisher/documentation/base-assembly/">Base assembly</a></li>
+	<li  class="menu-tower-assembly menu-item-18321"><a href="http://emaker.github.io/Fisher/documentation/tower-assembly/">Tower assembly</a></li>
+	<li  class="menu-panels-and-rods menu-item-18322"><a href="http://emaker.github.io/Fisher/documentation/panels-and-rods/">Panels and rods</a></li>
+	<li  class="menu-effector-assembly menu-item-18323"><a href="http://emaker.github.io/Fisher/documentation/effector-assembly/">Effector assembly</a></li>
+	<li  class="menu-extruder-drive menu-item-18324"><a href="http://emaker.github.io/Fisher/documentation/extruder-drive/">Extruder drive</a></li>
+	<li  class="menu-hot-end-assembly menu-item-18325"><a href="http://emaker.github.io/Fisher/documentation/hot-end-assembly/">Hot end assembly</a></li>
+	<li  class="menu-electronics current-menu-item menu-item-18326"><a href="http://emaker.github.io/Fisher/documentation/electronics/">Electronics</a></li>
+	<li  class="menu-bed-top-plate-and-belts menu-item-18327"><a href="http://emaker.github.io/Fisher/documentation/bed-top-plate-and-belts/">Bed, top plate and belts</a></li>
+	<li  class="menu-commissioning menu-item-18328"><a href="http://emaker.github.io/Fisher/documentation/commissioning/">Commissioning</a></li>
+	<li  class="menu-printing menu-item-18329"><a href="http://emaker.github.io/Fisher/documentation/printing/">Printing</a></li>
+</ul>
+</li>
+</ul>           </nav> 
+          </div> <!-- Close menuclass-->
+               
+    </div> <!-- Close Row -->
+     
+</div> <!-- Close Container -->
+  </header>      <div class="wrap contentclass" role="document">
+
+          <div id="content" class="container">
+    <div class="row single-article" itemscope="" itemtype="http://schema.org/BlogPosting">
+      <div class="main col-lg-9 col-md-8" role="main">
+                  <article class="post-17213 documentation type-documentation status-publish hentry category-fisher-1">
+                <div class="postmeta updated color_gray">
+      <div class="postdate bg-lightgray headerfont" itemprop="datePublished">
+      <span class="postday">16</span>
+      Oct 2015    </div>
+</div> 
+    <header>
+      <h1 class="entry-title" itemprop="name headline">Electronics</h1>
+      <div class="subhead">
+    <span class="postauthortop author vcard">
+    <i class="icon-user"></i> by  <span itemprop="author"><a href="http://emaker.github.io/Fisher/author/jeanmarc/" class="fn" rel="author">jeanmarc</a></span> |</span>
+      
+    <span class="postedintop"><i class="icon-folder-open"></i> posted in: <a href="http://emaker.github.io/Fisher/category/fisher-1/" rel="category tag">Fisher 1</a></span>     <span class="kad-hidepostedin">|</span>
+    <span class="postcommentscount">
+    <i class="icon-comments-alt"></i> 0    </span>
+</div>  
+    </header>
+    <div class="entry-content" itemprop="description articleBody">
+      <h1>Side panel wiring</h1>
+<p>You will need the following parts:</p>
+<table class="docs-table-container">
+<tbody>
+<tr>
+<td>
+<table class="docs-table-parts">
+<thead>
+<tr>
+<td>#</td>
+<td>Component</td>
+<td>Qty</td>
+<td>Type</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1303</td>
+<td>Side Panel</td>
+<td>1</td>
+<td>Laser cut</td>
+</tr>
+<tr>
+<td>242</td>
+<td>M3x16mm cap head screw</td>
+<td>6</td>
+<td>Fastener</td>
+</tr>
+<tr>
+<td>185</td>
+<td>Microswitch</td>
+<td>2</td>
+<td>Electronics</td>
+</tr>
+<tr>
+<td>133</td>
+<td>Cable ties 2mm</td>
+<td>as needed</td>
+<td>Electronics</td>
+</tr>
+<tr>
+<td>585</td>
+<td>Hot end loom &#8211; 1190mm</td>
+<td>1</td>
+<td>Wiring</td>
+</tr>
+<tr>
+<td>1198</td>
+<td>End stop loom &#8211; 500mm</td>
+<td>1</td>
+<td>Wiring</td>
+</tr>
+<tr>
+<td>552.1</td>
+<td>End stop loom &#8211; 600mm</td>
+<td>1</td>
+<td>Wiring</td>
+</tr>
+<tr>
+<td>1199</td>
+<td>End stop loom &#8211; 800mm</td>
+<td>1</td>
+<td>Wiring</td>
+</tr>
+<tr>
+<td>789</td>
+<td>Motor wiring loom &#8211; 500mm</td>
+<td></td>
+<td>Wiring</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-114.jpg" rel="attachment wp-att-17219"><img class="alignnone size-medium wp-image-17219" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-114-300x200.jpg" alt="RRP-FISH1-114" width="300" height="200" /></a><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/hot-end-loom-components.jpg" rel="attachment wp-att-15372"><br />
+</a></td>
+</tr>
+</tbody>
+</table>
+<table class="docs-table">
+<tbody>
+<tr>
+<td>Remove the protective film from the acrylic panel.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-115.jpg" rel="attachment wp-att-17220"><img class="alignnone size-medium wp-image-17220" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-115-300x200.jpg" alt="RRP-FISH1-115" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>The microswitches fit to the inside of the panel. Note the orientation of the bottom of the panel; this fits around the Duet electronics.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-116.jpg" rel="attachment wp-att-17221"><img class="alignnone size-medium wp-image-17221" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-116-300x200.jpg" alt="RRP-FISH1-116" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>Fit the microswitches with cable ties, as you did with the first microswitch. Make sure the cable tie end is towards the top of the panel.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-117.jpg" rel="attachment wp-att-17222"><img class="alignnone size-medium wp-image-17222" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-117-300x200.jpg" alt="RRP-FISH1-117" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>The endstop looms have two wire, and there are three different lengths.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-118.jpg" rel="attachment wp-att-17223"><img class="alignnone size-medium wp-image-17223" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-118-300x200.jpg" alt="RRP-FISH1-118" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>The hot end loom has eight wires.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-119.jpg" rel="attachment wp-att-17224"><img class="alignnone size-medium wp-image-17224" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-119-300x200.jpg" alt="RRP-FISH1-119" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>The extruder motor wire has four wires.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-120.jpg" rel="attachment wp-att-17225"><img class="alignnone size-medium wp-image-17225" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-120-300x200.jpg" alt="RRP-FISH1-120" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>Mount the shortest endstop loom, the hot end loom and the extruder motor loom on the left side. The other two endstop looms go on the right.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-121.jpg" rel="attachment wp-att-17226"><img class="alignnone size-medium wp-image-17226" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-121-300x200.jpg" alt="RRP-FISH1-121" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>Left side: Attach the endstop loom to the microswitch on the left hand side. Put the crimps on the outside tabs of the microswitch, NOT the middle one. Polarity is not important. Try not to bend the crimps on the microswitch tabs, or they will become loose.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-123.jpg" rel="attachment wp-att-17228"><img class="alignnone size-medium wp-image-17228" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-123-300x200.jpg" alt="RRP-FISH1-123" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>Fasten the endstop loom in the top cable tie, the endstop and the extruder loom in the next one down, and all three looms in the rest of the cable ties. Don&#8217;t fully tighten the cable ties yet, so you can adjust the wire position.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-122.jpg" rel="attachment wp-att-17227"><img class="alignnone size-medium wp-image-17227" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-122-300x200.jpg" alt="RRP-FISH1-122" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>Right side: connect the shorter endstop loom to the microswitch.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-125.jpg" rel="attachment wp-att-17230"><img class="alignnone size-medium wp-image-17230" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-125-300x200.jpg" alt="RRP-FISH1-125" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>Cable tie both wires in all of the positions.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-124.jpg" rel="attachment wp-att-17229"><img class="alignnone size-medium wp-image-17229" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-124-300x200.jpg" alt="RRP-FISH1-124" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>Attach the extuder to the panel, with two M3x16mm cap head screws, from the outside. Connect the extruder motor loom to the extruder motor.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-126.jpg" rel="attachment wp-att-17231"><img class="alignnone size-medium wp-image-17231" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-126-300x200.jpg" alt="RRP-FISH1-126" width="300" height="200" /></a></td>
+</tr>
+</tbody>
+</table>
+<h2>Fit the panel and connect</h2>
+<table class="docs-table">
+<tbody>
+<tr>
+<td>As with the other panels, lift the printer up off the surface, and fit the top of the panel onto the screws in the idler printed part.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-127.jpg" rel="attachment wp-att-17232"><img class="alignnone size-medium wp-image-17232" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-127-300x200.jpg" alt="RRP-FISH1-127" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>Line up the bottom with the holes in the motor mounts, and fasten with four M3x16mm cap head screws. Make sure the wiring looms fit into the slots in the base plate.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-128.jpg" rel="attachment wp-att-17233"><img class="alignnone size-medium wp-image-17233" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-128-300x200.jpg" alt="RRP-FISH1-128" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>Connect the Bowden tube to the extruder. Remove the tongue, and insert the brass union.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-129.jpg" rel="attachment wp-att-17234"><img class="alignnone size-medium wp-image-17234" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-129-300x200.jpg" alt="RRP-FISH1-129" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>Reinsert the tongue. This should engage with the slot in the brass union.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-130.jpg" rel="attachment wp-att-17235"><img class="alignnone size-medium wp-image-17235" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-130-300x200.jpg" alt="RRP-FISH1-130" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>Connect the third microswitch in the same way as the other two, and cable tie it to the panel.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-131.jpg" rel="attachment wp-att-17236"><img class="alignnone size-medium wp-image-17236" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-131-300x200.jpg" alt="RRP-FISH1-131" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>Connect the hot end loom to the hot end. We find it useful to cable tie the loom loosely to the Bowden tube, above and below the connector.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-132.jpg" rel="attachment wp-att-17237"><img class="alignnone size-medium wp-image-17237" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-132-300x200.jpg" alt="RRP-FISH1-132" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>Now adjust the cable lengths until everything is neat. The hot end loom and Bowden tube should move together. Try and get a nice loop, so they concertina up as the effector moves up.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-133.jpg" rel="attachment wp-att-17238"><img class="alignnone size-medium wp-image-17238" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-133-300x200.jpg" alt="RRP-FISH1-133" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>Tighten and trim all of the cable ties. Move the carriages up and down their full range of movement, making sure they don&#8217;t catch on anything. Check that the heads of the cable ties don&#8217;t get in the way, and that the wiring looms are neat against the side panels. Adjust any cables as needed, and make sure the hot end loom and Bowden tube don&#8217;t catch on anything.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-134.jpg" rel="attachment wp-att-17239"><img class="alignnone size-medium wp-image-17239" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-134-300x200.jpg" alt="RRP-FISH1-134" width="300" height="200" /></a></td>
+</tr>
+</tbody>
+</table>
+<h1>Bed probe wiring</h1>
+<p>You will need the following parts:</p>
+<table class="docs-table-container">
+<tbody>
+<tr>
+<td>
+<table class="docs-table-parts">
+<thead>
+<tr>
+<td>#</td>
+<td>Component</td>
+<td>Qty</td>
+<td>Type</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1203</td>
+<td>Bed probe loom</td>
+<td>1</td>
+<td>Wiring</td>
+</tr>
+<tr>
+<td>1202</td>
+<td>Bed probe wire</td>
+<td>2</td>
+<td>Wiring</td>
+</tr>
+<tr>
+<td>242</td>
+<td>M3x16mm cap head screw</td>
+<td>6</td>
+<td>Fastener</td>
+</tr>
+<tr>
+<td>212</td>
+<td>M3 washer</td>
+<td>6</td>
+<td>Fastener</td>
+</tr>
+<tr>
+<td>1253</td>
+<td>M3x8mm spacer</td>
+<td>6</td>
+<td>Hardware</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-140.jpg" rel="attachment wp-att-17348"><img class="alignnone size-medium wp-image-17348" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-140-300x200.jpg" alt="RRP-FISH1-140" width="300" height="200" /></a></td>
+</tr>
+</tbody>
+</table>
+<table class="docs-table">
+<tbody>
+<tr>
+<td>Fit the bed probe loom 3-way connector to the E-stop header on the Duet. Push the wires through the slots in the base, as shown. The long wire can go under the Duet, if you prefer.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-141.jpg" rel="attachment wp-att-17349"><img class="alignnone size-medium wp-image-17349" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-141-300x200.jpg" alt="RRP-FISH1-141" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>Attach the ring terminals of the bed probe loom and bed probe wires to the bed mounting brackets. For each connection, the order is M3x16mm cap head screw, ring terminal of loom, bed mounting bracket, M3 washer, round spacer.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-142.jpg" rel="attachment wp-att-17350"><img class="alignnone size-medium wp-image-17350" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-142-300x200.jpg" alt="RRP-FISH1-142" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>View from the front of the bed mounting bracket.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-143.jpg" rel="attachment wp-att-17351"><img class="alignnone size-medium wp-image-17351" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-143-300x200.jpg" alt="RRP-FISH1-143" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>Repeat the above steps for all six connections. The circuit goes around the circle. The balls on the print surface will complete the circuit (see later). When the nozzle pushes down on the bed, the circuit is broken. This calibrates the nozzle height.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-144.jpg" rel="attachment wp-att-17352"><img class="alignnone size-medium wp-image-17352" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-144-300x200.jpg" alt="RRP-FISH1-144" width="300" height="200" /></a></td>
+</tr>
+</tbody>
+</table>
+<h1><span id="Connecting_rod_assembly"><span id="Hot_end"><span id="Arm_joints"><span id="Side_panels">Fit the power jack<br />
+</span></span></span></span></h1>
+<p>You will need the following parts:</p>
+<table class="docs-table-container">
+<tbody>
+<tr>
+<td>
+<table class="docs-table-parts">
+<thead>
+<tr>
+<td>#</td>
+<td>Component</td>
+<td>Qty</td>
+<td>Type</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>193</td>
+<td>Power jack</td>
+<td>1</td>
+<td>Electronics</td>
+</tr>
+<tr>
+<td>455</td>
+<td>Power jack nut</td>
+<td>1</td>
+<td>Electronics</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-138.jpg" rel="attachment wp-att-17346"><img class="alignnone size-medium wp-image-17346" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-138-300x200.jpg" alt="RRP-FISH1-138" width="300" height="200" /></a></td>
+</tr>
+</tbody>
+</table>
+<table class="docs-table">
+<tbody>
+<tr>
+<td>Turn the printer over. It can rest on it&#8217;s top as you connect the wiring. The DC power jack may now be fitted as shown, next to the ethernet socket.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-139.jpg" rel="attachment wp-att-17347"><img class="alignnone size-medium wp-image-17347" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-139-300x200.jpg" alt="RRP-FISH1-139" width="300" height="200" /></a></td>
+</tr>
+</tbody>
+</table>
+<h1>Duet connections</h1>
+<h2>Wiring diagram</h2>
+<p>The instructions below show the fitting of the wiring. If in doubt, refer to this wiring diagram.</p>
+<p><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/FISHER-1-Duet0.6-109.png" rel="attachment wp-att-17244"><img class="alignnone wp-image-17244" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/FISHER-1-Duet0.6-109.png" alt="FISHER-1-Duet0.6-109" width="640" height="574" /></a></p>
+<h2>Duet wiring connections</h2>
+<p>Connect the wiring looms to the Duet, as shown in the pictures below (click on any picture for a larger version). Also refer to the wiring diagram, above. You will need the following parts:</p>
+<table class="docs-table-container">
+<tbody>
+<tr>
+<td>
+<table class="docs-table-parts">
+<thead>
+<tr>
+<td>#</td>
+<td>Component</td>
+<td>Qty</td>
+<td>Type</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1201</td>
+<td>DC cable &#8211; 250mm</td>
+<td>1</td>
+<td>Wiring</td>
+</tr>
+<tr>
+<td>477</td>
+<td>Motor loom &#8211; 160mm</td>
+<td>1</td>
+<td>Wiring</td>
+</tr>
+<tr>
+<td>478</td>
+<td>Motor loom &#8211; 90mm</td>
+<td>2</td>
+<td>Wiring</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-145.jpg" rel="attachment wp-att-17353"><img class="alignnone size-medium wp-image-17353" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-145-300x200.jpg" alt="RRP-FISH1-145" width="300" height="200" /></a></td>
+</tr>
+</tbody>
+</table>
+<table class="docs-table">
+<tbody>
+<tr>
+<td>FAN0 &#8211; NO CONNECTION! Do not connect anything to the first two pins on the left. They are not used on the Fisher.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-146.jpg" rel="attachment wp-att-17354"><img class="alignnone size-medium wp-image-17354" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-146-300x200.jpg" alt="RRP-FISH1-146" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>E0_TEMP &#8211; Hot end thermistor (green/blue, 2-way)</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-147.jpg" rel="attachment wp-att-17355"><img class="alignnone size-medium wp-image-17355" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-147-300x200.jpg" alt="RRP-FISH1-147" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>E0_HEATER &#8211; Hot end heater (black/purple/red/brown, 4-way)</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-148.jpg" rel="attachment wp-att-17356"><img class="alignnone size-medium wp-image-17356" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-148-300x200.jpg" alt="RRP-FISH1-148" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>&#8211; Hot end fan (yellow/none/white, 3-way)<br />
+NOTE: this connects to the double row of pins, NOT to &#8216;FAN0&#8217;. From the left, there should be two clear pins, then the yellow wire, another pin (covered by the housing, but not connected), then the white wire.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-149.jpg" rel="attachment wp-att-17357"><img class="alignnone size-medium wp-image-17357" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-149-300x200.jpg" alt="RRP-FISH1-149" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>E0_MOT/STOP &#8211; (on first three pins) Bed probe (red/blank/red, 3-way). This was already fitted in the bed probe wiring step.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-149.jpg" rel="attachment wp-att-17357"><img class="alignnone size-medium wp-image-17357" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-149-300x200.jpg" alt="RRP-FISH1-149" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>E0_MOT/STOP &#8211; (on the other four pins) Extruder drive motor (yellow/green/blue/red, 4-way)</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-150.jpg" rel="attachment wp-att-17358"><img class="alignnone size-medium wp-image-17358" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-150-300x200.jpg" alt="RRP-FISH1-150" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>X_MOT/STOP &#8211; X endstop (blue, space, red, 3-way) This is the SHORTEST endstop loom.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-151.jpg" rel="attachment wp-att-17359"><img class="alignnone size-medium wp-image-17359" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-151-300x200.jpg" alt="RRP-FISH1-151" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>X_MOT/STOP &#8211; (on the other four pins) X motor (black/green/blue/red, 4-way)<br />
+Now connect the X motor to the Duet, using a 90mm motor loom. This is the motor closest to the motor connection pins on the Duet. Check that the endstop at the top of this tower is the one connected next to the X motor.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-152.jpg" rel="attachment wp-att-17360"><img class="alignnone size-medium wp-image-17360" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-152-300x200.jpg" alt="RRP-FISH1-152" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>Y_MOT/STOP &#8211; Y endstop (blue, space, red, 3-way) This is the LONGEST endstop loom.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-153.jpg" rel="attachment wp-att-17361"><img class="alignnone size-medium wp-image-17361" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-153-300x200.jpg" alt="RRP-FISH1-153" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>Y_MOT/STOP &#8211; (on the other four pins) Y motor (black/green/blue/red, 4-way)<br />
+Next the Y motor, using a 90mm motor loom. This is the motor nearest the large screw terminals on the end of the Duet board. Check that the endstop at the top of this tower is the one connected next to the Y motor.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-154.jpg" rel="attachment wp-att-17362"><img class="alignnone size-medium wp-image-17362" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-154-300x200.jpg" alt="RRP-FISH1-154" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>Z_MOT/STOP &#8211; Z endstop (blue, space, red, 3-way) This is the MEDIUM length endstop loom.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-155.jpg" rel="attachment wp-att-17363"><img class="alignnone size-medium wp-image-17363" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-155-300x200.jpg" alt="RRP-FISH1-155" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>Z_MOT/STOP &#8211; (on the other four pins) Z motor (black/green/blue/red, 4-way)<br />
+Now the Z motor, using the 160mm motor loom. This is the motor nearest the ethernet socket on the Duet. Check that the endstop at the top of this tower is the one connected next to the Z motor.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-157.jpg" rel="attachment wp-att-17365"><img class="alignnone size-medium wp-image-17365" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-157-300x200.jpg" alt="RRP-FISH1-157" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>All the wiring connections fitted.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-156.jpg" rel="attachment wp-att-17364"><img class="alignnone size-medium wp-image-17364" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-156-300x200.jpg" alt="RRP-FISH1-156" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>This picture shows the motor connections, and orientation. If you have put the motor on the wrong way around, you can turn the motor around, to make the motor wiring easier. Unscrew the four motor screws, and turn the motor around, then retighten the screws.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-158.jpg" rel="attachment wp-att-17366"><img class="alignnone size-medium wp-image-17366" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-158-300x200.jpg" alt="RRP-FISH1-158" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>Finally, connect the DC power cable. One of the cores has a black stripe running along it&#8217;s length. Connect this to the negative terminal (on the left hand side as viewed in the photograph).</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-159.jpg" rel="attachment wp-att-17367"><img class="alignnone size-medium wp-image-17367" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-159-300x200.jpg" alt="RRP-FISH1-159" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>Connect the DC power cable to the tabs on the back of the jack.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-160.jpg" rel="attachment wp-att-17368"><img class="alignnone size-medium wp-image-17368" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-160-300x200.jpg" alt="RRP-FISH1-160" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>Ground is the centre of the three tabs (the wire with the black stripe should connect to this), and positive is the tab that connects to the centre pin. Fit them with the &#8216;curly&#8217; part of the crimp outwards.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/HUX2-electronics-25.jpg" rel="attachment wp-att-10648"><img class="alignnone size-medium wp-image-10648" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/HUX2-electronics-25-300x225.jpg" alt="HUX2-electronics-25" width="300" height="225" /></a></td>
+</tr>
+<tr>
+<td>With all the wiring fitted, tidy up the wiring so that it all fits below the level of the acrylic side panels. You can use a couple of cable ties to help.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-161.jpg" rel="attachment wp-att-17369"><img class="alignnone size-medium wp-image-17369" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-161-300x200.jpg" alt="RRP-FISH1-161" width="300" height="200" /></a></td>
+</tr>
+</tbody>
+</table>
+<h1><span id="Connecting_rod_assembly"><span id="Hot_end"><span id="Arm_joints"><span id="Side_panels">Jumper<br />
+</span></span></span></span></h1>
+<p>You will need the following parts:</p>
+<table class="docs-table-container">
+<tbody>
+<tr>
+<td>
+<table class="docs-table-parts">
+<thead>
+<tr>
+<td>#</td>
+<td>Component</td>
+<td>Qty</td>
+<td>Type</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>Fisher</td>
+<td>1</td>
+<td>Part-assembled</td>
+</tr>
+<tr>
+<td>285</td>
+<td>PCB Jumper</td>
+<td>1</td>
+<td>Electronics</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-162.jpg" rel="attachment wp-att-17370"><img class="alignnone size-medium wp-image-17370" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-162-300x200.jpg" alt="RRP-FISH1-162" width="300" height="200" /></a></td>
+</tr>
+</tbody>
+</table>
+<table class="docs-table">
+<tbody>
+<tr>
+<td>Fit the jumper onto the 5V_EN (JP9) header pins (location highlighted in the picture). This uses the on-board 5V regulator to supply power to the main processor of the Duet, when 19V power is connected.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-163.jpg" rel="attachment wp-att-17371"><img class="alignnone size-medium wp-image-17371" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-163-300x200.jpg" alt="RRP-FISH1-163" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>A close up of the jumper position.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-164.jpg" rel="attachment wp-att-17372"><img class="alignnone size-medium wp-image-17372" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-164-300x200.jpg" alt="RRP-FISH1-164" width="300" height="200" /></a></td>
+</tr>
+</tbody>
+</table>
+    </div>
+    <footer class="single-footer">
+                                  </footer>
+    
+  
+    <nav id="post-entries" class="fix">
+        <div class="nav-prev fl"><a href="http://emaker.github.io/Fisher/documentation/hot-end-assembly/" rel="next"><span class="meta-nav">&larr;</span> Hot end assembly</a></div>
+        <div class="nav-next fr"><a href="http://emaker.github.io/Fisher/documentation/bed-top-plate-and-belts/" rel="prev">Bed, top plate and belts <span class="meta-nav">&rarr;</span></a></div>
+    </nav>
+  </article>
+</div>
+
+            
+                      <aside class="col-lg-3 col-md-4 kad-sidebar" role="complementary">
+              <div class="sidebar">
+                <section id="nav_menu-2" class="widget-1 widget-first widget widget_nav_menu"><div class="widget-inner"><ul id="menu-side-nav" class="menu"><li  class="menu-base-assembly menu-item-18331"><a href="http://emaker.github.io/Fisher/documentation/base-assembly/">Base assembly</a></li>
+<li  class="menu-tower-assembly menu-item-18332"><a href="http://emaker.github.io/Fisher/documentation/tower-assembly/">Tower assembly</a></li>
+<li  class="menu-panels-and-rods menu-item-18333"><a href="http://emaker.github.io/Fisher/documentation/panels-and-rods/">Panels and rods</a></li>
+<li  class="menu-effector-assembly menu-item-18334"><a href="http://emaker.github.io/Fisher/documentation/effector-assembly/">Effector assembly</a></li>
+<li  class="menu-extruder-drive menu-item-18335"><a href="http://emaker.github.io/Fisher/documentation/extruder-drive/">Extruder drive</a></li>
+<li  class="menu-hot-end-assembly menu-item-18336"><a href="http://emaker.github.io/Fisher/documentation/hot-end-assembly/">Hot end assembly</a></li>
+<li  class="menu-electronics current-menu-item menu-item-18337"><a href="http://emaker.github.io/Fisher/documentation/electronics/">Electronics</a></li>
+<li  class="menu-bed-top-plate-and-belts menu-item-18338"><a href="http://emaker.github.io/Fisher/documentation/bed-top-plate-and-belts/">Bed, top plate and belts</a></li>
+<li  class="menu-commissioning menu-item-18339"><a href="http://emaker.github.io/Fisher/documentation/commissioning/">Commissioning</a></li>
+<li  class="menu-printing menu-item-18340"><a href="http://emaker.github.io/Fisher/documentation/printing/">Printing</a></li>
+</ul></div></section>              </div><!-- /.sidebar -->
+            </aside><!-- /aside -->
+                    </div><!-- /.row-->
+        </div><!-- /.content -->
+      </div><!-- /.wrap -->
+      <footer id="containerfooter" class="footerclass" role="contentinfo">
+  <div class="container">
+  	<div class="row">
+  				        		                </div>
+        <div class="footercredits clearfix">
+    		
+    		        	<p>&copy; 2016 Fisher Delta 3D printer - WordPress Theme by <a href="http://www.kadencethemes.com/" target="_blank">Kadence Themes</a></p>
+    	</div>
+
+  </div>
+
+</footer>
+
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-includes/js/masonry.min.js?ver=3.1.2'></script>
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-content/themes/virtue/assets/js/min/plugins-min.js?ver=266'></script>
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-content/themes/virtue/assets/js/main.js?ver=266'></script>
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-includes/js/wp-embed.min.js?ver=4.4.2'></script>
+    </div><!--Wrapper-->
+  </body>
+</html>

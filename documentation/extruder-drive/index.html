@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en-US"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en-US"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+<base href="http://emaker.github.io/Fisher" />
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Extruder drive &#8211; Fisher Delta 3D printer</title>
+<meta name='robots' content='noindex,follow' />
+
+
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/localhost\/wordpress\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='kadence_theme-css'  href='http://emaker.github.io/Fisher/wp-content/themes/virtue/assets/css/virtue.css?ver=266' type='text/css' media='all' />
+<link rel='stylesheet' id='virtue_skin-css'  href='http://emaker.github.io/Fisher/wp-content/themes/virtue/assets/css/skins/default.css' type='text/css' media='all' />
+<link rel='stylesheet' id='virtue_child-css'  href='http://emaker.github.io/Fisher/wp-content/themes/virtue-child/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='redux-google-fonts-virtue-css'  href='http://fonts.googleapis.com/css?family=Lato%3A400%2C700&#038;ver=1457962026' type='text/css' media='all' />
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-content/themes/virtue/assets/js/vendor/modernizr.min.js'></script>
+<link rel='https://api.w.org/' href='http://emaker.github.io/Fisher/wp-json/' />
+
+ 
+
+<link rel='next' title='Effector assembly' href='http://emaker.github.io/Fisher/documentation/effector-assembly/' />
+
+<link rel="canonical" href="http://emaker.github.io/Fisher/documentation/extruder-drive/" />
+<link rel='shortlink' href='http://emaker.github.io/Fisher/?p=17155' />
+
+
+<style type="text/css">#logo {padding-top:25px;}#logo {padding-bottom:12px;}#logo {margin-left:0px;}#logo {margin-right:0px;}#nav-main {margin-top:40px;}#nav-main {margin-bottom:10px;}.headerfont, .tp-caption {font-family:Lato;} 
+  .topbarmenu ul li {font-family:Lato;}
+  #kadbreadcrumbs {font-family:Verdana, Geneva, sans-serif;}input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; } input[type=number] {-moz-appearance: textfield;}.quantity input::-webkit-outer-spin-button,.quantity input::-webkit-inner-spin-button {display: none;}.topclass {background:#d6dfee    ;}.product_item .product_details h5 {text-transform: none;}.product_item .product_details h5 {min-height:40px;}.kad-topbar-left, .kad-topbar-left .topbarmenu {float:right;} .kad-topbar-left .topbar_social, .kad-topbar-left .topbarmenu ul, .kad-topbar-left .kad-cart-total,.kad-topbar-right #topbar-search .form-search{float:left}.topbarmenu ul li a {
+  color: black;
+}
+.sidebar ul.sf-dropdown-menu li {
+  border-bottom: none;
+}
+
+.subhead, .postdate {
+  display: none;
+}
+
+header h1.entry-title {
+  background: #d6dfee;
+  margin-top: 0px;
+}
+
+.nav-prev {
+    float: left;
+    width: 50%;
+}
+.nav-next {
+    float: right;
+    text-align: right;
+    width: 50%;
+}
+
+.single-article article {
+  margin-top: 0px;
+}
+.single-article aside {
+  margin-top: 30px;
+}
+body.single-documentation table.docs-table-container {vertical-align:top;}
+body.single-documentation table.docs-table-container td {padding: 0px 20px 0px 0px; border: 0px;}
+
+body.single-documentation table.docs-table-parts {border-collapse: collapse;}
+body.single-documentation table.docs-table-parts thead {font-weight:bold;font-size:90%;}
+body.single-documentation table.docs-table-parts td {font-size:90% ;padding: 2px 8px 5px 5px; border: 1px solid #ccc;}
+body.single-documentation table.docs-table-parts tr td:nth-child(3) {text-align: center;}
+body.single-documentation table.docs-table-parts tbody tr:hover {background:#AAFFAA;}
+
+body.single-documentation table.docs-table-parts-4col {border-collapse: collapse;}
+body.single-documentation table.docs-table-parts-4col thead {font-weight:bold;font-size:90%;}
+body.single-documentation table.docs-table-parts-4col td {font-size:90% ;padding: 2px 8px 5px 5px; border: 1px solid #ccc;}
+body.single-documentation table.docs-table-parts-4col tr td:nth-child(1) {text-align: center;}
+body.single-documentation table.docs-table-parts-4col tbody tr:hover {background:#AAFFAA;}
+
+body.single-documentation table.docs-table {border-collapse: collapse;}
+body.single-documentation table.docs-table td {vertical-align:top; padding: 0px; border-bottom: 1px solid #eee;}
+body.single-documentation table.docs-table td:first-child {width:465px; padding: 2px 20px 5px 5px;}
+body.single-documentation table.docs-table tr:hover {background:#AAFFAA;}
+
+</style><!--[if lt IE 9]>
+<script src="http://emaker.github.io/Fisher/wp-content/themes/virtue/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+<style type="text/css" title="dynamic-css" class="options-output">header #logo a.brand,.logofont{font-family:Lato;line-height:40px;font-weight:400;font-style:normal;font-size:32px;}.kad_tagline{font-family:Lato;line-height:24px;font-weight:400;font-style:normal;color:#444444;font-size:14px;}.product_item .product_details h5{font-family:Lato;line-height:20px;font-weight:700;font-style:normal;font-size:16px;}h1{font-family:Lato;line-height:40px;font-weight:400;font-style:normal;font-size:38px;}h2{font-family:Lato;line-height:40px;font-weight:normal;font-style:normal;font-size:32px;}h3{font-family:Lato;line-height:40px;font-weight:400;font-style:normal;font-size:28px;}h4{font-family:Lato;line-height:40px;font-weight:400;font-style:normal;font-size:24px;}h5{font-family:Lato;line-height:24px;font-weight:700;font-style:normal;font-size:18px;}body{font-family:Verdana, Geneva, sans-serif;line-height:20px;font-weight:400;font-style:normal;font-size:14px;}#nav-main ul.sf-menu a{font-family:Lato;line-height:18px;font-weight:normal;font-style:400;font-size:12px;}#nav-second ul.sf-menu a{font-family:Lato;line-height:22px;font-weight:normal;font-style:400;font-size:18px;}.kad-nav-inner .kad-mnav, .kad-mobile-nav .kad-nav-inner li a,.nav-trigger-case{font-family:Lato;line-height:20px;font-weight:normal;font-style:400;font-size:16px;}</style></head>
+  <body class="single single-documentation postid-17155 wide extruder-drive">
+    <div id="wrapper" class="container">
+    <div id="kt-skip-link"><a href="#content">Skip to Main Content</a></div><header class="banner headerclass">
+  <div id="topbar" class="topclass">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-6 kad-topbar-left">
+          <div class="topbarmenu clearfix">
+                                </div>
+        </div><!-- close col-md-6 --> 
+        <div class="col-md-6 col-sm-6 kad-topbar-right">
+          <div id="topbar-search" class="topbar-widget">
+                    </div>
+        </div> <!-- close col-md-6-->
+      </div> <!-- Close Row -->
+    </div> <!-- Close Container -->
+  </div><div class="container">
+  <div class="row">
+      <div class="col-md-4 clearfix kad-header-left">
+            <div id="logo" class="logocase">
+              <a class="brand logofont" href="http://emaker.github.io/Fisher/">
+                                  <div id="thelogo">
+                    <img src="http://emaker.limited/wp-content/uploads/2015/12/eMARKER-web.png" alt="Fisher Delta 3D printer" class="kad-standard-logo" />
+                                      </div>
+                              </a>
+                              <p class="kad_tagline belowlogo-text">RepRap Fisher build instructions</p>
+                         </div> <!-- Close #logo -->
+       </div><!-- close logo span -->
+                <div class="col-md-8 kad-header-right">
+           <nav id="nav-main" class="clearfix">
+              <ul id="menu-main" class="sf-menu"><li  class="menu-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor sf-dropdown menu-item-18317"><a href="http://emaker.github.io/Fisher/">Home</a>
+<ul class="sf-dropdown-menu">
+	<li  class="menu-base-assembly menu-item-18320"><a href="http://emaker.github.io/Fisher/documentation/base-assembly/">Base assembly</a></li>
+	<li  class="menu-tower-assembly menu-item-18321"><a href="http://emaker.github.io/Fisher/documentation/tower-assembly/">Tower assembly</a></li>
+	<li  class="menu-panels-and-rods menu-item-18322"><a href="http://emaker.github.io/Fisher/documentation/panels-and-rods/">Panels and rods</a></li>
+	<li  class="menu-effector-assembly menu-item-18323"><a href="http://emaker.github.io/Fisher/documentation/effector-assembly/">Effector assembly</a></li>
+	<li  class="menu-extruder-drive current-menu-item menu-item-18324"><a href="http://emaker.github.io/Fisher/documentation/extruder-drive/">Extruder drive</a></li>
+	<li  class="menu-hot-end-assembly menu-item-18325"><a href="http://emaker.github.io/Fisher/documentation/hot-end-assembly/">Hot end assembly</a></li>
+	<li  class="menu-electronics menu-item-18326"><a href="http://emaker.github.io/Fisher/documentation/electronics/">Electronics</a></li>
+	<li  class="menu-bed-top-plate-and-belts menu-item-18327"><a href="http://emaker.github.io/Fisher/documentation/bed-top-plate-and-belts/">Bed, top plate and belts</a></li>
+	<li  class="menu-commissioning menu-item-18328"><a href="http://emaker.github.io/Fisher/documentation/commissioning/">Commissioning</a></li>
+	<li  class="menu-printing menu-item-18329"><a href="http://emaker.github.io/Fisher/documentation/printing/">Printing</a></li>
+</ul>
+</li>
+</ul>           </nav> 
+          </div> <!-- Close menuclass-->
+               
+    </div> <!-- Close Row -->
+     
+</div> <!-- Close Container -->
+  </header>      <div class="wrap contentclass" role="document">
+
+          <div id="content" class="container">
+    <div class="row single-article" itemscope="" itemtype="http://schema.org/BlogPosting">
+      <div class="main col-lg-9 col-md-8" role="main">
+                  <article class="post-17155 documentation type-documentation status-publish hentry category-fisher-1">
+                <div class="postmeta updated color_gray">
+      <div class="postdate bg-lightgray headerfont" itemprop="datePublished">
+      <span class="postday">13</span>
+      Oct 2015    </div>
+</div> 
+    <header>
+      <h1 class="entry-title" itemprop="name headline">Extruder drive</h1>
+      <div class="subhead">
+    <span class="postauthortop author vcard">
+    <i class="icon-user"></i> by  <span itemprop="author"><a href="http://emaker.github.io/Fisher/author/jeanmarc/" class="fn" rel="author">jeanmarc</a></span> |</span>
+      
+    <span class="postedintop"><i class="icon-folder-open"></i> posted in: <a href="http://emaker.github.io/Fisher/category/fisher-1/" rel="category tag">Fisher 1</a></span>     <span class="kad-hidepostedin">|</span>
+    <span class="postcommentscount">
+    <i class="icon-comments-alt"></i> 0    </span>
+</div>  
+    </header>
+    <div class="entry-content" itemprop="description articleBody">
+      <h1>Goal</h1>
+<table class="docs-table">
+<tbody>
+<tr>
+<td>By the end of this section, you will have assembled the extruder drive.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-110.jpg" rel="attachment wp-att-17120"><img class="alignnone size-medium wp-image-17120" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-110-300x200.jpg" alt="RRP-FISH1-110" width="300" height="200" /></a></td>
+</tr>
+</tbody>
+</table>
+<h1>Extruder assembly</h1>
+<p>The extruder pushes the filament into the Bowden tube, and on down into the hot end.</p>
+<p>The design files for the extruder drive are held <a href="https://github.com/emaker/geared-extruder-drive">here on Github</a>.</p>
+<h2>Drive block</h2>
+<p>You will need the following parts:</p>
+<table class="docs-table-container">
+<tbody>
+<tr>
+<td>
+<table class="docs-table-parts">
+<thead>
+<tr>
+<td>#</td>
+<td>Component</td>
+<td>Qty</td>
+<td>Type</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1306</td>
+<td>Drive block</td>
+<td>1</td>
+<td>Printed</td>
+</tr>
+<tr>
+<td>1310</td>
+<td>Small gear</td>
+<td>1</td>
+<td>Printed</td>
+</tr>
+<tr>
+<td>1307</td>
+<td>Drive block spacer</td>
+<td>1</td>
+<td>Laser cut</td>
+</tr>
+<tr>
+<td>408</td>
+<td>NEMA 17 stepper motor</td>
+<td>1</td>
+<td>Hardware</td>
+</tr>
+<tr>
+<td>153</td>
+<td>M3x4mm grub screw</td>
+<td>1</td>
+<td>Extruder</td>
+</tr>
+<tr>
+<td>257</td>
+<td>M3x12mm cap head screw</td>
+<td>4</td>
+<td>Fastener</td>
+</tr>
+<tr>
+<td>258</td>
+<td>M3 nut</td>
+<td>1</td>
+<td>Fastener</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-085.jpg" rel="attachment wp-att-17095"><img class="alignnone size-medium wp-image-17095" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-085-300x200.jpg" alt="RRP-FISH1-085" width="300" height="200" /></a></td>
+</tr>
+</tbody>
+</table>
+<table class="docs-table">
+<tbody>
+<tr>
+<td>Remove the protective film from the acrylic spacer.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-086.jpg" rel="attachment wp-att-17096"><img class="alignnone size-medium wp-image-17096" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-086-300x200.jpg" alt="RRP-FISH1-086" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>Line up the drive block spacer with the drive block, as shown.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-087.jpg" rel="attachment wp-att-17097"><img class="alignnone size-medium wp-image-17097" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-087-300x200.jpg" alt="RRP-FISH1-087" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>Fit the motor to the drive block. Note the orientation of the motor wiring connector, relative to the drive block.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-088.jpg" rel="attachment wp-att-17098"><img class="alignnone size-medium wp-image-17098" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-088-300x200.jpg" alt="RRP-FISH1-088" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>Turn the block over, and fasten the motor with four M3x12mm cap head screws. Don&#8217;t fully tighten these; the motor, spacer and block need to be able to slide.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-089.jpg" rel="attachment wp-att-17099"><img class="alignnone size-medium wp-image-17099" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-089-300x200.jpg" alt="RRP-FISH1-089" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>Take the small gear, and put the M3 nut in the nut trap.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-090.jpg" rel="attachment wp-att-17100"><img class="alignnone size-medium wp-image-17100" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-090-300x200.jpg" alt="RRP-FISH1-090" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>Screw the M3x4mm grub screw into the M3 nut a couple of turns.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-091.jpg" rel="attachment wp-att-17101"><img class="alignnone size-medium wp-image-17101" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-091-300x200.jpg" alt="RRP-FISH1-091" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>Align the grub screw with the flat on the motor shaft, and push the small gear onto it.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-092.jpg" rel="attachment wp-att-17102"><img class="alignnone size-medium wp-image-17102" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-092-300x200.jpg" alt="RRP-FISH1-092" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>There should be no more than 1mm clearance between the bottom of the small gear and the face of the drive block. Fully tighten the grub screw.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-093.jpg" rel="attachment wp-att-17103"><img class="alignnone size-medium wp-image-17103" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-093-300x200.jpg" alt="RRP-FISH1-093" width="300" height="200" /></a></td>
+</tr>
+</tbody>
+</table>
+<h2>Large gear</h2>
+<p>You will need the following parts:</p>
+<table class="docs-table-container">
+<tbody>
+<tr>
+<td>
+<table class="docs-table-parts">
+<thead>
+<tr>
+<td>#</td>
+<td>Component</td>
+<td>Qty</td>
+<td>Type</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1311</td>
+<td>Large gear</td>
+<td>1</td>
+<td>Printed</td>
+</tr>
+<tr>
+<td>113</td>
+<td>M3x25mm hex head screw</td>
+<td>1</td>
+<td>Extruder</td>
+</tr>
+<tr>
+<td>423</td>
+<td>MR93ZZ bearing (9mm diameter)</td>
+<td>2</td>
+<td>Extruder</td>
+</tr>
+<tr>
+<td>448</td>
+<td>Hobbed insert</td>
+<td>1</td>
+<td>Extruder</td>
+</tr>
+<tr>
+<td>212</td>
+<td>M3 plain washer</td>
+<td>1</td>
+<td>Fastener</td>
+</tr>
+<tr>
+<td>204</td>
+<td>M3 Nylock nut</td>
+<td>1</td>
+<td>Fastener</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-094.jpg" rel="attachment wp-att-17104"><img class="alignnone size-medium wp-image-17104" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-094-300x200.jpg" alt="RRP-FISH1-094" width="300" height="200" /></a></td>
+</tr>
+</tbody>
+</table>
+<table class="docs-table">
+<tbody>
+<tr>
+<td>The assembly order for the large gear is M3x25mm hex head screw, Large gear, MR93ZZ bearing, Hobbed insert, MR93ZZ bearing, M3 plain washer, M3 Nylock nut.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-095.jpg" rel="attachment wp-att-17105"><img class="alignnone size-medium wp-image-17105" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-095-300x200.jpg" alt="RRP-FISH1-095" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>To assemble, push the M3x25mm hex head screw through the large gear. Fit the MR93ZZ bearing followed by the hobbed insert. Tighten the hobbed insert against the bearing. This will pull the hex head of the screw into the nut trap in the large gear; make sure it lines up with the nut trap first. Tighten the hobbed insert as tight as possible with fingers, but make sure the bearing can still turn.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-096.jpg" rel="attachment wp-att-17106"><img class="alignnone size-medium wp-image-17106" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-096-300x200.jpg" alt="RRP-FISH1-096" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>Then add the second MR93ZZ bearing, the M3 plain washer and the M3 Nylock nut. Tighten the Nylock nut onto the washer, again making sure that the bearing is free to turn. You may find turning the M3 washer around will help (they tend to have a slightly different shape on each side), if the bearing is unable to turn.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-097.jpg" rel="attachment wp-att-17107"><img class="alignnone size-medium wp-image-17107" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-097-300x200.jpg" alt="RRP-FISH1-097" width="300" height="200" /></a></td>
+</tr>
+</tbody>
+</table>
+<h2>Idler lever</h2>
+<p>You will need the following parts:</p>
+<table class="docs-table-container">
+<tbody>
+<tr>
+<td>
+<table class="docs-table-parts">
+<thead>
+<tr>
+<td>#</td>
+<td>Component</td>
+<td>Qty</td>
+<td>Type</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1309</td>
+<td>Lower Lever</td>
+<td>1</td>
+<td>Printed</td>
+</tr>
+<tr>
+<td>1308</td>
+<td>Upper Lever</td>
+<td>1</td>
+<td>Laser cut</td>
+</tr>
+<tr>
+<td>257</td>
+<td>M3x12mm cap head screw</td>
+<td>3</td>
+<td>Fastener</td>
+</tr>
+<tr>
+<td>212</td>
+<td>M3 plain washer</td>
+<td>1</td>
+<td>Fastener</td>
+</tr>
+<tr>
+<td>279</td>
+<td>623 bearing (10mm diameter)</td>
+<td>1</td>
+<td>Extruder</td>
+</tr>
+<tr>
+<td>1250</td>
+<td>Idler spring</td>
+<td>1</td>
+<td>Extruder</td>
+</tr>
+<tr>
+<td>1185</td>
+<td>M4 washer</td>
+<td>1</td>
+<td>Extruder</td>
+</tr>
+<tr>
+<td>1193</td>
+<td>M4 nut</td>
+<td>1</td>
+<td>Extruder</td>
+</tr>
+<tr>
+<td>650</td>
+<td>M4x35mm button head screw</td>
+<td>1</td>
+<td>Extruder</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-103.jpg" rel="attachment wp-att-17113"><img class="alignnone size-medium wp-image-17113" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-103-300x200.jpg" alt="RRP-FISH1-103" width="300" height="200" /></a></td>
+</tr>
+</tbody>
+</table>
+<table class="docs-table">
+<tbody>
+<tr>
+<td>Start by taking the printed lower lever, and insert a M3x12mm cap head screw, as shown.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-104.jpg" rel="attachment wp-att-17114"><img class="alignnone size-medium wp-image-17114" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-104-300x200.jpg" alt="RRP-FISH1-104" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>Turn it over, and fit the 623 bearing, then M3 washer, on the screw.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-105.jpg" rel="attachment wp-att-17115"><img class="alignnone size-medium wp-image-17115" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-105-300x200.jpg" alt="RRP-FISH1-105" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>Take the acrylic upper lever, and remove the protective film.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-106.jpg" rel="attachment wp-att-17116"><img class="alignnone size-medium wp-image-17116" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-106-300x200.jpg" alt="RRP-FISH1-106" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>Place this on the lower lever. Screw the two levers together with another M3x12mm cap head screw. Check that the 623 bearing can still turn freely.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-107.jpg" rel="attachment wp-att-17117"><img class="alignnone size-medium wp-image-17117" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-107-300x200.jpg" alt="RRP-FISH1-107" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>Fit the idler pressure screw. Push the M4x35mm button head screw through the lever arm, then put the M4 washer, idler spring and M4 nut on the screw. The remaining M3x12mm cap head screw will be used to connect the idler to the drive block.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-108.jpg" rel="attachment wp-att-17118"><img class="alignnone size-medium wp-image-17118" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-108-300x200.jpg" alt="RRP-FISH1-108" width="300" height="200" /></a></td>
+</tr>
+</tbody>
+</table>
+<h1>Assemble the extruder drive</h1>
+<table class="docs-table">
+<tbody>
+<tr>
+<td>Take the extruder body. Line up the large hole in the printed drive block and the acrylic drive block spacer. Move the motor as far away from the hole as possible, to give the large gear clearance to go in.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-098.jpg" rel="attachment wp-att-17108"><img class="alignnone size-medium wp-image-17108" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-098-300x200.jpg" alt="RRP-FISH1-098" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>Push the large gear in from the other side. This can be quite a tight fit!</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-099.jpg" rel="attachment wp-att-17109"><img class="alignnone size-medium wp-image-17109" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-099-300x200.jpg" alt="RRP-FISH1-099" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>When in the correct place, the teeth of the hobbed insert should line up with the two small holes in the extruder body. This is where the filament runs, so these need to line up.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-100.jpg" rel="attachment wp-att-17110"><img class="alignnone size-medium wp-image-17110" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-100-300x200.jpg" alt="RRP-FISH1-100" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>Push the motor towards the large gear. The small gear should engage with the large gear. Turn the handle on the small gear to check the gear rotation is smooth with the large gear, then tighten the four M3x12mm cap head screws that hold the motor to the drive block. The two under the large gear can be difficult to access, without a ball-end Allen screw, but they don&#8217;t actually have to be tight for the drive to work.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-101.jpg" rel="attachment wp-att-17111"><img class="alignnone size-medium wp-image-17111" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-101-300x200.jpg" alt="RRP-FISH1-101" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>Take a piece of filament, and make sure that it passes through the drive, and engages with the hobbed insert. Adjust the large and small gear as necessary. Time spent getting this perfect will save you time later!</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-102.jpg" rel="attachment wp-att-17112"><img class="alignnone size-medium wp-image-17112" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-102-300x200.jpg" alt="RRP-FISH1-102" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>Now attach the idler. This will push the filament onto the hobbed insert, so the teeth on the hobbed insert will grip the filament, and can push it firmly into the hot end. Push the M4 nut into the nut trap on the end of the drive block.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-109.jpg" rel="attachment wp-att-17119"><img class="alignnone size-medium wp-image-17119" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-109-300x200.jpg" alt="RRP-FISH1-109" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>Push the idler into the drive block. Take the remaining M3x12mm cap head screw, and screw it through the idler, and into the drive block. It should go through the drive block, and engage in the acrylic lower lever on the other side.</td>
+<td>New picture needed</td>
+</tr>
+<tr>
+<td>Test the extruder drive with a piece of filament, and set the tension. You don&#8217;t want too much tension on the idler, or the motor will struggle to move the filament, but too loose and the teeth will not grip the filament.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-110.jpg" rel="attachment wp-att-17120"><img class="alignnone size-medium wp-image-17120" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-110-300x200.jpg" alt="RRP-FISH1-110" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>A good test is to hold the filament as tight as you can between thumb and index finger, and turn the handle on the small gear. Adjust the tension so it is still easy to turn the small gear, but the extruder pulls the filament through your fingers.</td>
+<td>New picture needed</td>
+</tr>
+<tr>
+<td>If the extruder slips on the filament, small pieces of the filament will get stuck in the teeth of the hobbed insert. Subsequently, the extruder is likely to slip as it extrudes, leading to poor extrusion, and poor quality printed parts. Make sure teeth of the hobbed insert are clean, by removing the filament, slackening the motor screws, and pulling out the large gear. Clean the teeth of hobbed insert with a pointy tool, then reassemble the extruder.</td>
+<td>New picture needed</td>
+</tr>
+</tbody>
+</table>
+<h1>The tongue</h1>
+<p>The tongue holds the Bowden tube into the extruder. Don&#8217;t lose it! You will need the following parts:</p>
+<table class="docs-table-container">
+<tbody>
+<tr>
+<td>
+<table class="docs-table-parts">
+<thead>
+<tr>
+<td>#</td>
+<td>Component</td>
+<td>Qty</td>
+<td>Type</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1320</td>
+<td>Tongue</td>
+<td>1</td>
+<td>Printed</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-111.jpg" rel="attachment wp-att-17121"><img class="alignnone size-medium wp-image-17121" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-111-300x200.jpg" alt="RRP-FISH1-111" width="300" height="200" /></a></td>
+</tr>
+</tbody>
+</table>
+<table class="docs-table">
+<tbody>
+<tr>
+<td>The tongue fits into the slot in the drive block, as shown.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-112.jpg" rel="attachment wp-att-17122"><img class="alignnone size-medium wp-image-17122" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-112-300x200.jpg" alt="RRP-FISH1-112" width="300" height="200" /></a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+    </div>
+    <footer class="single-footer">
+                                  </footer>
+    
+  
+    <nav id="post-entries" class="fix">
+        <div class="nav-prev fl"><a href="http://emaker.github.io/Fisher/documentation/effector-assembly/" rel="next"><span class="meta-nav">&larr;</span> Effector assembly</a></div>
+        <div class="nav-next fr"><a href="http://emaker.github.io/Fisher/documentation/hot-end-assembly/" rel="prev">Hot end assembly <span class="meta-nav">&rarr;</span></a></div>
+    </nav>
+  </article>
+</div>
+
+            
+                      <aside class="col-lg-3 col-md-4 kad-sidebar" role="complementary">
+              <div class="sidebar">
+                <section id="nav_menu-2" class="widget-1 widget-first widget widget_nav_menu"><div class="widget-inner"><ul id="menu-side-nav" class="menu"><li  class="menu-base-assembly menu-item-18331"><a href="http://emaker.github.io/Fisher/documentation/base-assembly/">Base assembly</a></li>
+<li  class="menu-tower-assembly menu-item-18332"><a href="http://emaker.github.io/Fisher/documentation/tower-assembly/">Tower assembly</a></li>
+<li  class="menu-panels-and-rods menu-item-18333"><a href="http://emaker.github.io/Fisher/documentation/panels-and-rods/">Panels and rods</a></li>
+<li  class="menu-effector-assembly menu-item-18334"><a href="http://emaker.github.io/Fisher/documentation/effector-assembly/">Effector assembly</a></li>
+<li  class="menu-extruder-drive current-menu-item menu-item-18335"><a href="http://emaker.github.io/Fisher/documentation/extruder-drive/">Extruder drive</a></li>
+<li  class="menu-hot-end-assembly menu-item-18336"><a href="http://emaker.github.io/Fisher/documentation/hot-end-assembly/">Hot end assembly</a></li>
+<li  class="menu-electronics menu-item-18337"><a href="http://emaker.github.io/Fisher/documentation/electronics/">Electronics</a></li>
+<li  class="menu-bed-top-plate-and-belts menu-item-18338"><a href="http://emaker.github.io/Fisher/documentation/bed-top-plate-and-belts/">Bed, top plate and belts</a></li>
+<li  class="menu-commissioning menu-item-18339"><a href="http://emaker.github.io/Fisher/documentation/commissioning/">Commissioning</a></li>
+<li  class="menu-printing menu-item-18340"><a href="http://emaker.github.io/Fisher/documentation/printing/">Printing</a></li>
+</ul></div></section>              </div><!-- /.sidebar -->
+            </aside><!-- /aside -->
+                    </div><!-- /.row-->
+        </div><!-- /.content -->
+      </div><!-- /.wrap -->
+      <footer id="containerfooter" class="footerclass" role="contentinfo">
+  <div class="container">
+  	<div class="row">
+  				        		                </div>
+        <div class="footercredits clearfix">
+    		
+    		        	<p>&copy; 2016 Fisher Delta 3D printer - WordPress Theme by <a href="http://www.kadencethemes.com/" target="_blank">Kadence Themes</a></p>
+    	</div>
+
+  </div>
+
+</footer>
+
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-includes/js/masonry.min.js?ver=3.1.2'></script>
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-content/themes/virtue/assets/js/min/plugins-min.js?ver=266'></script>
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-content/themes/virtue/assets/js/main.js?ver=266'></script>
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-includes/js/wp-embed.min.js?ver=4.4.2'></script>
+    </div><!--Wrapper-->
+  </body>
+</html>

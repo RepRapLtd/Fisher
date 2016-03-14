@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en-US"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en-US"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+<base href="http://emaker.github.io/Fisher" />
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Duet commissioning &#8211; Fisher Delta 3D printer</title>
+<meta name='robots' content='noindex,follow' />
+
+
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/localhost\/wordpress\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='kadence_theme-css'  href='http://emaker.github.io/Fisher/wp-content/themes/virtue/assets/css/virtue.css?ver=266' type='text/css' media='all' />
+<link rel='stylesheet' id='virtue_skin-css'  href='http://emaker.github.io/Fisher/wp-content/themes/virtue/assets/css/skins/default.css' type='text/css' media='all' />
+<link rel='stylesheet' id='virtue_child-css'  href='http://emaker.github.io/Fisher/wp-content/themes/virtue-child/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='redux-google-fonts-virtue-css'  href='http://fonts.googleapis.com/css?family=Lato%3A400%2C700&#038;ver=1457962026' type='text/css' media='all' />
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-content/themes/virtue/assets/js/vendor/modernizr.min.js'></script>
+<link rel='https://api.w.org/' href='http://emaker.github.io/Fisher/wp-json/' />
+
+ 
+
+<link rel="canonical" href="http://emaker.github.io/Fisher/duet-commissioning/" />
+<link rel='shortlink' href='http://emaker.github.io/Fisher/?p=18354' />
+
+
+<style type="text/css">#logo {padding-top:25px;}#logo {padding-bottom:12px;}#logo {margin-left:0px;}#logo {margin-right:0px;}#nav-main {margin-top:40px;}#nav-main {margin-bottom:10px;}.headerfont, .tp-caption {font-family:Lato;} 
+  .topbarmenu ul li {font-family:Lato;}
+  #kadbreadcrumbs {font-family:Verdana, Geneva, sans-serif;}input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; } input[type=number] {-moz-appearance: textfield;}.quantity input::-webkit-outer-spin-button,.quantity input::-webkit-inner-spin-button {display: none;}.topclass {background:#d6dfee    ;}.product_item .product_details h5 {text-transform: none;}.product_item .product_details h5 {min-height:40px;}.kad-topbar-left, .kad-topbar-left .topbarmenu {float:right;} .kad-topbar-left .topbar_social, .kad-topbar-left .topbarmenu ul, .kad-topbar-left .kad-cart-total,.kad-topbar-right #topbar-search .form-search{float:left}.topbarmenu ul li a {
+  color: black;
+}
+.sidebar ul.sf-dropdown-menu li {
+  border-bottom: none;
+}
+
+.subhead, .postdate {
+  display: none;
+}
+
+header h1.entry-title {
+  background: #d6dfee;
+  margin-top: 0px;
+}
+
+.nav-prev {
+    float: left;
+    width: 50%;
+}
+.nav-next {
+    float: right;
+    text-align: right;
+    width: 50%;
+}
+
+.single-article article {
+  margin-top: 0px;
+}
+.single-article aside {
+  margin-top: 30px;
+}
+body.single-documentation table.docs-table-container {vertical-align:top;}
+body.single-documentation table.docs-table-container td {padding: 0px 20px 0px 0px; border: 0px;}
+
+body.single-documentation table.docs-table-parts {border-collapse: collapse;}
+body.single-documentation table.docs-table-parts thead {font-weight:bold;font-size:90%;}
+body.single-documentation table.docs-table-parts td {font-size:90% ;padding: 2px 8px 5px 5px; border: 1px solid #ccc;}
+body.single-documentation table.docs-table-parts tr td:nth-child(3) {text-align: center;}
+body.single-documentation table.docs-table-parts tbody tr:hover {background:#AAFFAA;}
+
+body.single-documentation table.docs-table-parts-4col {border-collapse: collapse;}
+body.single-documentation table.docs-table-parts-4col thead {font-weight:bold;font-size:90%;}
+body.single-documentation table.docs-table-parts-4col td {font-size:90% ;padding: 2px 8px 5px 5px; border: 1px solid #ccc;}
+body.single-documentation table.docs-table-parts-4col tr td:nth-child(1) {text-align: center;}
+body.single-documentation table.docs-table-parts-4col tbody tr:hover {background:#AAFFAA;}
+
+body.single-documentation table.docs-table {border-collapse: collapse;}
+body.single-documentation table.docs-table td {vertical-align:top; padding: 0px; border-bottom: 1px solid #eee;}
+body.single-documentation table.docs-table td:first-child {width:465px; padding: 2px 20px 5px 5px;}
+body.single-documentation table.docs-table tr:hover {background:#AAFFAA;}
+
+</style><!--[if lt IE 9]>
+<script src="http://emaker.github.io/Fisher/wp-content/themes/virtue/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+<style type="text/css" title="dynamic-css" class="options-output">header #logo a.brand,.logofont{font-family:Lato;line-height:40px;font-weight:400;font-style:normal;font-size:32px;}.kad_tagline{font-family:Lato;line-height:24px;font-weight:400;font-style:normal;color:#444444;font-size:14px;}.product_item .product_details h5{font-family:Lato;line-height:20px;font-weight:700;font-style:normal;font-size:16px;}h1{font-family:Lato;line-height:40px;font-weight:400;font-style:normal;font-size:38px;}h2{font-family:Lato;line-height:40px;font-weight:normal;font-style:normal;font-size:32px;}h3{font-family:Lato;line-height:40px;font-weight:400;font-style:normal;font-size:28px;}h4{font-family:Lato;line-height:40px;font-weight:400;font-style:normal;font-size:24px;}h5{font-family:Lato;line-height:24px;font-weight:700;font-style:normal;font-size:18px;}body{font-family:Verdana, Geneva, sans-serif;line-height:20px;font-weight:400;font-style:normal;font-size:14px;}#nav-main ul.sf-menu a{font-family:Lato;line-height:18px;font-weight:normal;font-style:400;font-size:12px;}#nav-second ul.sf-menu a{font-family:Lato;line-height:22px;font-weight:normal;font-style:400;font-size:18px;}.kad-nav-inner .kad-mnav, .kad-mobile-nav .kad-nav-inner li a,.nav-trigger-case{font-family:Lato;line-height:20px;font-weight:normal;font-style:400;font-size:16px;}</style></head>
+  <body class="page page-id-18354 page-template-default wide duet-commissioning">
+    <div id="wrapper" class="container">
+    <div id="kt-skip-link"><a href="#content">Skip to Main Content</a></div><header class="banner headerclass">
+  <div id="topbar" class="topclass">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-6 kad-topbar-left">
+          <div class="topbarmenu clearfix">
+                                </div>
+        </div><!-- close col-md-6 --> 
+        <div class="col-md-6 col-sm-6 kad-topbar-right">
+          <div id="topbar-search" class="topbar-widget">
+                    </div>
+        </div> <!-- close col-md-6-->
+      </div> <!-- Close Row -->
+    </div> <!-- Close Container -->
+  </div><div class="container">
+  <div class="row">
+      <div class="col-md-4 clearfix kad-header-left">
+            <div id="logo" class="logocase">
+              <a class="brand logofont" href="http://emaker.github.io/Fisher/">
+                                  <div id="thelogo">
+                    <img src="http://emaker.limited/wp-content/uploads/2015/12/eMARKER-web.png" alt="Fisher Delta 3D printer" class="kad-standard-logo" />
+                                      </div>
+                              </a>
+                              <p class="kad_tagline belowlogo-text">RepRap Fisher build instructions</p>
+                         </div> <!-- Close #logo -->
+       </div><!-- close logo span -->
+                <div class="col-md-8 kad-header-right">
+           <nav id="nav-main" class="clearfix">
+              <ul id="menu-main" class="sf-menu"><li  class="menu-home sf-dropdown menu-item-18317"><a href="http://emaker.github.io/Fisher/">Home</a>
+<ul class="sf-dropdown-menu">
+	<li  class="menu-base-assembly menu-item-18320"><a href="http://emaker.github.io/Fisher/documentation/base-assembly/">Base assembly</a></li>
+	<li  class="menu-tower-assembly menu-item-18321"><a href="http://emaker.github.io/Fisher/documentation/tower-assembly/">Tower assembly</a></li>
+	<li  class="menu-panels-and-rods menu-item-18322"><a href="http://emaker.github.io/Fisher/documentation/panels-and-rods/">Panels and rods</a></li>
+	<li  class="menu-effector-assembly menu-item-18323"><a href="http://emaker.github.io/Fisher/documentation/effector-assembly/">Effector assembly</a></li>
+	<li  class="menu-extruder-drive menu-item-18324"><a href="http://emaker.github.io/Fisher/documentation/extruder-drive/">Extruder drive</a></li>
+	<li  class="menu-hot-end-assembly menu-item-18325"><a href="http://emaker.github.io/Fisher/documentation/hot-end-assembly/">Hot end assembly</a></li>
+	<li  class="menu-electronics menu-item-18326"><a href="http://emaker.github.io/Fisher/documentation/electronics/">Electronics</a></li>
+	<li  class="menu-bed-top-plate-and-belts menu-item-18327"><a href="http://emaker.github.io/Fisher/documentation/bed-top-plate-and-belts/">Bed, top plate and belts</a></li>
+	<li  class="menu-commissioning menu-item-18328"><a href="http://emaker.github.io/Fisher/documentation/commissioning/">Commissioning</a></li>
+	<li  class="menu-printing menu-item-18329"><a href="http://emaker.github.io/Fisher/documentation/printing/">Printing</a></li>
+</ul>
+</li>
+</ul>           </nav> 
+          </div> <!-- Close menuclass-->
+               
+    </div> <!-- Close Row -->
+     
+</div> <!-- Close Container -->
+  </header>      <div class="wrap contentclass" role="document">
+
+      	<div id="pageheader" class="titleclass">
+		<div class="container">
+			<div class="page-header">
+	<h1 class="entry-title" itemprop="name">
+		Duet commissioning	</h1>
+   	</div>		</div><!--container-->
+	</div><!--titleclass-->
+    <div id="content" class="container">
+   		<div class="row">
+      		<div class="main col-lg-9 col-md-8" role="main">
+				<div class="entry-content" itemprop="mainContentOfPage">
+					  <p>There are a number pieces of software used by the RepRap Duet-based printers:</p>
+<ol>
+<li>Arduino IDE (Integrated Development Environment) – used for device drivers, and basic communication (see note and links for downloading later in instructions),</li>
+<li>The <a href="https://github.com/reprappro/RepRapFirmware">RepRap firmware</a> – this controls the hardware functions of the Duet board,</li>
+<li><a href="https://github.com/reprappro/Software">Pronterface</a> – used for communication and control over the USB connection,</li>
+<li><a href="https://www.google.com/chrome/">Google Chrome</a> or <a href="https://www.mozilla.org/firefox/">Firefox</a> – used for controlling the Duet via the web interface,</li>
+<li><a href="http://slic3r.org/">Slic3r</a> – used for translating 3D files into the g-code, which controls the movements of the printer.</li>
+</ol>
+<table class="docs-table">
+<tbody>
+<tr>
+<td colspan="2">A lot of this software is stored on Github. To download from Github select the branch that you require (unless you are experimenting, this will be “master”), then click the Download ZIP button:</td>
+<td><a class="cboxElement" title="Commissioning - Duet" href="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/githowto.png" rel="attachment wp-att-6671" data-lightboxplus="lightbox[13471]"><img class="alignnone size-medium wp-image-6671" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/githowto-300x222.png" alt="githowto" width="300" height="222" /></a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h1><span id="IMPORTANT_note_about_USB_5V_power">IMPORTANT: note about USB 5V power</span></h1>
+<div class="woo-sc-box normal">
+<p>When using the Duet with 5V power supplied by the USB cable only (i.e. no power supply unit – PSU – power), you may find that the board doesn’t respond correctly. The web interface, SD card reading, IR sensor may all be unreliable. Three different voltages are used on the Duet: 12V for motors, fans and heaters, 5V is used to drive the MOSFET gates, and is converted to 3.3V for most other parts of the board (the ARM processor chip, thermistors, stepper drivers, proximity sensor, SD card, USB, and Ethernet).</p>
+<p>It’s possible that your 5V USB power source (usually your computer) doesn’t supply enough voltage, or current, to power the Duet, particularly if you’re working through a low quality USB power supply, an unpowered USB hub, or a laptop with low power USB ports. The Raspberry Pi, which uses a similar ARM chip, also has this problem. Plugging all the other connections in may also drain enough power to cause problems, particularly if there is a short circuit in your wiring.</p>
+<p>Check the actual voltage of the 5V and 3.3V power lines. You can measure the 5V on Pin 1 of the expansion header, 3.3V on Pin 3 – these are the pins closest to the heated bed connection, just under the ‘SION’ of ‘EXPANSION’. Anything below 4.5V on the 5V line will make for a marginal 3.3V supply, and could cause a multitude of strange effects on the board.</p>
+<p>CAUTION! Take care not to short 5V to 3.3V as you do this, ie touch both pins at the same time! This will short 5V into the main ARM chip, most likely killing it!</p>
+<p>The Duet will work correctly when 5V is supplied by the PSU, but don’t plug this in yet. If your USB power is not good enough, then routing the USB from your computer through a <strong>powered</strong> USB hub will usually work.</p>
+</div>
+<h1><span id="Establishing_communication_with_the_Duet">Establishing communication with the Duet</span></h1>
+<p><strong>This first section should be done with the PSU disconnected from the mains.</strong></p>
+<p>The Duet electronics board is based on the Open Source <a href="http://arduino.cc/en/Main/ArduinoBoardDue">Arduino Due</a> board, with the addition of ethernet, stepper drivers (to control the stepper motors), SD Card slot, temperature sensing and other inputs and outputs needed by a 3D printer. You can use the Arduino IDE (Integrated Development Environment) Software to connect to the Duet on a basic level.</p>
+<h2><span id="First_connection">First connection</span></h2>
+<table class="docs-table">
+<tbody>
+<tr class="alt-table-row">
+<td><strong>BEFORE</strong> connecting the Duet to your PC, download and install the Arduino software. Download the latest version from <a href="https://www.arduino.cc/en/Main/Software">https://www.arduino.cc/en/Main/Software</a>, currently v1.6.6 (as of 1st Dec 2015). Make sure you do this BEFORE connecting the Duet, so the correct device drivers are installed.</td>
+<td><a class="cboxElement" title="Commissioning - Duet" href="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/Arduino-IDE-Download.png" rel="attachment wp-att-18075" data-lightboxplus="lightbox[13471]"><img class="alignnone size-medium wp-image-18075" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/Arduino-IDE-Download-300x223.png" alt="Arduino-IDE-Download" width="300" height="223" /></a></td>
+</tr>
+<tr>
+<td>From Arduino IDE v1.6.1 onwards, <strong>YOU MUST INSTALL SUPPORT FOR THE DUET</strong>, or you will be unable to communicate with it. Again, make sure you do this BEFORE connecting the Duet, so the correct device drivers are installed. Open Arduino IDE, then select ‘Tools’ from the main menu, then ‘Boards Manager…’</td>
+<td><a class="cboxElement" title="Commissioning - Duet" href="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/Arduino-IDE-Boards-Manager-01.png" rel="attachment wp-att-18076" data-lightboxplus="lightbox[13471]"><img class="alignnone size-medium wp-image-18076" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/Arduino-IDE-Boards-Manager-01-300x225.png" alt="Arduino-IDE-Boards-Manager-01" width="300" height="225" /></a></td>
+</tr>
+<tr class="alt-table-row">
+<td>Click on ‘Arduino SAM Boards (32-bits ARM Cortex-M3)’, then click on ‘Install’ to install the device drivers for the Arduino Due, which support the Duet.</td>
+<td><a class="cboxElement" title="Commissioning - Duet" href="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/Arduino-IDE-Boards-Manager-02.png" rel="attachment wp-att-18077" data-lightboxplus="lightbox[13471]"><img class="alignnone size-medium wp-image-18077" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/Arduino-IDE-Boards-Manager-02-300x225.png" alt="Arduino-IDE-Boards-Manager-02" width="300" height="225" /></a></td>
+</tr>
+<tr>
+<td>Connect the USB cable to the Duet, checking that it is correctly orientated. The wider side of the USB plug goes against the Duet PCB. Forcing the plug into the socket the wrong way around will break the socket!</td>
+<td><a class="cboxElement" title="Commissioning - Duet" href="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/Duet-Commissioning-connect-USB-01.jpg" rel="attachment wp-att-18078" data-lightboxplus="lightbox[13471]"><img class="alignnone size-medium wp-image-18078" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/Duet-Commissioning-connect-USB-01-300x225.jpg" alt="Duet-Commissioning-connect-USB-01" width="300" height="225" /></a></td>
+</tr>
+<tr class="alt-table-row">
+<td>The plug does not go fully into the socket, as the socket it quite short. Do not try and force it all the way in, or you will break the socket! Also, to remove the plug from the socket, pull it out straight; DO NOT wiggle it side to side, or force, the USB plug from the socket, or you may detach the socket from the Duet. The socket is quite delicate; using excessive force, or knocking it, will break it, rendering the Duet inoperable.<br />
+Once connected, connect the other end of the USB cable to your computer’s USB socket.</td>
+<td><a class="cboxElement" title="Commissioning - Duet" href="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/Duet-Commissioning-connect-USB-02.jpg" rel="attachment wp-att-18079" data-lightboxplus="lightbox[13471]"><img class="alignnone size-medium wp-image-18079" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/Duet-Commissioning-connect-USB-02-300x225.jpg" alt="Duet-Commissioning-connect-USB-02" width="300" height="225" /></a></td>
+</tr>
+<tr>
+<td>Looking at the Duet board, an LED should light up, near the USB connector. See the ‘important note above about 5V USB power’ if it does not. If the Y-axis endstop is fitted (Mendel, Huxley and Ormerod printers), a second LED will light up near this connection on the board. It will be lit if the Y carriage is away from the endstop, and will go out if you move the Y carriage until it touches the microswitch. Try this as a test. For Fisher printers, as there are endstops connected on X,Y, Z and E, four LEDs should light up, one next to each endstop, if the endstops are not triggered.</td>
+<td><a class="cboxElement" title="Commissioning - Duet" href="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/Duet-Commissioning-connect-USB-03.jpg" rel="attachment wp-att-18080" data-lightboxplus="lightbox[13471]"><img class="alignnone size-medium wp-image-18080" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/Duet-Commissioning-connect-USB-03-300x225.jpg" alt="Duet-Commissioning-connect-USB-03" width="300" height="225" /></a></td>
+</tr>
+<tr class="alt-table-row">
+<td colspan="2">Under Windows, your PC should recognise the Duet, and the device drivers should be found by your computer and installed automatically, if necessary. Linux and Apple OS X will create a USB port for the Duet, but don’t usually inform you this has happened. The <a href="https://reprappro.com/documentation/troubleshooting-introduction/electronics-problems/#Duet_software_connection_problems" target="_blank">troubleshooting guide here</a> explains how to check if the operating system can see the Duet.</td>
+</tr>
+<tr>
+<td>Open the Arduino IDE and go to Tools-&gt;Board menu and select ‘Arduino Due (Native USB Port)’. If this is not available, check that support for ‘Arduino SAM boards’ has been installed. If it is greyed out, make sure the device drivers are loaded, and the Duet board is connected.</td>
+<td><a class="cboxElement" title="Commissioning - Duet" href="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/Arduino-IDE-settings-04.png" rel="attachment wp-att-18083" data-lightboxplus="lightbox[13471]"><img class="alignnone size-medium wp-image-18083" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/Arduino-IDE-settings-04-300x225.png" alt="Arduino-IDE-settings-04" width="300" height="225" /></a></td>
+</tr>
+<tr class="alt-table-row">
+<td>Then go to Tools-&gt;Port menu and select the USB port for your Duet. On Windows PCs, this will be a COM[number] port, eg COM7. If you are presented with a list, check which COM port has beed assigned to the Duet, by looking in the Windows Device Manager under the ‘Ports (COM &amp; LPT)’ section; the Duet will be listed as ‘Arduino Due’.</td>
+<td><a class="cboxElement" title="Commissioning - Duet" href="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/Arduino-IDE-settings-03.png" rel="attachment wp-att-18082" data-lightboxplus="lightbox[13471]"><img class="alignnone size-medium wp-image-18082" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/Arduino-IDE-settings-03-300x225.png" alt="Arduino-IDE-settings-03" width="300" height="225" /></a></td>
+</tr>
+<tr>
+<td>Then go to Tools-&gt;Serial Monitor. This will open a new window.</td>
+<td><a class="cboxElement" title="Commissioning - Duet" href="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/Arduino-IDE-settings-05.png" rel="attachment wp-att-18091" data-lightboxplus="lightbox[13471]"><img class="alignnone size-medium wp-image-18091" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/Arduino-IDE-settings-05-300x225.png" alt="Arduino-IDE-settings-05" width="300" height="225" /></a></td>
+</tr>
+<tr class="alt-table-row">
+<td>From the drop-down menus in the bottom right of the Serial Monitor window, make sure the communication speed is set to<strong> ‘115200 baud’</strong>(bottom right) and that either <strong>‘Newline’</strong> or <strong>‘Both NL &amp; CR’</strong> is selected (next to the speed).</td>
+<td><a class="cboxElement" title="Commissioning - Duet" href="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/Arduino-IDE-settings-06.png" rel="attachment wp-att-18092" data-lightboxplus="lightbox[13471]"><img class="alignnone size-medium wp-image-18092" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/Arduino-IDE-settings-06-300x225.png" alt="Arduino-IDE-settings-06" width="300" height="225" /></a></td>
+</tr>
+<tr>
+<td>Depending on the version of the firmware, you may need to wait for up to 1 minute, then the following should show:<br />
+<code></code><code>RepRapFirmware is up and running.<br />
+</code>But don’t worry if you don’t see this message; newer firmware sends this very quickly, and is often sent before you can connect! If you close the Serial Monitor, press the reset button on the Duet, then open the Serial Monitor within 2 or 3 seconds, you may see the full message, as shown in the picture.</td>
+<td><a class="cboxElement" title="Commissioning - Duet" href="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/Arduino-IDE-settings-07.png" rel="attachment wp-att-18093" data-lightboxplus="lightbox[13471]"><img class="alignnone size-medium wp-image-18093" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/Arduino-IDE-settings-07-300x225.png" alt="Arduino-IDE-settings-07" width="300" height="225" /></a></td>
+</tr>
+<tr class="alt-table-row">
+<td>In the top part of the Serial Monitor window, type, then ‘Send’:</p>
+<pre>M105</pre>
+<p>This asks the Duet for its temperatures, and you should get a response from the machine, similar to this:</p>
+<pre>T:5.3 B:18.4</pre>
+<p>or:</p>
+<pre>T: B:18.4</pre>
+<p>The second response is correct with firmware v0.78c and later. This is because the hot end is a tool, ‘T:’, and has to be defined. This is done in the config.g file, which is on the SD card, which you have not done yet! So don’t worry if you see this, just continue with commissioning.</p>
+<p>Also, don’t worry about the actual temperatures shown; the configuration has not been set up yet to properly interpret the response from the thermistors.</td>
+<td><a class="cboxElement" title="Commissioning - Duet" href="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/Arduino-IDE-settings-08.png" rel="attachment wp-att-18094" data-lightboxplus="lightbox[13471]"><img class="alignnone size-medium wp-image-18094" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/Arduino-IDE-settings-08-300x225.png" alt="Arduino-IDE-settings-08" width="300" height="225" /></a></td>
+</tr>
+</tbody>
+</table>
+<div class="woo-sc-box normal"><strong>Note:</strong> The codes, eg M105, that control the printer are called ‘<a href="http://en.wikipedia.org/wiki/G-code">G-codes</a>‘, and MUST be <strong>UPPER CASE</strong>. Don’t use lower case, and don’t mix them, or you will get no response.</div>
+<h2><span id="What_to_do_if_it_isn8217t_working">What to do if it isn’t working?</span></h2>
+<p>If you get no response, close the Serial Monitor window, unplug the Duet, wait 10 seconds, then plug it back in. Check the Arduino settings and try connecting again. Wait for 1 minute after plugging in the USB.</p>
+<p>Most problems you may encounter are covered in the ‘Duet software connection problems’ section of the <a href="https://reprappro.com/documentation/troubleshooting-introduction/electronics-problems/#Duet_software_connection_problems" target="_blank">troubleshooting guide here</a>.</p>
+<p>If you continue to have problems, contact support.</p>
+<p>&nbsp;</p>
+<h1><span id="Update_your_firmware">Update your firmware</span></h1>
+<p>Your Duet will have been supplied with firmware flashed in its microcontroller. Now you have established communication with the Duet, it’s a good idea check you have the latest version, and to update the firmware on the Duet if not. We regularly add features and fix bugs, to improve the usability of your printer, so check every month or so.</p>
+<p>Recent updates have improved network connectivity, improved USB communication, improved accuracy of thermistors, improved the SD card reading, fixed homing problems, fixed printer stopping problems, and many others. So please, to save yourself potential frustration, update your firmware. <strong>All the following instructions assume you have up-to-date firmware.</strong></p>
+<p>To check your firmware version, connect to your Duet board via the Arduino IDE Serial Monitor and send the ‘M115’ gcode. The response should be something like:</p>
+<pre><code>FIRMWARE_NAME:RepRapFirmware FIRMWARE_VERSION:1.09 ELECTRONICS:Duet (+ Extension) DATE:2015-04-21
+</code></pre>
+<p>Compare the firmware version information from your response to M115, with the file name of the file in <a href="https://github.com/reprappro/RepRapFirmware/tree/master/Release" rel="nofollow">this link</a>, which is on our github page. But DO NOT DOWNLOAD THIS FILE DIRECTLY! <a href="https://reprappro.com/documentation/commissioning-introduction/maintenance-duet/#RepRapPro_Firmware">See here for the full firmware update instructions</a>.</p>
+<p>Whenever you update the firmware, ALWAYS update the SD Card with the SD-Image from from the same firmware. You should always keep the SD card files concurrent with the firmware version, or you may get strange behaviour from the printer.</p>
+<p>&nbsp;</p>
+<h1><span id="Check_SD_card_Settings">Check SD card Settings</span></h1>
+<div class="woo-sc-box normal"><strong>Note:</strong> If you have NOT updated your firmware, and you use the SD card files and settings meant for a different version of the firmware, your Duet board may become unresponsive when you insert the SD card and turn on the Duet. Always use the same version of the firmware and SD card files, so whenever you update the firmware, update the SD card files.</div>
+<p>Your printer is supplied with an SD card, and an adapter. Put the SD card in the adapter (if necessary), and into your computer – it should appear on your desktop. The SD Card is used for storing settings, serving the web pages of the web interface, and has some test gcode files for printing.</p>
+<table class="docs-table">
+<tbody>
+<tr>
+<td colspan="2">Download the RepRap firmware from our <a href="https://github.com/reprappro/RepRapFirmware">Github repository</a>. Do this by going to the page, and clicking the ‘Download ZIP’ button on the right hand side. Extract the ZIP file once downloaded.</td>
+<td><a class="cboxElement" title="Commissioning - Duet" href="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/githowto.png" rel="attachment wp-att-6671" data-lightboxplus="lightbox[13471]"><img class="alignnone size-medium wp-image-6671" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/githowto-300x222.png" alt="githowto" width="300" height="222" /></a></td>
+</tr>
+<tr class="alt-table-row">
+<td colspan="2">In the extracted directory is a directory called ‘SD-image’. Open this, and copy the contents to the root of the SD card, so that they are the first thing you see when you open the SD card.</td>
+<td><a class="cboxElement" title="Commissioning - Duet" href="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/RRP-firmware-SD-Image-01.png" rel="attachment wp-att-14444" data-lightboxplus="lightbox[13471]"><img class="alignnone size-medium wp-image-14444" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/RRP-firmware-SD-Image-01-300x192.png" alt="RRP-firmware-SD-Image-01" width="300" height="192" /></a></td>
+</tr>
+<tr>
+<td colspan="2">There are a number of directories named ‘sys-[machine name]’, one for each of the different printers we produce. Keep only the one relevant to your machine, e.g. ‘sys-Ormerod-2’, and rename it to ‘sys’. You can delete the others. Your SD-image should look like the picture.</td>
+<td><a class="cboxElement" title="Commissioning - Duet" href="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/RRP-firmware-SD-Image-02.png" rel="attachment wp-att-14445" data-lightboxplus="lightbox[13471]"><img class="alignnone size-medium wp-image-14445" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/RRP-firmware-SD-Image-02-300x192.png" alt="RRP-firmware-SD-Image-02" width="300" height="192" /></a></td>
+</tr>
+</tbody>
+</table>
+<p>Eject the SD card, remove it from the adapter, and put it into the SD card holder on the Duet. It should click in.</p>
+<h2><span id="Is_the_SD_card_being_read">Is the SD card being read?</span></h2>
+<p>Connect the USB cable to the Duet, and connect to it using the Arduino Serial Monitor, as before. In the top part of the Serial Monitor window, type (without quotes) ‘M503’ and press ‘Send’.</p>
+<div class="woo-sc-box normal"><strong>Note:</strong> All codes sent to the printer MUST be <strong>UPPER CASE</strong>. Don’t use lower case, and don’t mix them, or you will get no response.</div>
+<p>The response shows the config.g file from the sys folder of the SD card, and should be similar to:</p>
+<div>
+<pre id="LC28">; Configuration file for RepRap Ormerod 2
+; RepRapPro Ltd
+;
+; Copy this file to config.g if you have an Ormerod 2
+; If you are updating a config.g that you already have you
+; may wish to go through it and this file checking what you
+; want to keep from your old file.
+;
+; For G-code definitions, see http://reprap.org/wiki/G-code
+; 
+M111 S0                             ; Debug off
+M550 PMy RepRapPro Ormerod 2        ; Machine name (can be anything you like). With DHCP enabled connect to (example) http://reprapproormerod2 (machine name with no spaces).
+M551 Preprap                        ; Machine password (currently not used)
+M540 P0xBE:0xEF:0xDE:0xAD:0xFE:0xED ; MAC Address
+;M552 P0.0.0.0                       ; Un-comment for DHCP
+M552 P192.168.1.14                  ; IP address, comment for DHCP
+M553 P255.255.255.0                 ; Netmask
+M554 P192.168.1.1                   ; Gateway, comment for DHCP
+M555 P2                             ; Set output to look like Marlin
+G21                                 ; Work in millimetres
+G90                                 ; Send absolute corrdinates...
+M83                                 ; ...but relative extruder moves
+M906 X800 Y1000 Z800 E800           ; Set motor currents (mA)
+;M305 P0 R4700                       ; Set the heated bed thermistor series resistor to 4K7
+;M305 P1 R4700                       ; Set the hot end thermistor series resistor to 4K7
+M569 P0 S0                          ; Set X axis direction
+M92 E420                            ; Set extruder steps per mm
+M558 P2                             ; Use a modulated Z probe
+G31 Z0.8 P600                       ; Set the probe height and threshold (deliberately too high to avoid bed crashes on initial setup)
+M556 S75 X0 Y0 Z0                   ; Put your axis compensation here
+M201 X500 Y500 Z15 E500             ; Accelerations (mm/s^2)
+M203 X15000 Y15000 Z100 E3600       ; Maximum speeds (mm/min)
+M566 X200 Y200 Z30 E20              ; Minimum speeds mm/minute
+M563 P0 D0 H1                       ; Define tool 0
+G10 P0 S-273 R-273                  ; Set tool 0 operating and standby temperatures
+;M563 P1 D1 H2                       ; Define tool 1, uncomment if you have a dual colour upgrade
+;G10 P1 X19 S-273 R-273              ; Set tool 1 operating and standby temperatures, uncomment if you have a dual colour upgrade</pre>
+</div>
+<p>If the SD card is not inserted, or not being correctly read (the error code may be different), you will see:</p>
+<pre><code>Can't open 0:/sys/config.g to read from. Error code: 12
+Configuration file not found</code></pre>
+<p>Check that you have inserted the SD card properly. If you have further problems, there is an SD card <a href="https://reprappro.com/documentation/troubleshooting-introduction/hardware-problems/#Micro_SD_card" target="_blank">troubleshooting guide here</a>.</p>
+<h3><span id="What_is_configg">What is config.g?</span></h3>
+<p>The <strong>config.g</strong> file on the SD card holds the configuration settings for your printer, and is read by the firmware when the printer starts up. It is a ‘g-code’ file; it is a list of ‘<a href="http://en.wikipedia.org/wiki/G-code">g-code</a>‘ commands, that tells the printer what to do. The <a href="http://reprap.org/wiki/G-code">RepRap G-code reference page</a> has a list of g-codes, their meaning and usage.</p>
+<p>You can make changes to config.g, and any other gcode file, by opening and editing it in any text editor. NotePad on Windows, Text Edit on Mac, and Gedit on Ubuntu, can all open them. All gcode files, that the printer uses for configuration and printing, are plain text files, and can be opened and edited in the same way.</p>
+<h2><span id="Is_the_SD_card_being_read_AT_STARTUP">Is the SD card being read AT STARTUP?</span></h2>
+<div class="woo-sc-box normal">The most important thing to check is that the SD Card is working WHEN THE PRINTER IS POWERED ON. The config.g file, in the sys folder on the SD card, is the settings file for the printer, and should be read by the firmware when the printer starts up. It does important things like set the network settings, put the printer into a mode that lets Pronterface talk to the Duet (M555 P2; Emulate Marlin USB output), and turn on the proximity sensor (M558 P2 ; Turn Z Probe on – otherwise the printer won’t home the X and Z axis properly). The printer will not work correctly if the config.g file is not read from the SD card at startup.</div>
+<p>The easiest way to test if the card is being read at startup is to open the Arduino Serial Monitor, connect, and then send a command, like M105. The correct response should be:</p>
+<pre>serial: M105
+ok T: B:18.4</pre>
+<p>The important thing is the ‘ok’, which means the M555 P2 (Emulate Marlin USB output) command, which is in the config.g, has run. If you send M105 and get:</p>
+<pre>T: B:18.4</pre>
+<p>ie without the command echoed, and no ‘ok’, the config.g has NOT been read at start up. Ignore the actual temperatures that are reported, for the moment.</p>
+<h2><span id="What_to_do_if_it_isn8217t_working-2">What to do if it isn’t working?</span></h2>
+<p>There is an SD card <a href="https://reprappro.com/documentation/troubleshooting-introduction/hardware-problems/#Micro_SD_card" target="_blank">troubleshooting guide here</a>.</p>
+<div class="woo-sc-box normal"><strong>The SD card needs to be working correctly to be able to communicate and print, so it’s worth checking if you are having problems.</strong></div>
+<h2><span id="Setting_the_temperatures_correctly">Setting the temperatures correctly</span></h2>
+<p>We updated the Duet board with a small change to the thermistor circuit, in mid-October 2014, to make the temperature reporting more accurate at low temperature. At room temperature, older Duet boards can report the hot end temperature with an error of as much as 20C; newer Duets are more accurate at room temperature. Don’t worry – the temperatures are still accurate at their operating temperature on both versions of the board. Duets shipped after this date may or may not have this change, as we (and our distributors) work through our stock of boards and kits.</p>
+<h3><span id="Identifying_if_you_have_a_82161K8217_or_821647K8217_Duet_PCB">Identifying if you have a ‘1K’ or ‘4.7K’ Duet PCB</span></h3>
+<p>Each thermistor circuit (bed and hot end) is a simple voltage divider, with the thermistor on one side, and a resistor on the other. The part of the thermistor circuit that was changed is the value of the voltage divider resistor. This resistor is either 1k ohm (older Duets) or 4.7k ohm (newer Duets). There are a number of ways to identify if you have an older ‘1K’ or newer ‘4.7K’ Duet PCB.</p>
+<table class="docs-table">
+<tbody>
+<tr class="alt-table-row">
+<td colspan="2">Check if there is a sticker on the Ethernet socket on the Duet board. If there is, and it says ‘4.7K’ or’4K7′, as shown, you should have a ‘4.7K’ board. Only boards shipped at the time of the changeover (roughly between mid-October 2014 and December 2014) have this sticker. However, just because it does not have a sticker, does not mean it is a ‘1K’ board! So also check the following…</td>
+<td><a class="cboxElement" title="Commissioning - Duet" href="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/ORM_Duet_4k7.jpg" rel="attachment wp-att-9258" data-lightboxplus="lightbox[13471]"><img class="alignnone size-medium wp-image-9258" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/ORM_Duet_4k7-300x225.jpg" alt="ORM_Duet_4k7" width="300" height="225" /></a></td>
+</tr>
+<tr>
+<td colspan="2">You can tell from the temperature reported. Make sure the bed thermistor is connected to the Duet, via the heated bed wiring loom. Remove the SD card from the Duet. Plug in the USB cable, and connect to the Duet, using Arduino IDE. Check the temperatures by sending M105. At room temperature (about 20C), the temperature response will be something like ‘T: B:19.6’ for 1K boards, and  ‘T: B:54.8’ for 4.7K boards.</td>
+<td>With no SD card, temperatures reported:<br />
+‘T: B:19.6’ (ie accurately room temperature) = 1K board<br />
+‘T: B:54.8’ (ie around 60C) = 4.7K board</td>
+</tr>
+<tr class="alt-table-row">
+<td colspan="2">Visually check the value of the resistor on the board – you will need a magnifying glass. Look at the value of the resistors marked R19 and R21, between the main Atmel chip and the Ethernet socket. 1K resistors are marked ‘102’, ‘1001’ or ’01b’. 4.7K resistors are marked ‘472’, ‘4701’ or ’66b’. You can also measure the resistance with a multimeter to check.</td>
+<td><a class="cboxElement" title="Commissioning - Duet" href="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/ORM-Duet-4k7-2.jpg" rel="attachment wp-att-12579" data-lightboxplus="lightbox[13471]"><img class="alignnone size-medium wp-image-12579" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/ORM-Duet-4k7-2-300x225.jpg" alt="ORM-Duet-4k7-2" width="300" height="225" /></a></td>
+</tr>
+</tbody>
+</table>
+<h3><span id="Setting_the_temperature_for_you_your_board">Setting the temperature for you your board</span></h3>
+<p>If you have a ‘1K’ Duet PCB, you should not have to make any changes. If you have a ‘4.7K’ Duet, edit the <strong>config.g</strong> file. To do this, open <strong>RepRapFirmware/SD-Image-[your printer]/sys/config.g</strong> that you downloaded earlier, in any text editor. NotePad on Windows, or Text Edit on Mac, can open it. All gcode files, that the printer uses to print, are text files, and can be opened in the same way. Make the following change:</p>
+<pre>;M305 P0 R4700 ; Set the heated bed thermistor series resistor to 4K7
+;M305 P1 R4700 ; Set the hot end thermistor series resistor to 4K7</pre>
+<p>to:</p>
+<pre>M305 P0 R4700 ; Set the heated bed thermistor series resistor to 4K7
+M305 P1 R4700 ; Set the hot end thermistor series resistor to 4K7</pre>
+<p>by deleting the semi-colon on the front of the these lines in the config.g (line 20 and 21). Save the edited <strong>config.g</strong>. Turn off power to the printer (remove the USB cable), and remove the SD card from the printer. Copy the new <strong>config.g</strong> onto the SD card, into the <strong>sys</strong> folder, replacing the old version. Replace the SD card in the printer, and turn it back on (reconnect USB). You can also remove the SD card with the power on, but press the reset button on the Duet when you reinsert it, or cycle the power. Any changes that you make to the config.g in future (setting up ethernet, or editing other settings) can be done in the same way.</p>
+<p>If you have a 4.7K board, and don’t make this change, your temperatures will report very high at room temperature on both the hot end and heated bed, and will over-read at the target temperature (this is, at least, safer than under-reading!); something like:</p>
+<pre>T:59.5 B:63.6</pre>
+<p>If you get negative temperatures, or no temperatures, on either the hot end or heated bed thermistor, it usually means the thermistor is disconnected, or shorting out. Check your thermistor wiring. See the <a href="https://reprappro.com/documentation/troubleshooting-introduction/hardware-problems/#Temperature_sensing">troubleshooting guide here</a> if you continue to have problems.</p>
+<div class="woo-sc-box normal"><strong>Note:</strong> It’s not uncommon to have different temperatures for the hot end and heated bed at room temperature. Thermistors tend to be inaccurate at the very bottom and the very top of their range. We make sure they are at their peak accuracy where we need it; for the hot end between 150 and 250C. Below about 10C ambient, particularly if you have a 1K Duet board, the hot end reading may drop below -30C, and the Duet assumes this is a fault, so reports -273C. So long as the temperature reported is above -10C, you won’t have any problem turning on the heater. By the time it hits 25C, it’s accurate. On cold mornings a mild warming with a hair dryer on the hot end, before turning the printer on, soon sorts it out!</div>
+<p>If you have a 1k Duet PCB, and you are having problems with low temperatures, we can modify the Duet for you. You will need to return the Duet to us, so we can replace the 1K resistors for 4K7 resistors. Contact support to arrange this.</p>
+<h1><span id="Connect_via_Pronterface">Connect via Pronterface</span></h1>
+<p>Pronterface is used to control the printer’s basic functions, via USB. Any version of Pronterface should work with the Duet, though we supply a customised version for our customers.</p>
+<h2><span id="Installation">Installation</span></h2>
+<h3><span id="Windows">Windows</span></h3>
+<ol>
+<li>Download the current version from <a class="moz-txt-link-freetext" href="https://github.com/reprappro/Software">https://github.com/reprappro/Software</a> (click ‘Download ZIP’ on the right hand side).</li>
+<li>Once downloaded, extract the ZIP file to a sensible location.</li>
+<li>To run Pronterface, double-click the file ‘Duet-[printer type].cmd’, where [printer type] is the printer you have; Fisher, Huxley, Mendel or Ormerod. This will set up Pronterface with the correct bed size and shape, and with the correct buttons. Do not run Win7/Pronterface.exe directly, or it will use it’s default setup.</li>
+</ol>
+<h3><span id="Mac">Mac</span></h3>
+<p>Download the pre-compiled version of <a href="https://reprappro.com/wp-content/uploads/2014/02/RepRapPro-Pronterface-Mac.zip">Pronterface for Mac</a>, and extract the zip file. The Mac version of Pronterface is somewhat limited; USB communication is slow, so do not print directly from Pronterface, always print from the SD card. See the Printing section, <a href="https://reprappro.com/documentation/commissioning-introduction/printing-duet/#Printing_from_the_SD_card">HERE</a>. Also, the custom buttons will not show up, as Pronterface uses the default settings. You can simply add any actions you commonly use as a custom button.</p>
+<h3><span id="Linux">Linux</span></h3>
+<ol>
+<li>Download the current version from <a class="moz-txt-link-freetext" href="https://github.com/reprappro/Software">https://github.com/reprappro/Software</a> (click ‘Download ZIP’ on the right hand side).</li>
+<li>Once downloaded, extract the ZIP file.</li>
+<li>Install the dependencies; see the instructions <a href="https://github.com/reprappro/Software/blob/master/README.md#installing-dependencies">HERE</a>.</li>
+<li>To run Pronterface, double-click the file ‘Duet-[printer type].sh’, where [printer type] is the printer you have; Fisher, Huxley, Mendel or Ormerod. This will set up Pronterface with the correct bed size and shape, and with the correct buttons. Do not run pronterface/pronterface.py directly, or it will use it’s default setup.</li>
+</ol>
+<h2><span id="Running_Pronterface">Running Pronterface</span></h2>
+<p>Once installed, <strong>close the Arduino IDE</strong> if it is still open. Only one program can connect via USB at time, either Arduino Serial Monitor <strong>OR</strong> Pronterface. Connect the USB cable to the Duet, then run Pronterface.</p>
+<p>Select the USB port that your computer has allocated the Duet in Pronterface’s ‘Port’ box, select a communication speed of 115200, and click the <b>Connect</b> button. As before, you may have to wait for up to a minute. Pronterface will confirm when the printer is online.</p>
+<p>Press the GET POS button, and if the machine returns a position of X:0.00 Y:0.00 Z:0.00, your serial communication is functioning correctly.</p>
+<p><a class="cboxElement" title="Commissioning - Duet" href="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/RRP-Pronterface-fw109-01.png" rel="attachment wp-att-14233" data-lightboxplus="lightbox[13471]"><img class="alignnone wp-image-14233" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/RRP-Pronterface-fw109-01.png" alt="RRP-Pronterface-fw109-01" width="600" height="323" /></a></p>
+<div class="woo-sc-box no-icon info">NOTE: If your pronterface window does not display the custom buttons (GET POS, BL, BR, CENTRE, etc… ), you most likely have installed a version of Pronterface previously, and the settings file .pronsolerc already exists in your main User folder (the one with the main ‘Documents’, ‘Downloads’ and ‘Pictures’ folders in it – usually C:Users{username} on Windows). This file is an invisible/system file, though; make them visible, delete the file and reload the software. You should now see the extra buttons.</div>
+<h3><span id="Check_temperatures">Check temperatures</span></h3>
+<p>Next press “Check Temp” to get an up-to-date reading from the hot end and bed thermistors. You can also turn on the temperature graph by ticking ‘Watch’, which will auto-update the temperatures.</p>
+<p><a class="cboxElement" title="Commissioning - Duet" href="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/RRP-Pronterface-fw109-02.png" rel="attachment wp-att-14234" data-lightboxplus="lightbox[13471]"><img class="alignnone wp-image-14234" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/RRP-Pronterface-fw109-02.png" alt="RRP-Pronterface-fw109-02" width="600" height="323" /></a></p>
+<p>Temperatures are reported in Centigrade. Pronterface reports the temperatures in the bottom left of the window in the form:</p>
+<pre>T: B:25.0 H0:25.0/-273.0 H1:25.4/-273.0</pre>
+<p>At startup, ‘T:’ reports no temperature, as no ‘tool’ is selected (hot end heater, thermistor and/or extruder combination). ‘B’ is the heated bed temperature.</p>
+<p>‘H’ is for each heater/thermistor. Because heaters/thermistors (‘H’) may be combined to make tools (see next section, ‘understanding Tools’), they are listed separately. H0 is the heated bed temperature, H1 is usually the first hot end. If more heaters are connected, you will see H2…H[x], for the number of heaters you have. This also lets you troubleshoot heater/thermistor reading problems individually.</p>
+<p>Each heater ‘H’ has two temperatures, eg H0:25.0/-273.1. The first, 25.0 in this example, is the current temperature. The second, eg -273.1, is the target temperature, ie the temperature that has been set for the heater to reach. -273 effectively means ‘off’.</p>
+<p>Check that both the hot end and the heated bed are reporting a sensible current temperature. Look at the first value for each heater ‘H’; they should be reporting around room temperature (it may be a couple of degrees out – the thermistors are designed for accuracy at their operating temperature).</p>
+<p>The above picture shows the temperature reported at room temperature. However, the temperatures may report significantly higher or lower than this. The temperature may be reported as:</p>
+<pre>T: B:-273.1 H0:-273.1/-273.1 H1:-273.1/-273.0</pre>
+<p>If the first temperature of any ‘H’ is very low (eg -273.1), then there is probably a fault, or no connection, with the thermistor circuit. If it is very high (eg 2000)  then there is probably a short circuit in the corresponding thermistor circuit. In either case, find the fault and fix it before you go on. If the temperatures are both reported at around 60C, see the ‘Setting the temperatures correctly’ section above. For more help with temperature problems, see <a href="https://reprappro.com/documentation/troubleshooting-introduction/hardware-problems/#Temperature_sensing">this section in the troubleshooting guide</a>.</p>
+<p>If you get a stream of temperatures in the ‘log’ window (the right pane of the Pronterface window), the SD card hasn’t been read at start up (see ‘Is the SD card being read AT STARTUP’ above), and the Duet has not started in ‘Marlin emulation’ mode, which Pronterface needs. Reset the printer, check the SD card is working (try another if it is not), and reconnect Pronterface to the Duet board.</p>
+<p><a class="cboxElement" title="Commissioning - Duet" href="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/RRP-Pronterface-fw109-04.png" rel="attachment wp-att-14253" data-lightboxplus="lightbox[13471]"><img class="alignnone wp-image-14253" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/RRP-Pronterface-fw109-04.png" alt="RRP-Pronterface-fw109-04" width="600" height="326" /></a></p>
+<p>Check the settings by sending ‘M503’ by typing it into the command line in the bottom right hand side of the Pronterface window (or click the ‘M503’ button). The settings will scroll above the command line, in what we call the log window. This establishes that Pronterface is talking correctly to the Duet, and it is responding correctly.</p>
+<h3><span id="Understanding_8216tools8217">Understanding ‘tools’</span></h3>
+<p>Each heater ‘H’ (actually a heater and thermistor combination) and extruder drive ‘D’ are defined in the firmware separately. To make a ‘tool’, the config.g combines any number of heaters (hot ends, usually) and extruder drives. In config.g, M563 defines the tool:</p>
+<pre>M563 P0 D0 H1 ; Define tool <span class="pl-c1">0
+G10 P0 S<span class="pl-k">-</span><span class="pl-c1">273</span> R<span class="pl-k">-</span><span class="pl-c1">273</span> ; Set tool <span class="pl-c1">0</span> operating <span class="pl-k">and</span> standby temperatures</span></pre>
+<p>The P field specifies the tool number. Tool numbers can have any positive integer value between 0 and 255. The D field specifies the drive(s) used by the tool. Drive 0 is the first drive in the machine after the movement drives (usually X, Y and Z). The H field specifies the tool’s heaters. Heater 0 is usually the heated bed (if any) so the first hot end heater is usually 1. If there is no H field, the tool has no heaters, eg a syringe drive for extruding paste.</p>
+<p>The second command, G10, specifies the operating (S) and standby (R) temperatures. It’s best to leave these off (-273) in config.g, or they will turn on automatically when you turn the machine on, which is not recommended. See later instructions for setting tool temperatures for printing.</p>
+<p>Whenever you turn on your printer, or reset the printer, <strong>NO TOOL IS ACTIVATED BY DEFAULT</strong> (from firmware v1.09 onward). If you try to extrude, you should get a message saying ‘Attempting to extrude with no tool selected.’ To activate the first tool, which is defined as standard as ‘T0’ (tool zero) send:</p>
+<pre>T0</pre>
+<p><a class="cboxElement" title="Commissioning - Duet" href="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/RRP-Pronterface-fw109-03.png" rel="attachment wp-att-14252" data-lightboxplus="lightbox[13471]"><img class="alignnone wp-image-14252" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/RRP-Pronterface-fw109-03.png" alt="RRP-Pronterface-fw109-03" width="600" height="323" /></a></p>
+<p>This will set T0 active, and set the temperature to the operating temperature (as defined by G10). The current tool temperature is reported by the ‘T:’ value, and shown in the graph. You can adjust the temperature again afterwards, manually (see later). You can also turn off the tool by sending any tool command that calls an undefined tool, eg T99. Sending M112 (emergency stop), M0 (stop) or M1 (sleep) also deselects the current active tool. Deselecting the tool will set it to the standby temperature, as defined by G10.</p>
+<p>If you have more than one tool defined, sending ‘T1’ will activate that tool, and set T0 to it’s standby temperature, and so on for the number of defined tools. See the multi-materials instructions for more details on setting up multi-material and/or multi-nozzle printers.</p>
+<p>Now close Pronterface, and disconnect the USB lead, to turn off the Duet.</p>
+<h1><span id="Now_connect_the_power_supply_unit">Now connect the power supply unit</span></h1>
+<div id="tabs-91" class="shortcode-tabs default ui-tabs ui-widget ui-widget-content ui-corner-all">
+<ul class="tab_titles ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all">
+<li class="nav-tab ui-state-default ui-corner-top ui-tabs-active ui-state-active" tabindex="0"><a id="ui-id-1" class="ui-tabs-anchor" tabindex="-1" href="https://reprappro.com/documentation/commissioning-introduction/commissioning-duet/#tabs-91-tab-1">ORMEROD 2 AND MENDEL 3</a></li>
+<li class="nav-tab ui-state-default ui-corner-top" tabindex="-1"><a id="ui-id-2" class="ui-tabs-anchor" tabindex="-1" href="https://reprappro.com/documentation/commissioning-introduction/commissioning-duet/#tabs-91-tab-2">HUXLEY DUO</a></li>
+<li class="nav-tab ui-state-default ui-corner-top" tabindex="-1"><a id="ui-id-3" class="ui-tabs-anchor" tabindex="-1" href="https://reprappro.com/documentation/commissioning-introduction/commissioning-duet/#tabs-91-tab-3">ORMEROD 1</a></li>
+</ul>
+<div id="tabs-91-tab-1" class="tab tab-ormerod-2-and-mendel-3 ui-tabs-panel ui-widget-content ui-corner-bottom">
+<p>The PSU will supply the motors and heaters with 12V, while the logic is supplied with 5V.</p>
+<table class="docs-table">
+<tbody>
+<tr>
+<td colspan="2">Make sure that there is a jumper on the JP10 (ATX_5V_EN) pins (see picture for location of jumper). With no USB lead connected, the only lights to turn on will be the Y axis endstop light (if fitted, it will be lit if the Y carriage is away from the endstop, and will go out if you move the Y carriage until it touches the microswitch) and the lights under the ethernet socket, if an ethernet cable is connected.</td>
+<td><a class="cboxElement" title="Commissioning - Duet" href="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/duet-reset-erase-jumper.jpg" rel="attachment wp-att-7583" data-lightboxplus="lightbox[13471]"><img class="alignnone size-medium wp-image-7583" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/duet-reset-erase-jumper-300x179.jpg" alt="SANYO DIGITAL CAMERA" width="300" height="179" /></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="fix"></div>
+</div>
+<div class="woo-sc-box normal"><strong>IMPORTANT:</strong> The first thing that should happen after power is applied is the hot end fan should start turning. If not,<strong>TURN OFF the PSU immediately</strong>, and check your wiring of the hot end connector, that joins the hot end wires to the hot end loom. The thick red hot end heater wires should connect to the doubled-up wires in the hot end loom connector (polarity not important). The thermistor wires should connect to the blue and green wires on the loom (polarity not important). Also check the wiring of the red and black hot end fan wires – polarity IS important. Then check all wires are connected to the Duet correctly.</div>
+<div class="woo-sc-box normal"><strong>Watch for smoke in case something has gone horribly wrong!</strong> If there is a problem, turn off the power by <strong>SWITCHING OFF THE PSU</strong>. Check the hot end isn’t heating up – it will do this quickly, so check first! Also, make sure that the heated bed, motors and the four motor driver chips aren’t getting hot. Take care with the chips – they have internal temperature shutdowns that kick in around 80<sup>o</sup>C, a temperature that will burn your finger unless you just touch lightly and briefly.</div>
+<h1><span id="Testing_machine_control">Testing machine control</span></h1>
+<h2><span id="Test_the_heaters">Test the heaters</span></h2>
+<p>Plug in the USB and run the Pronterface program. Click “Connect” and wait for your RepRap to appear online.</p>
+<p>The heated bed and the hot end are the two parts of the printer that may cause damage as they are high-current devices; we check them first, in case there are any problems that have caused a fault.</p>
+<p>Tick the ‘Watch’ check box (or ‘monitor’, depending on Pronterface version) to report the temperatures of your heatbed and nozzle. Ensure that the readings are similar to the ambient temperature of the room. If they are not, check connections. Usually, if they are very low (-273), this indicates the thermistors are not connected. If they are very high, this means a short circuit.</p>
+<h3><span id="Hot_end">Hot end</span></h3>
+<div class="woo-sc-box normal"><strong>IMPORTANT:</strong> Check that the hot end fan is running. This needs to be on ALL THE TIME there is power to the printer – it should be connected directly to 12V power. It is part of the design of the hot end that the top part of it is continuously cooled, and the extruder will work extremely poorly, or not at all, if it is not cooled. If it is not running, check the connections, power, and the fan polarity. Check that you can feel air coming OUT of the nozzle around the hot end.</div>
+<p>Send ‘T0’, to activate the first defined tool (firmware v1.04 and later).</p>
+<p>Command the nozzle to 100C, by typing ‘100’ in the box next to ‘Heater’, and watch the temperature rise, overshoot slightly, and eventually settle around 100C. When the hot end heater is on, an LED on the Duet PCB, near the heater loom connection, will turn on. Keep an eye on the nozzle during this test. If you see lots of smoke come out of the hot end, turn off the heater and check your wiring. You may have a short circuit or poor connection on the heater wires, or to the heater block, or there may be some contamination around the heater block.</p>
+<p>Repeat the test with a target temperature of 200C. The nozzle should reach the target temperature in about 1 minute or less and settle within a couple of degrees of 200C. Some smell of oil burning off is not unusual – it’s the oil from machining the parts – but should dissipate after a minute.</p>
+<p>Press ‘Off’ next to ‘Heater’ to turn off the hot end.</p>
+<p>Send ‘T99’ to deactivate the tool (firmware v1.04 and later).</p>
+<h3><span id="Heated_bed">Heated bed</span></h3>
+<p>Command the heated bed to 45C (warm), by typing ’45’ in the box next to ‘Bed’, and click ‘Set’. When the heated bed is on, an LED on the Duet PCB, near the heated bed connection, will turn on. Verify that the heatbed temperature reading rises and stabilises around 45C, and that the heated bed is actually warm. Again, check connections are not getting hot or smoking. This generally indicates a poor or loose connection; tighten and retest.</p>
+<p>The heated bed will heat up much more slowly than the hot end.</p>
+<p>Press ‘Off’ next to ‘Bed’ to turn off the heated bed.</p>
+<h2><span id="Test_axis_movement">Test axis movement</span></h2>
+<table class="docs-table">
+<tbody>
+<tr class="alt-table-row">
+<td colspan="2">All 3D printers need an ‘origin’ point for each axis, where X=0 and Y=0. From the ‘front’ of the printer (looking along the Y axis, with the Y motor at the back), this point should be on the front-left of the heated bed. Positive X moves cause the nozzle to move from left to right. Positive Y moves cause the bed to move forward, so the nozzle moves back relative to the bed.  If one axis is reversed (incorrectly constructed, or motor wiring incorrect), the nozzle will move in the wrong direction relative to the bed. If both axes go the wrong direction, you may be looking at the ‘back’ of your printer, ie rotated 180 degrees; check the printer orientation.</td>
+<td><a class="cboxElement" title="Commissioning - Duet" href="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/RRP_axis_directions.jpg" rel="attachment wp-att-14436" data-lightboxplus="lightbox[13471]"><img class="alignnone size-medium wp-image-14436" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/RRP_axis_directions-300x224.jpg" alt="RRP_axis_directions" width="300" height="224" /></a></td>
+</tr>
+</tbody>
+</table>
+<p>Now type in the following command in the command line:</p>
+<pre>G1 X5 F500</pre>
+<p>in the field below the log window and click Send. The X-carriage should move to 5mm to the right, in the positive direction (X5), at 500mm/min (F500). For Ormerod and Huxley Duo printers, this should be in the direction AWAY from the X motor, and for Mendel 3 it should be TOWARDS the X motor; if it isn’t, check your wiring, as you may have the X axis motor reversed. You MUST turn off the printer to change any motor wires, or you risk destroying the stepper drivers.</p>
+<p>Assuming it moved in the correct direction, now type:</p>
+<pre>G1 X0 F500</pre>
+<p>and send. The X-motor should move back to wherever it started (X0).</p>
+<p>Repeat the above test for the Y axis, replacing the ‘X’ in the above command with ‘Y’. This will move the heated bed, on the Y-carriage. On Ormerod 2, Huxley Duo and Mendel 3, a positive move is AWAY from the Y motor; on Ormerod 1, it is TOWARDS the Y motor.</p>
+<p>For Z, make the feedrate 200 mm/minute:</p>
+<pre>G1 Z5 F200</pre>
+<p>This will move the Z axis up 5mm. You can also use the ‘jog dial’ on the left hand side of the Pronterface window to move the axes. To turn the motors off, press the ‘Motors off’ button above the jog dial.</p>
+<div class="woo-sc-box normal">NOTE: When you turn on the printer, wherever each axis is, this is where the printer thinks X=0, Y=0 and Z=0 are. You will always have to ‘home’ the axes after turning off the power, or resetting the printer, as it doesn’t remember its current co-ordinates when it loses power.</div>
+<h2><span id="Test_the_proximity_sensor">Test the proximity sensor</span></h2>
+<p>‘Homing’ sends an axis to the end of its travel, and hits an endstop, which gives the printer a reference point. Then it will know where the bed is, relative to the nozzle. The proximity sensor is used to ‘home’ the X and Z axis. For the proximity probe to work correctly, the SD card MUST be working at startup; the ‘M558 P2’ command turns the proximity sensor (also known as the Z Probe) on. You can enter this command separately if the SD card is not in the printer, or did not work at startup.</p>
+<p>Move the X and Y axis (by hand – ‘Motors Off’ first – or using the Pronterface command or jog dial) so it’s over the bed, and lift the Z axis so the nozzle is at least 20mm from the bed. To check that the proximity sensor is working correctly, send the following command:</p>
+<pre>G31</pre>
+<p>With axis a long way from the bed (say, over 20mm), the response should be a low number, like 20. Put a piece of white paper under the sensor, very close, and send ‘G31’ again. The response this time should be a very high number, like 950. This is the normal range for the sensor, and needs to be correctly working before testing the ‘homing’.</p>
+<p>If you do not get numbers in this range, refer to the proximity sensor troubleshooting guide <a href="https://reprappro.com/documentation/ormerod-2/troubleshooting/#Proximity_sensor_problems">HERE</a>.</p>
+<h2><span id="Test_axis_homing">Test axis homing</span></h2>
+<p>Send a homing command for the Y axis first. Either press ‘Y’ homing button in Pronterface (above the ‘dial’ on the left of the Pronterface window), or use the homing command: for example</p>
+<pre>G28 Y0</pre>
+<p>The Z and X drives will move the machine to allow Y to home, then the Y carriage should move towards the Y microswitch and hit it. It then does a little bounce (a move away from the switch and back at much lower speed) to get a more accurate position.</p>
+<p>If the wiring for the microswitch is not connected properly the Y carriage will hit the end and try to move against it. This will stop after a few moments. Don’t worry, no damage will be done (though you should avoid doing this regularly as that may loosen some components eventually). Check the wiring for the microswitch; it is possibly disconnected, or connected to the wrong pins on the Duet. There is an LED on the Duet above the Y motor connection. It will normally be on, and will go out when the Y endstop switch is hit. Move the bed to the Y motor end by hand, and check that the LED goes on and off when the Y carriage activates the microswitch.</p>
+<p>The X axis endstop is not a microswitch; Ormerod, Huxley Duo and Mendel 3 use the proximity sensor for X homing. This is triggered by the bar that sticks out from the x-motor-bracket. It is important that the X carriage can pass by the electronics housing; this should have been checked earlier in the build. Check that the polarity of the wires connected to the sensor are correct – see the ‘Wiring’ instructions.</p>
+<table class="docs-table">
+<tbody>
+<tr>
+<td colspan="2">To ensure reliable X homing, you will need to add a piece of paper or adhesive label (like that used on the bed) to the top of the bar for the sensor to work consistently.</td>
+<td><a class="cboxElement" title="Commissioning - Duet" href="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/ORM-commissioning-x-tag.jpg" rel="attachment wp-att-11101" data-lightboxplus="lightbox[13471]"><img class="alignnone size-medium wp-image-11101" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/ORM-commissioning-x-tag-300x225.jpg" alt="ORM-commissioning-x-tag" width="300" height="225" /></a></td>
+</tr>
+</tbody>
+</table>
+<p>Press ‘X’ homing button in Pronterface, or use the homing command:</p>
+<pre>G28 X0</pre>
+<p>The X carriage should move up a few millimetres, and then move towards the Z axis. It should stop before it hits the end. If this does not work correctly, and it does not stop at the end, and keeps going until it clatters against the X motor, refer to the <a href="https://reprappro.com/documentation/troubleshooting-introduction/hardware-problems/#Endstop_and_homing_problems">proximity sensor troubleshooting guide</a>.</p>
+<p>Finally, home the Z axis. Again, this uses the proximity sensor. Press the ‘Z’ homing button in Pronterface, or use the homing command:</p>
+<pre>G28 Z0</pre>
+<p>The X carriage should move out, to be over a corner with the paper target underneath, then move down and stop. Initially, the nozzle will be some way from the bed; you will correct this by following the ‘Calibration’ instructions.</p>
+<h2><span id="Test_the_part_cooling_fan">Test the part cooling fan</span></h2>
+<p>Huxley Duo, Mendel 3 and Ormerod 2 (528.5 onwards) printers are fitted with a part cooling fan, in addition to the hot end fan. The part cooling fan is used to help the printing of small part, and bridging and overhanging features, as it cools the extruded filament quickly, setting it in place before the next layer is printed on top. Usually, this fan is controlled by the slicing software, so it turns on after the first couple of layers, and may turn off when not needed, rather than by manual control. It is controllable using M106 ( <a class="moz-txt-link-freetext" href="http://reprap.org/wiki/G-code#M106:_Fan_On">http://reprap.org/wiki/G-code#M106:_Fan_On</a> ). To test it, send the following:</p>
+<pre>M106 S255</pre>
+<p>This should turn the fan on. The ‘Fan LED’ (see wiring diagram) should turn on on the Duet. If the fan doesn’t turn, check your wiring connections. The fan will only work with the correct polarity, with positive voltage on the red wire of the fan. To turn it off, send:</p>
+<pre>M106 S0</pre>
+<h2><span id="Pronterface_8211_RepRapPro_Duet_features">Pronterface – RepRapPro Duet features</span></h2>
+<p>Use of the RepRapPro version of Pronterface, with extended features for the Duet, is <a href="https://reprappro.com/documentation/commissioning-introduction/maintenance-duet/#Using_Pronterface_to_Control_your_RepRap_Firmware">documented here</a>.</p>
+<p>&nbsp;</p>
+<h1><span id="Connect_via_the_web_interface">Connect via the web interface</span></h1>
+<p>To use the web interface, you need to connect an ethernet cable from the Duet to your ethernet hub, switch or router. The Duet will need to be powered, either by USB or the PSU – it cannot be powered by the Ethernet cable.</p>
+<p>The simplest way to connect to your machine is to use DHCP and NetBIOS. DHCP is supported in firmware v1.09 onwards only; for older firmware versions, see “Setting the Duet’s IP address manually”. For DHCP, edit your config.g to the following:</p>
+<pre>M552 P0.0.0.0                       ; Un-comment for DHCP
+;M552 P192.168.1.14                  ; IP address, comment for DHCP
+;M553 P255.255.255.0                 ; Netmask, comment for DHCP
+;M554 P192.168.1.1                   ; Gateway, comment for DHCP</pre>
+<p>The semi-colon at the beginning of the line ‘comments out’ (ie the firmware ignores) the command after it. The above will allow your router to allocate an IP address to your printer.</p>
+<p>You can also change your printer’s name, by editing the M550 line in config.g:</p>
+<pre>M550 PMy RepRapPro Ormerod 2</pre>
+<p>Make sure you leave the ‘P’ before the name, which defines the name.</p>
+<div class="shortcode-toggle toggle-setting-the-duets-ip-address-manually closed default border">
+<h4 class="toggle-trigger"><span id="Setting_the_Duets_IP_address_manually"><a href="https://reprappro.com/documentation/commissioning-introduction/commissioning-duet/#">Setting the Duet&#8217;s IP address manually</a></span></h4>
+</div>
+<div class="shortcode-toggle toggle-wired-connection-to-pc-bridged-connection-to-network closed default border">
+<h4 class="toggle-trigger"><span id="Wired_connection_to_PC_bridged_connection_to_network"><a href="https://reprappro.com/documentation/commissioning-introduction/commissioning-duet/#">Wired connection to PC (bridged connection to network)</a></span></h4>
+</div>
+<div class="shortcode-toggle toggle-wired-connection-to-pc-separate-subnet closed default border">
+<h4 class="toggle-trigger"><span id="Wired_connection_to_PC_separate_subnet"><a href="https://reprappro.com/documentation/commissioning-introduction/commissioning-duet/#">Wired connection to PC (separate subnet)</a></span></h4>
+</div>
+<div class="shortcode-toggle toggle-multiple-printers-on-the-same-network closed default border">
+<h4 class="toggle-trigger"><span id="Multiple_printers_on_the_same_network"><a href="https://reprappro.com/documentation/commissioning-introduction/commissioning-duet/#">Multiple printers on the same network</a></span></h4>
+</div>
+<div class="shortcode-toggle toggle-ftp-telnet-and-pronterface-over-lan-connections closed default border">
+<h4 class="toggle-trigger"><span id="FTP_Telnet_and_Pronterface_over_LAN_connections"><a href="https://reprappro.com/documentation/commissioning-introduction/commissioning-duet/#">FTP, Telnet and Pronterface over LAN connections</a></span></h4>
+</div>
+<p>Connect the ethernet cable to the Duet, and the hub/router/switch at the other end. Then turn on power, via USB or the PSU. The GREEN LED on the ethernet connector should light up, and flicker. The Orange LED is a indicator light for 10base-T connections – most ethernet hubs/routers/switches are 100base-T or gigabit, so that will usually stay switched off.</p>
+<p>Open your browser. At the moment, Google Chrome (desktop PC), Firefox (desktop PC), Android Chrome (mobile) and Apple iOS Safari (mobile) are supported. Other browsers may also work, but have not been tested for full compatibility.</p>
+<div id="tabs-57" class="shortcode-tabs default ui-tabs ui-widget ui-widget-content ui-corner-all">
+<ul class="tab_titles ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all">
+<li class="nav-tab ui-state-default ui-corner-top ui-tabs-active ui-state-active" tabindex="0"><a id="ui-id-4" class="ui-tabs-anchor" tabindex="-1" href="https://reprappro.com/documentation/commissioning-introduction/commissioning-duet/#tabs-57-tab-1">DHCP/NETBIOS CONNECTIONS</a></li>
+<li class="nav-tab ui-state-default ui-corner-top" tabindex="-1"><a id="ui-id-5" class="ui-tabs-anchor" tabindex="-1" href="https://reprappro.com/documentation/commissioning-introduction/commissioning-duet/#tabs-57-tab-2">STATIC IP ADDRESS</a></li>
+</ul>
+<div id="tabs-57-tab-1" class="tab tab-dhcpnetbios-connections ui-tabs-panel ui-widget-content ui-corner-bottom">
+<p>If you are using DHCP, enter the name of your machine (lowercase and with no spaces). For example, if you have set the following in config.g:</p>
+<pre>M550 PRepRapPro Huxley Duo</pre>
+<p>enter this into your browser’s address bar:</p>
+<pre>http://reprapprohuxleyduo</pre>
+<p>This has been tested working on Firefox, Chrome and Safari on Windows, Ubuntu, Mac OS X, Android and iOS. On Safari on Mac OS X and iOS, you need to ‘connect’ to control the printer.</p>
+</div>
+<div class="fix"></div>
+</div>
+<p>If the Duet is set up correctly, you should be presented with a connect screen:</p>
+<p><a class="cboxElement" title="Commissioning - Duet" href="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/web-interface.png" rel="attachment wp-att-13862" data-lightboxplus="lightbox[13471]"><img class="alignnone wp-image-13862" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/web-interface-1024x576.png" alt="web-interface" width="800" height="450" /></a></p>
+<p>If you have multiple Duets on your network you can open an interface to each one in turn from a new tab in your browser. Keep track of which is which by referring to the name or IP address at the top of each page.</p>
+<p>More in-depth use of the web interface is <a href="https://reprappro.com/documentation/commissioning-introduction/maintenance-duet/#Using_a_Web_Browser_to_Control_your_RepRap_Firmware" target="_blank">documented here</a>.</p>
+<p>Troubleshooting the network connection is covered in the <a href="https://reprappro.com/documentation/troubleshooting-introduction/hardware-problems/#Ethernet_connection" target="_blank">Network troubleshooting guide</a>.</p>
+  				</div>
+							</div><!-- /.main -->
+            
+                      <aside class="col-lg-3 col-md-4 kad-sidebar" role="complementary">
+              <div class="sidebar">
+                <section id="nav_menu-2" class="widget-1 widget-first widget widget_nav_menu"><div class="widget-inner"><ul id="menu-side-nav" class="menu"><li  class="menu-base-assembly menu-item-18331"><a href="http://emaker.github.io/Fisher/documentation/base-assembly/">Base assembly</a></li>
+<li  class="menu-tower-assembly menu-item-18332"><a href="http://emaker.github.io/Fisher/documentation/tower-assembly/">Tower assembly</a></li>
+<li  class="menu-panels-and-rods menu-item-18333"><a href="http://emaker.github.io/Fisher/documentation/panels-and-rods/">Panels and rods</a></li>
+<li  class="menu-effector-assembly menu-item-18334"><a href="http://emaker.github.io/Fisher/documentation/effector-assembly/">Effector assembly</a></li>
+<li  class="menu-extruder-drive menu-item-18335"><a href="http://emaker.github.io/Fisher/documentation/extruder-drive/">Extruder drive</a></li>
+<li  class="menu-hot-end-assembly menu-item-18336"><a href="http://emaker.github.io/Fisher/documentation/hot-end-assembly/">Hot end assembly</a></li>
+<li  class="menu-electronics menu-item-18337"><a href="http://emaker.github.io/Fisher/documentation/electronics/">Electronics</a></li>
+<li  class="menu-bed-top-plate-and-belts menu-item-18338"><a href="http://emaker.github.io/Fisher/documentation/bed-top-plate-and-belts/">Bed, top plate and belts</a></li>
+<li  class="menu-commissioning menu-item-18339"><a href="http://emaker.github.io/Fisher/documentation/commissioning/">Commissioning</a></li>
+<li  class="menu-printing menu-item-18340"><a href="http://emaker.github.io/Fisher/documentation/printing/">Printing</a></li>
+</ul></div></section>              </div><!-- /.sidebar -->
+            </aside><!-- /aside -->
+                    </div><!-- /.row-->
+        </div><!-- /.content -->
+      </div><!-- /.wrap -->
+      <footer id="containerfooter" class="footerclass" role="contentinfo">
+  <div class="container">
+  	<div class="row">
+  				        		                </div>
+        <div class="footercredits clearfix">
+    		
+    		        	<p>&copy; 2016 Fisher Delta 3D printer - WordPress Theme by <a href="http://www.kadencethemes.com/" target="_blank">Kadence Themes</a></p>
+    	</div>
+
+  </div>
+
+</footer>
+
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-includes/js/masonry.min.js?ver=3.1.2'></script>
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-content/themes/virtue/assets/js/min/plugins-min.js?ver=266'></script>
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-content/themes/virtue/assets/js/main.js?ver=266'></script>
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-includes/js/wp-embed.min.js?ver=4.4.2'></script>
+    </div><!--Wrapper-->
+  </body>
+</html>

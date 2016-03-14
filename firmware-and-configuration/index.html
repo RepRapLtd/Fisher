@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en-US"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en-US"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+<base href="http://emaker.github.io/Fisher" />
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Firmware and configuration &#8211; Fisher Delta 3D printer</title>
+<meta name='robots' content='noindex,follow' />
+
+
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/localhost\/wordpress\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='kadence_theme-css'  href='http://emaker.github.io/Fisher/wp-content/themes/virtue/assets/css/virtue.css?ver=266' type='text/css' media='all' />
+<link rel='stylesheet' id='virtue_skin-css'  href='http://emaker.github.io/Fisher/wp-content/themes/virtue/assets/css/skins/default.css' type='text/css' media='all' />
+<link rel='stylesheet' id='virtue_child-css'  href='http://emaker.github.io/Fisher/wp-content/themes/virtue-child/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='redux-google-fonts-virtue-css'  href='http://fonts.googleapis.com/css?family=Lato%3A400%2C700&#038;ver=1457962026' type='text/css' media='all' />
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-content/themes/virtue/assets/js/vendor/modernizr.min.js'></script>
+<link rel='https://api.w.org/' href='http://emaker.github.io/Fisher/wp-json/' />
+
+ 
+
+<link rel="canonical" href="http://emaker.github.io/Fisher/firmware-and-configuration/" />
+<link rel='shortlink' href='http://emaker.github.io/Fisher/?p=18352' />
+
+
+<style type="text/css">#logo {padding-top:25px;}#logo {padding-bottom:12px;}#logo {margin-left:0px;}#logo {margin-right:0px;}#nav-main {margin-top:40px;}#nav-main {margin-bottom:10px;}.headerfont, .tp-caption {font-family:Lato;} 
+  .topbarmenu ul li {font-family:Lato;}
+  #kadbreadcrumbs {font-family:Verdana, Geneva, sans-serif;}input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; } input[type=number] {-moz-appearance: textfield;}.quantity input::-webkit-outer-spin-button,.quantity input::-webkit-inner-spin-button {display: none;}.topclass {background:#d6dfee    ;}.product_item .product_details h5 {text-transform: none;}.product_item .product_details h5 {min-height:40px;}.kad-topbar-left, .kad-topbar-left .topbarmenu {float:right;} .kad-topbar-left .topbar_social, .kad-topbar-left .topbarmenu ul, .kad-topbar-left .kad-cart-total,.kad-topbar-right #topbar-search .form-search{float:left}.topbarmenu ul li a {
+  color: black;
+}
+.sidebar ul.sf-dropdown-menu li {
+  border-bottom: none;
+}
+
+.subhead, .postdate {
+  display: none;
+}
+
+header h1.entry-title {
+  background: #d6dfee;
+  margin-top: 0px;
+}
+
+.nav-prev {
+    float: left;
+    width: 50%;
+}
+.nav-next {
+    float: right;
+    text-align: right;
+    width: 50%;
+}
+
+.single-article article {
+  margin-top: 0px;
+}
+.single-article aside {
+  margin-top: 30px;
+}
+body.single-documentation table.docs-table-container {vertical-align:top;}
+body.single-documentation table.docs-table-container td {padding: 0px 20px 0px 0px; border: 0px;}
+
+body.single-documentation table.docs-table-parts {border-collapse: collapse;}
+body.single-documentation table.docs-table-parts thead {font-weight:bold;font-size:90%;}
+body.single-documentation table.docs-table-parts td {font-size:90% ;padding: 2px 8px 5px 5px; border: 1px solid #ccc;}
+body.single-documentation table.docs-table-parts tr td:nth-child(3) {text-align: center;}
+body.single-documentation table.docs-table-parts tbody tr:hover {background:#AAFFAA;}
+
+body.single-documentation table.docs-table-parts-4col {border-collapse: collapse;}
+body.single-documentation table.docs-table-parts-4col thead {font-weight:bold;font-size:90%;}
+body.single-documentation table.docs-table-parts-4col td {font-size:90% ;padding: 2px 8px 5px 5px; border: 1px solid #ccc;}
+body.single-documentation table.docs-table-parts-4col tr td:nth-child(1) {text-align: center;}
+body.single-documentation table.docs-table-parts-4col tbody tr:hover {background:#AAFFAA;}
+
+body.single-documentation table.docs-table {border-collapse: collapse;}
+body.single-documentation table.docs-table td {vertical-align:top; padding: 0px; border-bottom: 1px solid #eee;}
+body.single-documentation table.docs-table td:first-child {width:465px; padding: 2px 20px 5px 5px;}
+body.single-documentation table.docs-table tr:hover {background:#AAFFAA;}
+
+</style><!--[if lt IE 9]>
+<script src="http://emaker.github.io/Fisher/wp-content/themes/virtue/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+<style type="text/css" title="dynamic-css" class="options-output">header #logo a.brand,.logofont{font-family:Lato;line-height:40px;font-weight:400;font-style:normal;font-size:32px;}.kad_tagline{font-family:Lato;line-height:24px;font-weight:400;font-style:normal;color:#444444;font-size:14px;}.product_item .product_details h5{font-family:Lato;line-height:20px;font-weight:700;font-style:normal;font-size:16px;}h1{font-family:Lato;line-height:40px;font-weight:400;font-style:normal;font-size:38px;}h2{font-family:Lato;line-height:40px;font-weight:normal;font-style:normal;font-size:32px;}h3{font-family:Lato;line-height:40px;font-weight:400;font-style:normal;font-size:28px;}h4{font-family:Lato;line-height:40px;font-weight:400;font-style:normal;font-size:24px;}h5{font-family:Lato;line-height:24px;font-weight:700;font-style:normal;font-size:18px;}body{font-family:Verdana, Geneva, sans-serif;line-height:20px;font-weight:400;font-style:normal;font-size:14px;}#nav-main ul.sf-menu a{font-family:Lato;line-height:18px;font-weight:normal;font-style:400;font-size:12px;}#nav-second ul.sf-menu a{font-family:Lato;line-height:22px;font-weight:normal;font-style:400;font-size:18px;}.kad-nav-inner .kad-mnav, .kad-mobile-nav .kad-nav-inner li a,.nav-trigger-case{font-family:Lato;line-height:20px;font-weight:normal;font-style:400;font-size:16px;}</style></head>
+  <body class="page page-id-18352 page-template-default wide firmware-and-configuration">
+    <div id="wrapper" class="container">
+    <div id="kt-skip-link"><a href="#content">Skip to Main Content</a></div><header class="banner headerclass">
+  <div id="topbar" class="topclass">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-6 kad-topbar-left">
+          <div class="topbarmenu clearfix">
+                                </div>
+        </div><!-- close col-md-6 --> 
+        <div class="col-md-6 col-sm-6 kad-topbar-right">
+          <div id="topbar-search" class="topbar-widget">
+                    </div>
+        </div> <!-- close col-md-6-->
+      </div> <!-- Close Row -->
+    </div> <!-- Close Container -->
+  </div><div class="container">
+  <div class="row">
+      <div class="col-md-4 clearfix kad-header-left">
+            <div id="logo" class="logocase">
+              <a class="brand logofont" href="http://emaker.github.io/Fisher/">
+                                  <div id="thelogo">
+                    <img src="http://emaker.limited/wp-content/uploads/2015/12/eMARKER-web.png" alt="Fisher Delta 3D printer" class="kad-standard-logo" />
+                                      </div>
+                              </a>
+                              <p class="kad_tagline belowlogo-text">RepRap Fisher build instructions</p>
+                         </div> <!-- Close #logo -->
+       </div><!-- close logo span -->
+                <div class="col-md-8 kad-header-right">
+           <nav id="nav-main" class="clearfix">
+              <ul id="menu-main" class="sf-menu"><li  class="menu-home sf-dropdown menu-item-18317"><a href="http://emaker.github.io/Fisher/">Home</a>
+<ul class="sf-dropdown-menu">
+	<li  class="menu-base-assembly menu-item-18320"><a href="http://emaker.github.io/Fisher/documentation/base-assembly/">Base assembly</a></li>
+	<li  class="menu-tower-assembly menu-item-18321"><a href="http://emaker.github.io/Fisher/documentation/tower-assembly/">Tower assembly</a></li>
+	<li  class="menu-panels-and-rods menu-item-18322"><a href="http://emaker.github.io/Fisher/documentation/panels-and-rods/">Panels and rods</a></li>
+	<li  class="menu-effector-assembly menu-item-18323"><a href="http://emaker.github.io/Fisher/documentation/effector-assembly/">Effector assembly</a></li>
+	<li  class="menu-extruder-drive menu-item-18324"><a href="http://emaker.github.io/Fisher/documentation/extruder-drive/">Extruder drive</a></li>
+	<li  class="menu-hot-end-assembly menu-item-18325"><a href="http://emaker.github.io/Fisher/documentation/hot-end-assembly/">Hot end assembly</a></li>
+	<li  class="menu-electronics menu-item-18326"><a href="http://emaker.github.io/Fisher/documentation/electronics/">Electronics</a></li>
+	<li  class="menu-bed-top-plate-and-belts menu-item-18327"><a href="http://emaker.github.io/Fisher/documentation/bed-top-plate-and-belts/">Bed, top plate and belts</a></li>
+	<li  class="menu-commissioning menu-item-18328"><a href="http://emaker.github.io/Fisher/documentation/commissioning/">Commissioning</a></li>
+	<li  class="menu-printing menu-item-18329"><a href="http://emaker.github.io/Fisher/documentation/printing/">Printing</a></li>
+</ul>
+</li>
+</ul>           </nav> 
+          </div> <!-- Close menuclass-->
+               
+    </div> <!-- Close Row -->
+     
+</div> <!-- Close Container -->
+  </header>      <div class="wrap contentclass" role="document">
+
+      	<div id="pageheader" class="titleclass">
+		<div class="container">
+			<div class="page-header">
+	<h1 class="entry-title" itemprop="name">
+		Firmware and configuration	</h1>
+   	</div>		</div><!--container-->
+	</div><!--titleclass-->
+    <div id="content" class="container">
+   		<div class="row">
+      		<div class="main col-lg-9 col-md-8" role="main">
+				<div class="entry-content" itemprop="mainContentOfPage">
+					  <h2><span id="Installation_8211_Flashing_the_Firmware">Installation – Flashing the Firmware</span></h2>
+<p>Your Duet will have been supplied with a copy of the RepRap Firmware installed. But upgrades and enhancements will be made available regularly, and you will want to upload or <i>flash</i> these to your Duet.</p>
+<h3><span id="Check_your_firmware_version">Check your firmware version</span></h3>
+<p>Connect to your Duet board via the Arduino IDE Serial Monitor, or Pronterface, and send the ‘M115’ gcode. The response should be something like:</p>
+<p><code>FIRMWARE_NAME:RepRapFirmware FIRMWARE_VERSION:0.78 ELECTRONICS:Duet (+ Extension) DATE:2014-06-11</code></p>
+<p>Compare the firmware version information from the M115 command above, with the file name of the file in <a href="http://reprap.org/wiki/Duet#Firmware_binaries" rel="nofollow">this link</a>, which is on our github page. But DO NOT DOWNLOAD THIS FILE DIRECTLY! This file is the latest binary image of the RepRap Firmware for the Duet. The name of the firmware reflects the version number, eg <b>RepRapFirmware-XXX.bin</b>, where XXX is the version, and may also include the date of the firmware.</p>
+<p>If your firmware version is the same as the github version, there is no need to update. If not, read on…</p>
+<h3><span id="Download_the_latest_firmware">Download the latest firmware</span></h3>
+<p>See <a href="http://reprap.org/wiki/Duet#Firmware_binaries">here</a> for links to firmware binaries.</p>
+<h3><span id="Required_Software">Required Software</span></h3>
+<p>You will need a copy of the Arduino IDE software (you may have already installed this if you followed the ‘commissioning’ instructions). Download and install the latest version, appropriate for you PC, from <a href="https://www.arduino.cc/en/Main/Software">https://www.arduino.cc/en/Main/Software</a> (currently v1.6.6, as of 1st Dec 2015). You <strong>MUST</strong> also install support for the ‘Arduino SAM-based boards’ (like the Due and Duet) by going to Tools &gt; Board &gt; Boards Manager.</p>
+<p>To upload the firmware to the Duet, an application supplied with the Arduino IDE software called <strong>bossac</strong> is used. However, this is not installed as standard, but is downloaded and installed when you install support for the ‘Arduino SAM-based boards’ (see above). So make sure you have installed support for the ‘Arduino SAM-based boards’.</p>
+<p>Once installed, <b>bossac</b>‘s location will depend on your operating system:</p>
+<p><strong>Windows</strong> – C:Users[username]AppDataRoamingArduino15packagesarduinotoolsbossac1.6.1-arduinobossac.exe<br />
+‘AppData’ is a hidden folder, so to see this you will need to ‘show hidden files, folders and drives’ in the Windows Explorer &gt; Tools &gt; Folder options &gt; Views &gt; Advanced settings.</p>
+<p><strong>Ubuntu/Linux</strong> – /home/[username]/.arduino15/packages/arduino/tools/bossac/1.6.1-arduino/bossac<br />
+‘.arduino15’ is an invisible folder, created in your user ‘home’ folder. Ctrl-h usually shows hidden files in Linux.</p>
+<p><strong>Mac</strong> – /Users/{username}/Library/Arduino15/packages/arduino/tools/bossac/1.6.1-arduino/bossac<br />
+The easiest way to get to it, as the Library folder in Users is usually hidden, is to click on the Finder ‘Go &gt; Go to folder…’ menu option, then type ‘~/Library/’, then follow the above path.</p>
+<p>For all operating systems, for updating the firmware, it will be easier if you copy the <strong>bossac application</strong>, and the <strong>firmware .bin file</strong>, into an easily accessible folder.</p>
+<h3><span id="Updating_the_firmware">Updating the firmware</span></h3>
+<table class="docs-table">
+<tbody>
+<tr>
+<td colspan="2">Leave the 12V power to your RepRap off, and connect the Duet to your computer with a USB cable. Make sure that the Arduino IDE Serial Monitor or Pronterface are NOT connected to the Duet board. Press the ERASE button on the Duet. Then press the RESET button. Wait a couple of seconds for the Duet board to start up.</td>
+<td><a class="cboxElement" title="Maintenance - Duet" href="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/duet-reset-erase-jumper1.jpg" rel="attachment wp-att-7583" data-lightboxplus="lightbox[13482]"><img class="alignnone size-medium wp-image-7583" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/duet-reset-erase-jumper-300x1791.jpg" alt="SANYO DIGITAL CAMERA" width="300" height="179" /></a></td>
+</tr>
+</tbody>
+</table>
+<div class="shortcode-toggle toggle-windows closed default border">
+<p class="toggle-trigger"><div class="su-expand su-expand-collapsed su-expand-link-style-default" data-height="0"><div class="su-expand-content" style="color:#333333;max-height:0px;overflow:hidden">
+<h4 class="toggle-trigger">Windows</h4>
+<table class="docs-table">
+<tbody>
+<tr class="alt-table-row">
+<td colspan="2">Check that the Duet has been recognised by Windows, by looking in the Device Manager (<a href="http://www.computerhope.com/issues/ch000833.htm" rel="nofollow">how to</a>). The Duet should be listed in the ‘Ports (COM &amp; LPT)’ list, as ‘bossac programming device’ if the firmware has been erased. If it’s listed as an ‘Arduino Due’, the firmware has NOT been erased; see the above step. It should also have a COM port assigned.</td>
+<td><a class="cboxElement" title="Maintenance - Duet" href="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/Duet-device-manager-02.png" rel="attachment wp-att-10850" data-lightboxplus="lightbox[13482]"><img class="alignnone size-medium wp-image-10850" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/Duet-device-manager-02-300x297.png" alt="Duet-device-manager-02" width="300" height="297" /></a></td>
+</tr>
+<tr>
+<td colspan="2">It will be easier if you copy the <strong>bossac application</strong> (see the ‘Required software’ section above for bossac’s location), and the <strong>firmware .bin file</strong>, into an easily accessible folder. This example copies them both to a simple C:Temp folder.</td>
+<td><a class="cboxElement" title="Maintenance - Duet" href="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/Duet-temp-folder-03.png" rel="attachment wp-att-10849" data-lightboxplus="lightbox[13482]"><img class="alignnone size-medium wp-image-10849" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/Duet-temp-folder-03-300x231.png" alt="Duet-temp-folder-03" width="300" height="231" /></a></td>
+</tr>
+<tr class="alt-table-row">
+<td colspan="2">Open a Command prompt (<a href="http://www.computerhope.com/issues/chdos.htm" rel="nofollow">How to</a>), then type (without quotes) ‘cd C:Temp’ and press return to change directory (or change directory to wherever you put bossac and the firmware file). Type ‘dir’ and press return to get a directory listing; you should see bossac.exe and the firmware file. Type the following (change <strong>XXX</strong> to match the firmware name you want to upload):</p>
+<pre>  <b>bossac.exe -e -w -v -b RepRapFirmware-XXX.bin</b></pre>
+<p>And press return to send the command. Bossac will auto-sense the port the Duet is connected to, report the upload/flash progress then tell you that it has verified the process.</td>
+</tr>
+</tbody>
+</table>
+<p class="toggle-trigger"></div><div class="su-expand-link su-expand-link-more" style="text-align:left"><a href="javascript:;" style="color:#0088FF;border-color:#0088FF"><i class="fa fa-chevron-circle-down"></i><span style="border-color:#0088FF">Windows...</span></a></div><div class="su-expand-link su-expand-link-less" style="text-align:left"><a href="javascript:;" style="color:#0088FF;border-color:#0088FF"><i class="fa fa-chevron-circle-up"></i><span style="border-color:#0088FF">Collapse Windows instructions.</span></a></div></div>
+<div class="shortcode-toggle toggle-windows closed default border">
+<p class="toggle-trigger"><div class="su-expand su-expand-collapsed su-expand-link-style-default" data-height="0"><div class="su-expand-content" style="color:#333333;max-height:0px;overflow:hidden">
+<h4 class="toggle-trigger">Mac OS X</h4>
+<table class="docs-table">
+<tbody>
+<tr>
+<td colspan="2">Check that your Duet has been recognised by your Mac. Open the Arduino IDE, and see that it is in the list of ports; it will be something like <b>cu.usbmodemfa131</b>. You can also get this information by sending ‘ls /dev/cu.*’ in a Terminal window for a list of ports.</td>
+<td></td>
+</tr>
+<tr class="alt-table-row">
+<td colspan="2">It will be easier if you copy the <strong>bossac application</strong> (see the ‘Required software’ section above for bossac’s location), and the <strong>firmware .bin file</strong>, into an easily accessible folder, eg create a folder on your desktop called ‘flash’, and copy bossac and the firmware .bin file to this.</td>
+<td></td>
+</tr>
+<tr>
+<td colspan="2">Open a Terminal window (<a href="http://www.ehow.com/how_8308841_open-macbook-terminal.html" rel="nofollow">how to</a>), cd (change directory) to the folder where you put <strong>bossac</strong> and the <b>RepRapFirmware-XXX.bin</b> file. Then type the following (change <strong>XXX</strong> to match the firmware name you want to upload):</p>
+<pre>  <b>./bossac -e -w -v -b RepRapFirmware-XXX.bin</b></pre>
+<p>Send the command. You should see bossac report the upload/flash progress then tell you that it has verified the process.</td>
+</tr>
+</tbody>
+</table>
+<p class="toggle-trigger"></div><div class="su-expand-link su-expand-link-more" style="text-align:left"><a href="javascript:;" style="color:#0088FF;border-color:#0088FF"><i class="fa fa-chevron-circle-down"></i><span style="border-color:#0088FF">Mac OS X...</span></a></div><div class="su-expand-link su-expand-link-less" style="text-align:left"><a href="javascript:;" style="color:#0088FF;border-color:#0088FF"><i class="fa fa-chevron-circle-up"></i><span style="border-color:#0088FF">CollapseMac OS X instructions.</span></a></div></div>
+</div>
+<div class="shortcode-toggle toggle-mac-os-x closed default border">
+<div class="shortcode-toggle toggle-windows closed default border">
+<p class="toggle-trigger"><div class="su-expand su-expand-collapsed su-expand-link-style-default" data-height="0"><div class="su-expand-content" style="color:#333333;max-height:0px;overflow:hidden">
+<h4 class="toggle-trigger">Linux</h4>
+<table class="docs-table">
+<tbody>
+<tr class="alt-table-row">
+<td colspan="2">Check that your Duet has been recognised by Linux. Open the Arduino IDE, and see that it is in the list of ports; it will be something like <b>/dev/ttyACM0</b>. You can also get this information by sending ‘lsusb’ in a Terminal window for a list of ports; if the firmware has been erased, the Duet should report as ‘Atmel Corp. at91sam SAMBA bootloader’.</td>
+<td><a class="cboxElement" title="Maintenance - Duet" href="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/Duet-firmware-upload-02.png" rel="attachment wp-att-18101" data-lightboxplus="lightbox[13482]"><img class="alignnone size-medium wp-image-18101" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/Duet-firmware-upload-02-300x189.png" alt="Duet-firmware-upload-02" width="300" height="189" /></a></td>
+</tr>
+<tr>
+<td colspan="2">It will be easier if you copy the <strong>bossac application</strong> (see the ‘Required software’ section above for bossac’s location), and the <strong>firmware .bin file</strong>, (from  into an easily accessible folder, eg create a folder on your desktop called ‘flash’, and copy the bossac and the firmware .bin file to this.</td>
+<td></td>
+</tr>
+<tr class="alt-table-row">
+<td colspan="2">Open a terminal windows (xterm, gnome-terminal etc.) and cd (change directory) to the folder where you put <strong>bossac</strong> and the<b>RepRapFirmware-XXX.bin</b> file. Then type the following (change <strong>XXX</strong> to match the firmware name you want to upload):</p>
+<pre>  <b>./bossac -e -w -v -b RepRapFirmware-XXX.bin</b></pre>
+<p>Send the command. You should see bossac report the upload/flash progress then tell you that it has verified the process.</td>
+</tr>
+</tbody>
+</table>
+<p class="toggle-trigger"></div><div class="su-expand-link su-expand-link-more" style="text-align:left"><a href="javascript:;" style="color:#0088FF;border-color:#0088FF"><i class="fa fa-chevron-circle-down"></i><span style="border-color:#0088FF">Linux...</span></a></div><div class="su-expand-link su-expand-link-less" style="text-align:left"><a href="javascript:;" style="color:#0088FF;border-color:#0088FF"><i class="fa fa-chevron-circle-up"></i><span style="border-color:#0088FF">Collapse Linux instructions.</span></a></div></div>
+<p class="toggle-trigger">
+</div>
+<div class="shortcode-toggle toggle-mac-os-x closed default border">If it doesn’t work, check the error message. It may be you are running it from the wrong directory (eg ‘command not found’ or ‘no such file or directory’), or the firmware file name is wrong (‘no such file or directory’), or the command has been input incorrectly (‘bossac: invalid option’) or you haven’t waited quite long enough for the Duet to stabilise after pressing ‘erase’ and ‘reset’ (‘Auto scan for device failed’). Also, press ‘erase’ and ‘reset’ on the Duet again, and wait a little longer.</div>
+</div>
+</div>
+<h3><span id="IMPORTANT_Update_the_SD_Card_files">IMPORTANT: Update the SD Card files!</span></h3>
+<p>Finally, you need to keep the files on the SD card ON THE SAME VERSION as the firmware you just updated to. Copy the contents of the <b>SD-Image </b>folder from firmware folder (the .zip file you downloaded) to the root of your SD Card. Rename the sys-[printer-version] folder to ‘sys’, where [printer-version] is your printer and version (eg Ormerod 1 or Ormerod 2), as you did in the Commissioning instructions. If you have created a custom config.g file on your SD Card, copy them off the card first. Then copy the standard new config.g file to keep a backup, and edit it to reflect your custom settings for things such as network settings, bed probe points and any other custom settings.</p>
+<h2><span id="SD_Files">SD Files</span></h2>
+<p>The Duet needs to store RepRap Firmware configuration files on an <a href="http://en.wikipedia.org/wiki/Micro_SD" rel="nofollow">micro SD card</a>. It needs those files to be present all the time that the firmware is running, so <b>don’t unplug the SD card while power is applied</b>, either from the RepRap’s main power supply, or just from the USB.</p>
+<p>Your Duet should have been supplied with a micro SD card. You will need to copy the configuration files to this. You will also need to set your network addresses in the configuration files, if you plan to access the printer via the ethernet port.</p>
+<p>Take the SD card, put it in a computer adapter, and plug it into your computer.</p>
+<p>Download the RepRap Firmware files as described <a href="http://reprap.org/wiki/Duet#Firmware_binaries">here</a>. Use the Download Zip button (with the little cloud and arrow) on that page to download all the files.</p>
+<p>There is a folder in the Github repository you downloaded called <b>SD-Image-[printer-version]</b>. It has three sub-folders:</p>
+<p><a class="cboxElement" title="Maintenance - Duet" href="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/Folders.png" rel="attachment wp-att-4235" data-lightboxplus="lightbox[13482]"><img src="http://emaker.github.io/Fisher/wp-content/uploads/2016/03/Folders.png" alt="Folders" width="554" height="245" /></a></p>
+<p>You can put any GCode files you want to print in the <b>gcodes</b> folder. For the moment file names are restricted to <a href="http://en.wikipedia.org/wiki/8.3_filename" rel="nofollow">8.3 format</a>. This restriction will be removed in a future upgrade.</p>
+<p>Remove any old versions of these folders from the SD card, then copy the <b>gcodes</b>, <b>sys</b>, and <b>www</b> folders onto it.</p>
+<p>In the <b>sys</b> folder on the SD card there is a file called <b>config.g</b>. This special G Code file is run whenever the RepRap Firmware is restarted. It is described in detail below. For the moment you just need to set appropriate values in it for your network. Open a text editor (such as gedit or Notepad) and read in the file <b>config.g</b>. Near the top are four lines like this:</p>
+<pre>M540 P0xBE:0xEF:0xDE:0xAD:0xFE:0xED ; Set the MAC address
+M552 P192.168.1.14; Set the IP address
+M553 P255.255.255.0; Set netmask
+M554 P192.168.1.1; Set the gateway</pre>
+<p>Unless you run multiple Duets on one network you should not need to change the MAC address. On the following lines change the numbers after the capital letter “P” to the values for your network. If you don’t know these, your network administrator will be able to tell you. Save the edited file.</p>
+<p>Unmount or eject the SD card and its adapter from your computer. If it asks you if you want to erase any deleted files, say yes.</p>
+<p>Put the SD card in your Duet’s SD card slot. It has a bistable click action – push it in and it will click in. To get it out, push it again and it will spring out. A short length of RepRap 1.75mm diameter filament makes a good tool to push with.</p>
+<h3><span id="The_configuration_file">The configuration file</span></h3>
+<p>As has already been mentioned, RepRap Firmware can run a configuration file when it starts to set it and your RepRap up in the way you want. This is the file <b>config.g</b> in the <b>sys</b> folder on the SD card. This is an ordinary file of G Codes, but it is saved in a separate folder so that it can’t be deleted by accident.</p>
+<p>The contents of <b>config.g</b> will look something like this:</p>
+<pre>; Configuration file for RepRap Ormerod 2
+; RepRapPro Ltd
+;
+M111 S0                             ; Debug off
+M550 PMy RepRapPro Ormerod 2        ; Machine name (can be anything you like)
+M551 Preprap                        ; Machine password (currently not used)
+M540 P0xBE:0xEF:0xDE:0xAD:0xFE:0xED ; MAC Address
+M552 P192.168.1.14                  ; IP address
+M553 P255.255.255.0                 ; Netmask
+M554 P192.168.1.1                   ; Gateway
+M555 P2                             ; Set output to look like Marlin
+G21                                 ; Work in millimetres
+G90                                 ; Send absolute coordinates...
+M83                                 ; ...but relative extruder moves
+M906 X800 Y1000 Z800 E800           ; Set motor currents (mA)
+M563 P1 D0 H1                       ; Define tool 1
+G10 P1 S0 R0                        ; Set tool 1 operating and standby temperatures
+M92 E420                            ; Set extruder steps per mm
+M558 P2                             ; Use a modulated Z probe
+G31 Z2.5 P370                       ; Set the probe height and threshold
+M557 P0 X60 Y0                      ; Four...
+M557 P1 X60 Y165                    ; ...probe points...
+M557 P2 X222 Y165                   ; ...for bed...
+M557 P3 X222 Y0                     ; ...levelling
+M556 S78 X0 Y0 Z0                   ; Put your axis compensation here
+M201 X800 Y800 Z15 E1000            ; Accelerations (mm/s^2)
+M203 X15000 Y15000 Z100 E3600       ; Maximum speeds (mm/min)
+M566 X600 Y600 Z30 E20              ; Minimum speeds mm/minute
+</pre>
+<p>Anything including and after a “;” is a comment and will be ignored. As you can see you can give your machine any name you like, and any password. There is a complete list of all the RepRap G, M and T codes on <a href="http://reprap.org/wiki/G-code" rel="nofollow">the RepRap website here</a>. RepRap Firmware does not (nor does it need to) implement them all, but if you send it one that is not implemented it will output a short error message on its USB connection, which you can see in the Pronterface monitor window.</p>
+<p>You can edit <b>config.g</b> with an ordinary text editor (gedit, Notepad etc.), then upload it using Pronterface as described below.</p>
+<p>Generally speaking, it is a bad idea to put anything in <b>config.g</b> that will cause the RepRap machine to move, or its heaters to heat up. This is because it will do this every time it is switched on or rebooted.. Moving and heating G Codes are much better put at the head of individual G Code files for printing things, <a href="http://reprap.org/wiki/G-code" rel="nofollow">as described here</a>.</p>
+<h3><span id="Other_sys_files">Other sys files</span></h3>
+<p>RepRapFirmware allows subprograms or <i>macros</i> to be programmed and placed in the <b>sys</b> folder. There are standard ones in there for doing things like homing the axes, but you can write your own too. Simply place a GCode file in the <b>sys</b> folder called, say, <b>mymacro.g</b>. You can then run it from Pronterface or the web interface or from within a GCode file by giving the command:</p>
+<pre>M98 Pmymacro.g</pre>
+<p>Here is the macro that homes the X axis as an example, with comments:</p>
+<pre>G91 ; set movements relative
+G1 Z5 F200 ; move upwards 5mm at 200 mm/min to make sure we don't hit anything
+G90 ; set movements absolute
+G1 X-240 F2000 S1 ; Move X a long way negative while checking the endstop
+G92 X0 ; The endstop will have been hit.  Set the X coordinate to 0
+G1 X3 F200 ; Move a little away from the endstop more slowly
+G1 X-30 S1 ; Approach the endstop more slowly to get a more accurate 0
+G92 X0 ; Set the X coordiante to 0
+G91 ; set movements relative
+G1 Z-5 F200 ; Go down 5mm to reset the upward movement at the beginning</pre>
+  				</div>
+							</div><!-- /.main -->
+            
+                      <aside class="col-lg-3 col-md-4 kad-sidebar" role="complementary">
+              <div class="sidebar">
+                <section id="nav_menu-2" class="widget-1 widget-first widget widget_nav_menu"><div class="widget-inner"><ul id="menu-side-nav" class="menu"><li  class="menu-base-assembly menu-item-18331"><a href="http://emaker.github.io/Fisher/documentation/base-assembly/">Base assembly</a></li>
+<li  class="menu-tower-assembly menu-item-18332"><a href="http://emaker.github.io/Fisher/documentation/tower-assembly/">Tower assembly</a></li>
+<li  class="menu-panels-and-rods menu-item-18333"><a href="http://emaker.github.io/Fisher/documentation/panels-and-rods/">Panels and rods</a></li>
+<li  class="menu-effector-assembly menu-item-18334"><a href="http://emaker.github.io/Fisher/documentation/effector-assembly/">Effector assembly</a></li>
+<li  class="menu-extruder-drive menu-item-18335"><a href="http://emaker.github.io/Fisher/documentation/extruder-drive/">Extruder drive</a></li>
+<li  class="menu-hot-end-assembly menu-item-18336"><a href="http://emaker.github.io/Fisher/documentation/hot-end-assembly/">Hot end assembly</a></li>
+<li  class="menu-electronics menu-item-18337"><a href="http://emaker.github.io/Fisher/documentation/electronics/">Electronics</a></li>
+<li  class="menu-bed-top-plate-and-belts menu-item-18338"><a href="http://emaker.github.io/Fisher/documentation/bed-top-plate-and-belts/">Bed, top plate and belts</a></li>
+<li  class="menu-commissioning menu-item-18339"><a href="http://emaker.github.io/Fisher/documentation/commissioning/">Commissioning</a></li>
+<li  class="menu-printing menu-item-18340"><a href="http://emaker.github.io/Fisher/documentation/printing/">Printing</a></li>
+</ul></div></section>              </div><!-- /.sidebar -->
+            </aside><!-- /aside -->
+                    </div><!-- /.row-->
+        </div><!-- /.content -->
+      </div><!-- /.wrap -->
+      <footer id="containerfooter" class="footerclass" role="contentinfo">
+  <div class="container">
+  	<div class="row">
+  				        		                </div>
+        <div class="footercredits clearfix">
+    		
+    		        	<p>&copy; 2016 Fisher Delta 3D printer - WordPress Theme by <a href="http://www.kadencethemes.com/" target="_blank">Kadence Themes</a></p>
+    	</div>
+
+  </div>
+
+</footer>
+
+<link rel='stylesheet' id='font-awesome-css'  href='//netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css?ver=4.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='su-box-shortcodes-css'  href='http://emaker.github.io/Fisher/wp-content/plugins/shortcodes-ultimate/assets/css/box-shortcodes.css?ver=4.9.9' type='text/css' media='all' />
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-includes/js/masonry.min.js?ver=3.1.2'></script>
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-content/themes/virtue/assets/js/min/plugins-min.js?ver=266'></script>
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-content/themes/virtue/assets/js/main.js?ver=266'></script>
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-includes/js/wp-embed.min.js?ver=4.4.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var su_other_shortcodes = {"no_preview":"This shortcode doesn't work in live preview. Please insert it into editor and preview on the site."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-content/plugins/shortcodes-ultimate/assets/js/other-shortcodes.js?ver=4.9.9'></script>
+    </div><!--Wrapper-->
+  </body>
+</html>

@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en-US"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en-US"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+<base href="http://emaker.github.io/Fisher" />
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Hot end assembly &#8211; Fisher Delta 3D printer</title>
+<meta name='robots' content='noindex,follow' />
+
+
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/localhost\/wordpress\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='kadence_theme-css'  href='http://emaker.github.io/Fisher/wp-content/themes/virtue/assets/css/virtue.css?ver=266' type='text/css' media='all' />
+<link rel='stylesheet' id='virtue_skin-css'  href='http://emaker.github.io/Fisher/wp-content/themes/virtue/assets/css/skins/default.css' type='text/css' media='all' />
+<link rel='stylesheet' id='virtue_child-css'  href='http://emaker.github.io/Fisher/wp-content/themes/virtue-child/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='redux-google-fonts-virtue-css'  href='http://fonts.googleapis.com/css?family=Lato%3A400%2C700&#038;ver=1457962026' type='text/css' media='all' />
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-content/themes/virtue/assets/js/vendor/modernizr.min.js'></script>
+<link rel='https://api.w.org/' href='http://emaker.github.io/Fisher/wp-json/' />
+
+ 
+
+<link rel='next' title='Extruder drive' href='http://emaker.github.io/Fisher/documentation/extruder-drive/' />
+
+<link rel="canonical" href="http://emaker.github.io/Fisher/documentation/hot-end-assembly/" />
+<link rel='shortlink' href='http://emaker.github.io/Fisher/?p=17151' />
+
+
+<style type="text/css">#logo {padding-top:25px;}#logo {padding-bottom:12px;}#logo {margin-left:0px;}#logo {margin-right:0px;}#nav-main {margin-top:40px;}#nav-main {margin-bottom:10px;}.headerfont, .tp-caption {font-family:Lato;} 
+  .topbarmenu ul li {font-family:Lato;}
+  #kadbreadcrumbs {font-family:Verdana, Geneva, sans-serif;}input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; } input[type=number] {-moz-appearance: textfield;}.quantity input::-webkit-outer-spin-button,.quantity input::-webkit-inner-spin-button {display: none;}.topclass {background:#d6dfee    ;}.product_item .product_details h5 {text-transform: none;}.product_item .product_details h5 {min-height:40px;}.kad-topbar-left, .kad-topbar-left .topbarmenu {float:right;} .kad-topbar-left .topbar_social, .kad-topbar-left .topbarmenu ul, .kad-topbar-left .kad-cart-total,.kad-topbar-right #topbar-search .form-search{float:left}.topbarmenu ul li a {
+  color: black;
+}
+.sidebar ul.sf-dropdown-menu li {
+  border-bottom: none;
+}
+
+.subhead, .postdate {
+  display: none;
+}
+
+header h1.entry-title {
+  background: #d6dfee;
+  margin-top: 0px;
+}
+
+.nav-prev {
+    float: left;
+    width: 50%;
+}
+.nav-next {
+    float: right;
+    text-align: right;
+    width: 50%;
+}
+
+.single-article article {
+  margin-top: 0px;
+}
+.single-article aside {
+  margin-top: 30px;
+}
+body.single-documentation table.docs-table-container {vertical-align:top;}
+body.single-documentation table.docs-table-container td {padding: 0px 20px 0px 0px; border: 0px;}
+
+body.single-documentation table.docs-table-parts {border-collapse: collapse;}
+body.single-documentation table.docs-table-parts thead {font-weight:bold;font-size:90%;}
+body.single-documentation table.docs-table-parts td {font-size:90% ;padding: 2px 8px 5px 5px; border: 1px solid #ccc;}
+body.single-documentation table.docs-table-parts tr td:nth-child(3) {text-align: center;}
+body.single-documentation table.docs-table-parts tbody tr:hover {background:#AAFFAA;}
+
+body.single-documentation table.docs-table-parts-4col {border-collapse: collapse;}
+body.single-documentation table.docs-table-parts-4col thead {font-weight:bold;font-size:90%;}
+body.single-documentation table.docs-table-parts-4col td {font-size:90% ;padding: 2px 8px 5px 5px; border: 1px solid #ccc;}
+body.single-documentation table.docs-table-parts-4col tr td:nth-child(1) {text-align: center;}
+body.single-documentation table.docs-table-parts-4col tbody tr:hover {background:#AAFFAA;}
+
+body.single-documentation table.docs-table {border-collapse: collapse;}
+body.single-documentation table.docs-table td {vertical-align:top; padding: 0px; border-bottom: 1px solid #eee;}
+body.single-documentation table.docs-table td:first-child {width:465px; padding: 2px 20px 5px 5px;}
+body.single-documentation table.docs-table tr:hover {background:#AAFFAA;}
+
+</style><!--[if lt IE 9]>
+<script src="http://emaker.github.io/Fisher/wp-content/themes/virtue/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+<style type="text/css" title="dynamic-css" class="options-output">header #logo a.brand,.logofont{font-family:Lato;line-height:40px;font-weight:400;font-style:normal;font-size:32px;}.kad_tagline{font-family:Lato;line-height:24px;font-weight:400;font-style:normal;color:#444444;font-size:14px;}.product_item .product_details h5{font-family:Lato;line-height:20px;font-weight:700;font-style:normal;font-size:16px;}h1{font-family:Lato;line-height:40px;font-weight:400;font-style:normal;font-size:38px;}h2{font-family:Lato;line-height:40px;font-weight:normal;font-style:normal;font-size:32px;}h3{font-family:Lato;line-height:40px;font-weight:400;font-style:normal;font-size:28px;}h4{font-family:Lato;line-height:40px;font-weight:400;font-style:normal;font-size:24px;}h5{font-family:Lato;line-height:24px;font-weight:700;font-style:normal;font-size:18px;}body{font-family:Verdana, Geneva, sans-serif;line-height:20px;font-weight:400;font-style:normal;font-size:14px;}#nav-main ul.sf-menu a{font-family:Lato;line-height:18px;font-weight:normal;font-style:400;font-size:12px;}#nav-second ul.sf-menu a{font-family:Lato;line-height:22px;font-weight:normal;font-style:400;font-size:18px;}.kad-nav-inner .kad-mnav, .kad-mobile-nav .kad-nav-inner li a,.nav-trigger-case{font-family:Lato;line-height:20px;font-weight:normal;font-style:400;font-size:16px;}</style></head>
+  <body class="single single-documentation postid-17151 wide hot-end-assembly">
+    <div id="wrapper" class="container">
+    <div id="kt-skip-link"><a href="#content">Skip to Main Content</a></div><header class="banner headerclass">
+  <div id="topbar" class="topclass">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-6 kad-topbar-left">
+          <div class="topbarmenu clearfix">
+                                </div>
+        </div><!-- close col-md-6 --> 
+        <div class="col-md-6 col-sm-6 kad-topbar-right">
+          <div id="topbar-search" class="topbar-widget">
+                    </div>
+        </div> <!-- close col-md-6-->
+      </div> <!-- Close Row -->
+    </div> <!-- Close Container -->
+  </div><div class="container">
+  <div class="row">
+      <div class="col-md-4 clearfix kad-header-left">
+            <div id="logo" class="logocase">
+              <a class="brand logofont" href="http://emaker.github.io/Fisher/">
+                                  <div id="thelogo">
+                    <img src="http://emaker.limited/wp-content/uploads/2015/12/eMARKER-web.png" alt="Fisher Delta 3D printer" class="kad-standard-logo" />
+                                      </div>
+                              </a>
+                              <p class="kad_tagline belowlogo-text">RepRap Fisher build instructions</p>
+                         </div> <!-- Close #logo -->
+       </div><!-- close logo span -->
+                <div class="col-md-8 kad-header-right">
+           <nav id="nav-main" class="clearfix">
+              <ul id="menu-main" class="sf-menu"><li  class="menu-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor sf-dropdown menu-item-18317"><a href="http://emaker.github.io/Fisher/">Home</a>
+<ul class="sf-dropdown-menu">
+	<li  class="menu-base-assembly menu-item-18320"><a href="http://emaker.github.io/Fisher/documentation/base-assembly/">Base assembly</a></li>
+	<li  class="menu-tower-assembly menu-item-18321"><a href="http://emaker.github.io/Fisher/documentation/tower-assembly/">Tower assembly</a></li>
+	<li  class="menu-panels-and-rods menu-item-18322"><a href="http://emaker.github.io/Fisher/documentation/panels-and-rods/">Panels and rods</a></li>
+	<li  class="menu-effector-assembly menu-item-18323"><a href="http://emaker.github.io/Fisher/documentation/effector-assembly/">Effector assembly</a></li>
+	<li  class="menu-extruder-drive menu-item-18324"><a href="http://emaker.github.io/Fisher/documentation/extruder-drive/">Extruder drive</a></li>
+	<li  class="menu-hot-end-assembly current-menu-item menu-item-18325"><a href="http://emaker.github.io/Fisher/documentation/hot-end-assembly/">Hot end assembly</a></li>
+	<li  class="menu-electronics menu-item-18326"><a href="http://emaker.github.io/Fisher/documentation/electronics/">Electronics</a></li>
+	<li  class="menu-bed-top-plate-and-belts menu-item-18327"><a href="http://emaker.github.io/Fisher/documentation/bed-top-plate-and-belts/">Bed, top plate and belts</a></li>
+	<li  class="menu-commissioning menu-item-18328"><a href="http://emaker.github.io/Fisher/documentation/commissioning/">Commissioning</a></li>
+	<li  class="menu-printing menu-item-18329"><a href="http://emaker.github.io/Fisher/documentation/printing/">Printing</a></li>
+</ul>
+</li>
+</ul>           </nav> 
+          </div> <!-- Close menuclass-->
+               
+    </div> <!-- Close Row -->
+     
+</div> <!-- Close Container -->
+  </header>      <div class="wrap contentclass" role="document">
+
+          <div id="content" class="container">
+    <div class="row single-article" itemscope="" itemtype="http://schema.org/BlogPosting">
+      <div class="main col-lg-9 col-md-8" role="main">
+                  <article class="post-17151 documentation type-documentation status-publish hentry category-fisher-1">
+                <div class="postmeta updated color_gray">
+      <div class="postdate bg-lightgray headerfont" itemprop="datePublished">
+      <span class="postday">13</span>
+      Oct 2015    </div>
+</div> 
+    <header>
+      <h1 class="entry-title" itemprop="name headline">Hot end assembly</h1>
+      <div class="subhead">
+    <span class="postauthortop author vcard">
+    <i class="icon-user"></i> by  <span itemprop="author"><a href="http://emaker.github.io/Fisher/author/jeanmarc/" class="fn" rel="author">jeanmarc</a></span> |</span>
+      
+    <span class="postedintop"><i class="icon-folder-open"></i> posted in: <a href="http://emaker.github.io/Fisher/category/fisher-1/" rel="category tag">Fisher 1</a></span>     <span class="kad-hidepostedin">|</span>
+    <span class="postcommentscount">
+    <i class="icon-comments-alt"></i> 0    </span>
+</div>  
+    </header>
+    <div class="entry-content" itemprop="description articleBody">
+      <h1>Goal</h1>
+<table class="docs-table">
+<tbody>
+<tr>
+<td>By the end of this section, you will have built the hot end, assembled it with the effector, and installed it in the printer frame.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-084.jpg" rel="attachment wp-att-17094"><img class="alignnone size-medium wp-image-17094" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-084-300x200.jpg" alt="RRP-FISH1-084" width="300" height="200" /></a></td>
+</tr>
+</tbody>
+</table>
+<h1>Assemble the hot end components</h1>
+<p>&nbsp;</p>
+<p>The hot end melts the filament, and extrudes it, to build the 3D printed object.</p>
+<h2>Nozzle assembly</h2>
+<p>The nozzle is where the filament is heated and extruded from. You will need the following parts:</p>
+<table class="docs-table-container">
+<tbody>
+<tr>
+<td>
+<table class="docs-table-parts">
+<thead>
+<tr>
+<td>#</td>
+<td>Component</td>
+<td>Qty</td>
+<td>Type</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1180</td>
+<td>Brass nut</td>
+<td>1</td>
+<td>Hot end</td>
+</tr>
+<tr>
+<td>739</td>
+<td>Heater block</td>
+<td>1</td>
+<td>Hot end</td>
+</tr>
+<tr>
+<td>1179</td>
+<td>Threaded nozzle</td>
+<td>1</td>
+<td>Hot end</td>
+</tr>
+<tr>
+<td>1136</td>
+<td>Heatsink</td>
+<td>1</td>
+<td>Hot end</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/hot-end-components.jpg" rel="attachment wp-att-15256"><img class="alignnone size-medium wp-image-15256" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/hot-end-components-300x147.jpg" alt="hot-end-components" width="300" height="147" /></a></td>
+</tr>
+</tbody>
+</table>
+<table class="docs-table">
+<tbody>
+<tr>
+<td>Screw the nozzle into the base of the heatsink by hand.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/nozzle-fitted.jpg" rel="attachment wp-att-15255"><img class="alignnone size-medium wp-image-15255" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/nozzle-fitted-300x178.jpg" alt="nozzle-fitted" width="300" height="178" /></a></td>
+</tr>
+<tr>
+<td>Screw the heater block onto the nozzle, again by hand. There is not need to use any tools at this stage. Take care to fit the heater block with the small hole nearest the nozzle tip.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/heater-block-fitted.jpg" rel="attachment wp-att-15254"><img class="alignnone size-medium wp-image-15254" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/heater-block-fitted-300x225.jpg" alt="heater-block-fitted" width="300" height="225" /></a></td>
+</tr>
+<tr>
+<td>Fit the brass nut. Using an 8mm spanner, gently tighten the assembly until it is just over &#8216;finger tight&#8217;. The constriction in the nozzle has a very thin wall, so care should be taken not to over tighten the assembly as it may result in snapping the nozzle.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/brass-nut-fitted.jpg" rel="attachment wp-att-15253"><img class="alignnone size-medium wp-image-15253" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/brass-nut-fitted-300x223.jpg" alt="brass-nut-fitted" width="300" height="223" /></a></td>
+</tr>
+</tbody>
+</table>
+<h2>Bowden tube</h2>
+<p>The Bowden tube carries the filament to the hot end, from the extruder. You will need the following parts:</p>
+<table class="docs-table-container">
+<tbody>
+<tr>
+<td>
+<table class="docs-table-parts">
+<thead>
+<tr>
+<td>#</td>
+<td>Component</td>
+<td>Qty</td>
+<td>Type</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>Nozzle assembly</td>
+<td>1</td>
+<td>Assembled</td>
+</tr>
+<tr>
+<td>1055</td>
+<td>Bowden tube</td>
+<td>1</td>
+<td>Hot end</td>
+</tr>
+<tr>
+<td>106</td>
+<td>Bowden start</td>
+<td>1</td>
+<td>Hot end</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td> Picture to come</td>
+</tr>
+</tbody>
+</table>
+<table class="docs-table">
+<tbody>
+<tr>
+<td>Take the PTFE tube. Make sure the ends of the PTFE tube are cut square. (Filament has been inserted into tube just to show the tube against the background.)</td>
+<td><a title="Hot end assembly" href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/HUX2-hot-end-06.jpg" rel="attachment wp-att-10478"><img class="alignnone size-medium wp-image-10478" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/HUX2-hot-end-06-300x225.jpg" alt="HUX2-hot-end-06" width="300" height="225" /></a></td>
+</tr>
+<tr>
+<td>You are going to screw the brass Bowden start and the heatsink onto each end of the tube. This will compress the PTFE tube’s inner hole. To allow the filament to run freely in the tube, you need to open out the ends of the PTFE tube first. Use a <strong>2.5mm</strong> (2mm is too small, 3mm is too big) drill bit in a small hand chuck, or a slow electric drill.</td>
+<td><a title="Hot end assembly" href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/HUX2-hot-end-07.jpg" rel="attachment wp-att-10479"><img class="alignnone size-medium wp-image-10479" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/HUX2-hot-end-07-300x225.jpg" alt="HUX2-hot-end-07" width="300" height="225" /></a></td>
+</tr>
+<tr>
+<td>Gently, and twisting clockwise all the time – never anti-clockwise, whether going in or coming out – use the drill bit to enlarge the inner hole in the PTFE, to a depth of around 15mm. Try to keep the drill as straight as possible into the tube.</td>
+<td><a title="Hot end assembly" href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/HUX2-hot-end-08.jpg" rel="attachment wp-att-10480"><img class="alignnone size-medium wp-image-10480" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/HUX2-hot-end-08-300x225.jpg" alt="HUX2-hot-end-08" width="300" height="225" /></a></td>
+</tr>
+<tr>
+<td>Take several goes at it, going a couple of millimetres deeper each time and drawing the PTFE swarf out by keeping twisting clockwise and pulling. The drill should pull the PTFE swarf out with it. Repeat the process at the other end of the PTFE tube.</td>
+<td><a title="Hot end assembly" href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/HUX2-hot-end-09.jpg" rel="attachment wp-att-10481"><img class="alignnone size-medium wp-image-10481" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/HUX2-hot-end-09-300x225.jpg" alt="HUX2-hot-end-09" width="300" height="225" /></a></td>
+</tr>
+<tr>
+<td><strong>IMPORTANT! The PTFE tube MUST BE CLEAR OF ALL PTFE SWARF before screwing the heatsink on!</strong> Push a piece of filament (use the 50cm piece you cut for the extruder testing) through the tube, which should push out any remaining PTFE swarf. Blow down the tube, from both ends, as well. It is very important to get any PTFE swarf out of the tube, otherwise this will end up in the nozzle the first time you print, blocking it!</td>
+<td><a title="Hot end assembly" href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/HUX2-hot-end-10.jpg" rel="attachment wp-att-10482"><img class="alignnone size-medium wp-image-10482" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/HUX2-hot-end-10-300x225.jpg" alt="HUX2-hot-end-10" width="300" height="225" /></a></td>
+</tr>
+<tr>
+<td>Screw the tube into the heatsink as far as it will go, at which point the end of the tube will butt against the nozzle inside the heatsink.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/bowden-end-fitted.jpg" rel="attachment wp-att-15252"><img class="alignnone size-medium wp-image-15252" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/bowden-end-fitted-300x256.jpg" alt="bowden-end-fitted" width="300" height="256" /></a></td>
+</tr>
+<tr>
+<td>Now you’re going to screw the brass Bowden end and the nozzle onto the PTFE tube. To help guide them onto the tube straight, put a piece of filament into the PTFE tube. This will keep the brass Bowden end (and nozzle) and PTFE tube axially in line; you don’t want them screwed on at an angle. Push the brass Bowden end up to the PTFE tube, and push while turning it clockwise. It will start to cut its own thread into the PTFE tube.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/HUX2-hot-end-11.jpg" rel="attachment wp-att-10483"><img class="alignnone size-medium wp-image-10483" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/HUX2-hot-end-11-300x225.jpg" alt="HUX2-hot-end-11" width="300" height="225" /></a></td>
+</tr>
+<tr>
+<td>If you have trouble getting the brass Bowden start started on tube, you can use a pencil sharpener to make a cone on the end of the tube.</td>
+<td><a title="Hot end assembly" href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/HUX2-hot-end-13.jpg" rel="attachment wp-att-10485"><img class="alignnone size-medium wp-image-10485" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/HUX2-hot-end-13-300x225.jpg" alt="HUX2-hot-end-13" width="300" height="225" /></a></td>
+</tr>
+<tr>
+<td>Don’t cut too deeply with the pencil sharpener, which will make the cone too deep and long, or it will compress onto the filament when the brass Bowden start is screwed on.</td>
+<td><a title="Hot end assembly" href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/HUX2-hot-end-14.jpg" rel="attachment wp-att-10486"><img class="alignnone size-medium wp-image-10486" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/HUX2-hot-end-14-300x225.jpg" alt="HUX2-hot-end-14" width="300" height="225" /></a></td>
+</tr>
+<tr>
+<td>Keep turning until the Bowden start will not screw on any further. If you then remove the brass union, you should see that the Bowden tube end has been threaded, to a depth of around 8mm.</td>
+<td><a title="Hot end assembly" href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/HUX2-hot-end-12.jpg" rel="attachment wp-att-10484"><img class="alignnone size-medium wp-image-10484" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/HUX2-hot-end-12-300x225.jpg" alt="HUX2-hot-end-12" width="300" height="225" /></a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h2>Thermistor</h2>
+<p>The thermistor is the temperature sensor for the hot end, and makes sure the hot end stays at the correct temperature. So it&#8217;s rather vital! You will need the following parts:</p>
+<table class="docs-table-container">
+<tbody>
+<tr>
+<td>
+<table class="docs-table-parts">
+<thead>
+<tr>
+<td>#</td>
+<td>Component</td>
+<td>Qty</td>
+<td>Type</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td> 430</td>
+<td>Thermistor</td>
+<td>1</td>
+<td>Hot end</td>
+</tr>
+<tr>
+<td> 167</td>
+<td>PTFE heatshrink</td>
+<td>1</td>
+<td>Hot end</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td><a title="Hot end assembly" href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/ORM-HotEndBuild-18.jpg" rel="attachment wp-att-5876"><img src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/ORM-HotEndBuild-18-300x225.jpg" alt="ORM-HotEndBuild-18" width="300" height="225" /></a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<table class="docs-table">
+<tbody>
+<tr>
+<td>This is how the thermistor should look with the PTFE shrunk onto it.</td>
+<td><a title="Hot end assembly" href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/ORM-HotEndBuild-25.jpg" rel="attachment wp-att-5883"><img src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/ORM-HotEndBuild-25-300x225.jpg" alt="ORM-HotEndBuild-25" width="300" height="225" /></a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div class="su-expand su-expand-collapsed su-expand-link-style-default" data-height="0"><div class="su-expand-content" style="color:#333333;max-height:0px;overflow:hidden">
+<table class="docs-table">
+<tbody>
+<tr>
+<td>Cut the transparent PTFE heatshrink about 8mm shorter than the thermistor with its axial connecting wires. Put the thermistor in it so that 4mm of wire protrudes from each end.</td>
+<td><a title="Hot end assembly" href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/ORM-HotEndBuild-18.jpg" rel="attachment wp-att-5876"><img src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/ORM-HotEndBuild-18-300x225.jpg" alt="ORM-HotEndBuild-18" width="300" height="225" /></a></td>
+</tr>
+<tr>
+<td>Using a flame (a cigarette lighter, blowtorch, gas hob, or hot air gun work well; a hair dryer does not), shrink the heatshrink over the thermistor. Just waft the thermistor and heatshrink through the flame. You don’t want the heatshrink to overheat and to burn.</td>
+<td><a title="Hot end assembly" href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/hot-end-ptfe-heatshrink.jpg"><img src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/hot-end-ptfe-heatshrink-300x160.jpg" alt="SANYO DIGITAL CAMERA" width="300" height="160" /></a></td>
+</tr>
+<tr>
+<td>If you’re doing this with a cigarette lighter, hold the thermistor at one end, and heat the heatshrink from the middle out to the other end. The heatshrink will be transparent when it has fully shrunk, and will then go back to opaque when the heat is removed. Keep it above, not in, the flame, so it doesn’t overheat and go black.</td>
+<td><a title="Hot end assembly" href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/ORM-HotEndBuild-20.jpg" rel="attachment wp-att-5878"><img src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/ORM-HotEndBuild-20-300x225.jpg" alt="ORM-HotEndBuild-20" width="300" height="225" /></a></td>
+</tr>
+<tr>
+<td>Let it cool for a few moments, then turn it around and do the other side. Rolling the thermistor between your fingers while heating will improve the consistency of the heatshink.</td>
+<td><a title="Hot end assembly" href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/ORM-HotEndBuild-23.jpg" rel="attachment wp-att-5881"><img src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/ORM-HotEndBuild-23-300x225.jpg" alt="ORM-HotEndBuild-23" width="300" height="225" /></a></td>
+</tr>
+<tr>
+<td>Turn it around again and heat the first side, rolling it in your fingers, to get a really good, even heatshrink. Make sure it has shrunk properly around the central bulge, or it won’t fit easily into the heater block.</td>
+<td><a title="Hot end assembly" href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/ORM-HotEndBuild-24.jpg" rel="attachment wp-att-5882"><img src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/ORM-HotEndBuild-24-300x225.jpg" alt="ORM-HotEndBuild-24" width="300" height="225" /></a></td>
+</tr>
+<tr>
+<td>This is how the thermistor should look with the PTFE shrunk onto it.</td>
+<td><a title="Hot end assembly" href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/ORM-HotEndBuild-25.jpg" rel="attachment wp-att-5883"><img src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/ORM-HotEndBuild-25-300x225.jpg" alt="ORM-HotEndBuild-25" width="300" height="225" /></a></td>
+</tr>
+<tr>
+<td>Test the resistance of the thermistor with a multimeter. It should be around 100k ohms at an ambient temperature of 25C. Like the heated bed thermistor, the resistance will be greater if it is colder, and less if hotter.</td>
+<td><a title="Hot end assembly" href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/HUX2-hot-end-29.jpg" rel="attachment wp-att-10501"><img class="alignnone size-medium wp-image-10501" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/HUX2-hot-end-29-300x225.jpg" alt="HUX2-hot-end-29" width="300" height="225" /></a></td>
+</tr>
+</tbody>
+</table>
+</div><div class="su-expand-link su-expand-link-more" style="text-align:left"><a href="javascript:;" style="color:#0088FF;border-color:#0088FF"><i class="fa fa-chevron-circle-down"></i><span style="border-color:#0088FF">Click here for thermistor assembly instructions...</span></a></div><div class="su-expand-link su-expand-link-less" style="text-align:left"><a href="javascript:;" style="color:#0088FF;border-color:#0088FF"><i class="fa fa-chevron-circle-up"></i><span style="border-color:#0088FF">Hide thermistor assembly instructions.</span></a></div></div>
+<h2>Test the cartridge heater</h2>
+<p>The cartridge heater provides the heat for the hot end. You will need the following parts:</p>
+<table class="docs-table-container">
+<tbody>
+<tr>
+<td>
+<table class="docs-table-parts">
+<thead>
+<tr>
+<td>#</td>
+<td>Component</td>
+<td>Qty</td>
+<td>Type</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>314</td>
+<td>Cartridge heater 19v</td>
+<td>1</td>
+<td>Hot end</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td> Picture to come</td>
+</tr>
+</tbody>
+</table>
+<table class="docs-table">
+<tbody>
+<tr>
+<td>Check the resistance of the heater cartridge. It should be around 7.0 ohms.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/HUX2-hot-end-30.jpg" rel="attachment wp-att-10502"><img class="alignnone size-medium wp-image-10502" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/HUX2-hot-end-30-300x225.jpg" alt="HUX2-hot-end-30" width="300" height="225" /></a></td>
+</tr>
+</tbody>
+</table>
+<h2><span id="Thermistor_wires">Thermistor wires</span></h2>
+<p>These wires connect the thermistor to the wiring loom.</p>
+<table class="docs-table-container">
+<tbody>
+<tr>
+<td>
+<table class="docs-table-parts">
+<tbody>
+<tr>
+<td>#</td>
+<td>Component</td>
+<td>Qty</td>
+<td>Type</td>
+</tr>
+<tr>
+<td>433</td>
+<td>Thermistor wiring – 160mm</td>
+<td>2</td>
+<td>Hot end</td>
+</tr>
+<tr>
+<td>197</td>
+<td>2.4mm Black heatshrink</td>
+<td>as needed</td>
+<td>Hot end</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>New picture to come</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<table class="docs-table">
+<tbody>
+<tr>
+<td>Thermistor wires should each have the female terminal wrapped in heatshrink.</td>
+<td><a title="Hot end assembly - Quick-set" href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-thermistor-wiring-04.jpg" rel="attachment wp-att-15658"><img class="alignnone size-medium wp-image-15658" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-thermistor-wiring-04-300x225.jpg" alt="RRP-thermistor-wiring-04" width="300" height="225" /></a></td>
+</tr>
+</tbody>
+</table>
+<div class="su-expand su-expand-collapsed su-expand-link-style-default" data-height="0"><div class="su-expand-content" style="color:#333333;max-height:0px;overflow:hidden">
+<table class="docs-table">
+<tbody>
+<tr>
+<td>If your thermistor wiring is supplied without heatshrink on both ends, and the female end looks like this, do the following.</td>
+<td><a title="Hot end assembly - Quick-set" href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-thermistor-wiring-01.jpg" rel="attachment wp-att-15655"><img class="alignnone size-medium wp-image-15655" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-thermistor-wiring-01-300x225.jpg" alt="RRP-thermistor-wiring-01" width="300" height="225" /></a></td>
+</tr>
+<tr>
+<td>Fold in the two barbs that stick out the side, as shown in the first picture; a small screwdriver or tool with a point is easiest. They need to fold into the crimp, as they will hold the thermistor wire.</td>
+<td><a title="Hot end assembly - Quick-set" href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-thermistor-wiring-02.jpg" rel="attachment wp-att-15656"><img class="alignnone size-medium wp-image-15656" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-thermistor-wiring-02-300x225.jpg" alt="RRP-thermistor-wiring-02" width="300" height="225" /></a></td>
+</tr>
+<tr>
+<td>Also flatten the top two tabs, so the crimp is smooth. If you put the heatshrink on with them sticking up, they can cut through the heatshrink, and cause a short circuit if they touch other metal.</td>
+<td><a title="Hot end assembly - Quick-set" href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-thermistor-wiring-03.jpg" rel="attachment wp-att-15657"><img class="alignnone size-medium wp-image-15657" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-thermistor-wiring-03-300x225.jpg" alt="RRP-thermistor-wiring-03" width="300" height="225" /></a></td>
+</tr>
+<tr>
+<td>Put the heatshrink on the end of the wire, covering the crimp but leaving the end open.</td>
+<td><a title="Hot end assembly - Quick-set" href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-thermistor-wiring-04.jpg" rel="attachment wp-att-15658"><img class="alignnone size-medium wp-image-15658" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-thermistor-wiring-04-300x225.jpg" alt="RRP-thermistor-wiring-04" width="300" height="225" /></a></td>
+</tr>
+<tr>
+<td>Check that it holds the thermistor firmly. You will cover the thermistor with high temperature PTFE heatshrink in the next step; you want as little metal showing as possible between the PTFE heatshrink and the black heatshrink, to avoid short circuits to metal parts of the printer.</td>
+<td><a title="Hot end assembly - Quick-set" href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-thermistor-wiring-05.jpg" rel="attachment wp-att-15659"><img class="alignnone size-medium wp-image-15659" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-thermistor-wiring-05-300x225.jpg" alt="RRP-thermistor-wiring-05" width="300" height="225" /></a></td>
+</tr>
+</tbody>
+</table>
+</div><div class="su-expand-link su-expand-link-more" style="text-align:left"><a href="javascript:;" style="color:#0088FF;border-color:#0088FF"><i class="fa fa-chevron-circle-down"></i><span style="border-color:#0088FF">Click here for thermistor wire assembly instructions...</span></a></div><div class="su-expand-link su-expand-link-less" style="text-align:left"><a href="javascript:;" style="color:#0088FF;border-color:#0088FF"><i class="fa fa-chevron-circle-up"></i><span style="border-color:#0088FF">Hide thermistor wire assembly instructions.</span></a></div></div>
+<h1>Assemble the hot end and effector</h1>
+<p>The hot end is mounted in the effector. You will need the following parts:</p>
+<table class="docs-table-container">
+<tbody>
+<tr>
+<td>
+<table class="docs-table-parts">
+<thead>
+<tr>
+<td>#</td>
+<td>Component</td>
+<td>Qty</td>
+<td>Type</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>Hot end assembly</td>
+<td>1</td>
+<td>Assembled</td>
+</tr>
+<tr>
+<td></td>
+<td>Effector assembly</td>
+<td>1</td>
+<td>Assembled</td>
+</tr>
+<tr>
+<td>113</td>
+<td>M3x25mm hex head screw</td>
+<td>1</td>
+<td>Fastener</td>
+</tr>
+<tr>
+<td>242</td>
+<td>M3x16mm cap head screw</td>
+<td>2</td>
+<td>Fastener</td>
+</tr>
+<tr>
+<td>212</td>
+<td>M3 plain washer</td>
+<td>2</td>
+<td>Fastener</td>
+</tr>
+<tr>
+<td>368</td>
+<td>3&#215;2 Female Housing (3020-06)</td>
+<td>1</td>
+<td>Hot end</td>
+</tr>
+<tr>
+<td>314</td>
+<td>Cartridge heater 19v</td>
+<td>1</td>
+<td>Hot end</td>
+</tr>
+<tr>
+<td>433</td>
+<td>Thermistor wiring -160mm</td>
+<td>2</td>
+<td>Hot end</td>
+</tr>
+<tr>
+<td></td>
+<td>Thermistor (insulated)</td>
+<td>1</td>
+<td>Assembled</td>
+</tr>
+<tr>
+<td>1194</td>
+<td>50mm blower fan &#8211; 160mm crimped</td>
+<td>1</td>
+<td>Electronics</td>
+</tr>
+<tr>
+<td>133</td>
+<td>Cable ties 2mm</td>
+<td>2</td>
+<td>Electronics</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-074.jpg" rel="attachment wp-att-17084"><img class="alignnone size-medium wp-image-17084" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-074-300x200.jpg" alt="RRP-FISH1-074" width="300" height="200" /></a></td>
+</tr>
+</tbody>
+</table>
+<table class="docs-table">
+<tbody>
+<tr>
+<td>Pull the thermistor through the heater block. If you use pliers, use them on the PTFE heatshrink, NOT on the metal legs of the thermistor; you are likely to break the thermistor. Ensure the thermistor bead is seated centrally inside the heater block.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-075.jpg" rel="attachment wp-att-17085"><img class="alignnone size-medium wp-image-17085" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-075-300x200.jpg" alt="RRP-FISH1-075" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>Push the hot end into the effector, orientated as shown. This may require a small amount of trimming of the printed effector part, but it is supposed to be a close fit. Do not trim the MDF effector plate; the hot end has a flange that sits on this. Bend the thermistor leg around the heater block; this ensures it can&#8217;t fall out. If the nozzle comes loose in the heatsink, taken the hot end out, tighten, and put it back in again.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-076.jpg" rel="attachment wp-att-17086"><img class="alignnone size-medium wp-image-17086" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-076-300x200.jpg" alt="RRP-FISH1-076" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>This picture shows the lower flange of the heatsink sitting on the MDF effector plate.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-078.jpg" rel="attachment wp-att-17088"><img class="alignnone size-medium wp-image-17088" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-078-300x200.jpg" alt="RRP-FISH1-078" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>Secure the hot end in place using the two M3x16mm cap head screws and M3 washers as shown. Take care to orient the heater block as shown, without loosening the nozzle in the heatsink, before tightening the M3 nuts.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-077.jpg" rel="attachment wp-att-17087"><img class="alignnone size-medium wp-image-17087" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-077-300x200.jpg" alt="RRP-FISH1-077" width="300" height="200" /></a></td>
+</tr>
+</tbody>
+</table>
+<h2>Adding the heater, thermistor and fan</h2>
+<table class="docs-table">
+<tbody>
+<tr>
+<td>Connect the thermistor wires to the thermistor, and push the heater cartridge into the larger hole in the heater block. All wires should come out the same way.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-079.jpg" rel="attachment wp-att-17089"><img class="alignnone size-medium wp-image-17089" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-079-300x200.jpg" alt="RRP-FISH1-079" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>Fit the fan into the printed effector. It should be a snug fit. Using the M3x25mm hex head screw, fasten it in place. This self taps into the printed part.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-080.jpg" rel="attachment wp-att-17090"><img class="alignnone size-medium wp-image-17090" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-080-300x200.jpg" alt="RRP-FISH1-080" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>Secure the fan and hot end wires with the cable ties. Make sure the thermistor and heater cartridge are still fully inserted in the heater block. Try to cable tie the wires to keep them as close in to the effector as possible.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-081.jpg" rel="attachment wp-att-17091"><img class="alignnone size-medium wp-image-17091" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-081-300x200.jpg" alt="RRP-FISH1-081" width="300" height="200" /></a></td>
+</tr>
+</tbody>
+</table>
+<h1>Hot end wiring</h1>
+<div class="su-note" style="border-color:#d45533;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;"><div class="su-note-inner su-clearfix" style="background-color:#ec5e39;border-color:#fbdfd7;color:#333333;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;"><strong>CAUTION!</strong> The next step describes wiring up the hot end connector. GREAT CARE should be taken doing this. The heater cartridge and the fan wires have 19V running through them ALL THE TIME. The thermistor wires are 3.3V, and connect directly to the Arduino chip on the Duet. If you incorrectly wire the plug, a short circuit between the thermistor wires and any of the other wires MAY DESTROY YOUR DUET!</div></div>
+<h2><span id="Wiring_diagram">Wiring diagram</span></h2>
+<div class="su-note" style="border-color:#d45533;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;"><div class="su-note-inner su-clearfix" style="background-color:#ec5e39;border-color:#fbdfd7;color:#333333;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;"><strong>NOTE:</strong> The wiring diagram below, and pictures, show RED heater cartridge wires. Yours will be WHITE.</div></div>
+<p><a title="Hot end assembly" href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/reprappro-hotend-connections.png"><img src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/reprappro-hotend-connections.png" alt="reprappro-hotend-connections" width="519" height="195" /></a></p>
+<table class="docs-table">
+<tbody>
+<tr>
+<td>Put the pins on the ends of the wires into the six-way female socket. The wiring diagram, above, is looking into the back of the socket, where you insert the crimps. The little black rectangle is the locking tab, and the housing has small embossed ‘1’ and ‘6’ numbers on it, so you can orientate it as the diagram. The pins are crimped on one side, and smooth on the other. The smooth sides go downwards in the diagram.</td>
+<td><a title="Hot end assembly" href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/ORM-HotEndBuild-43.jpg" rel="attachment wp-att-5901"><img src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/ORM-HotEndBuild-43-300x225.jpg" alt="ORM-HotEndBuild-43" width="300" height="225" /></a></td>
+</tr>
+<tr>
+<td>Neither the thermistor nor the heater cartridge have a polarity so it doesn’t matter which way round their wires go. (Though the H+ and H- are the way that the machine will apply power – hence the labels.) Make sure to get the polarity of the fan right. This picture shows one of the fan wires being put into the housing, but it is not fully in yet; you can’t see the crimp easily when it is.</td>
+<td><a title="Hot end assembly" href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/ORM-HotEndBuild-44.jpg" rel="attachment wp-att-5902"><img src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/ORM-HotEndBuild-44-300x225.jpg" alt="ORM-HotEndBuild-44" width="300" height="225" /></a></td>
+</tr>
+<tr>
+<td>Check that the pins are all the same depth into the housing. The pins are very difficult to remove without damaging them, so check twice, plug in once! They should click into place, and then shouldn’t easily push further through, or pull back out.</td>
+<td><a title="Hot end assembly" href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/ORM-HotEndBuild-45.jpg" rel="attachment wp-att-5903"><img src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/ORM-HotEndBuild-45-300x225.jpg" alt="ORM-HotEndBuild-45" width="300" height="225" /></a></td>
+</tr>
+</tbody>
+</table>
+<h2>Wire colours, related to hot end wiring loom</h2>
+<table class="docs-table-parts">
+<tbody style="color: #ffffff;">
+<tr>
+<td style="width: 200px; color: #000000;">Wiring loom</td>
+<td style="width: 200px; color: #000000;">Hot end wires</td>
+</tr>
+<tr>
+<td style="background-color: #ffff00; color: #000000;">1 Yellow</td>
+<td style="background-color: #ff0000;">Red FAN wire (+19V)</td>
+</tr>
+<tr>
+<td style="background-color: #ffffff; color: #000000;">2 White</td>
+<td style="background-color: #000000;">Black FAN wire (ground)</td>
+</tr>
+<tr>
+<td style="background-color: #22e01e; color: #000000;">3 Green</td>
+<td style="background-color: #22e01e; color: #000000;">Thermistor wire (green/blue/yellow, 3.3V)</td>
+</tr>
+<tr>
+<td style="background-color: #185ae6;">4 Blue</td>
+<td style="background-color: #185ae6;">Thermistor wire (green/blue/yellow, 3.3V)</td>
+</tr>
+<tr>
+<td style="background-color: #cc33ff;">5 Purple</td>
+<td style="background-color: #ffffff; color: #000000;" rowspan="2">Thick WHITE heater wire (+19V)</td>
+</tr>
+<tr>
+<td style="background-color: #000000; color: #ffffff;">5 Black</td>
+</tr>
+<tr>
+<td style="background-color: #ff0000;">6 Red</td>
+<td style="background-color: #ffffff; color: #000000;" rowspan="2">Thick WHITE heater wire (ground)</td>
+</tr>
+<tr>
+<td style="background-color: #754719;">6 Brown</td>
+</tr>
+</tbody>
+</table>
+<table class="docs-table">
+<tbody>
+<tr>
+<td>You can check the wire order by comparing it to the end of the hot end loom, which the hot end plugs into.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-082.jpg" rel="attachment wp-att-17092"><img class="alignnone size-medium wp-image-17092" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-082-300x200.jpg" alt="RRP-FISH1-082" width="300" height="200" /></a></td>
+</tr>
+</tbody>
+</table>
+<h1>Mounting the effector</h1>
+<table class="docs-table">
+<tbody>
+<tr>
+<td>Orientate the effector so the fan is facing the open side of the printer. As you did when connecting the rods to the carriages, gently prise the rod ends apart, and slip them over the balls of the effector. Tighten the grip of the rods on the stainless steel balls, by tightening the M3x8mm cap head screws on the rods.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-083.jpg" rel="attachment wp-att-17093"><img class="alignnone size-medium wp-image-17093" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-083-300x200.jpg" alt="RRP-FISH1-083" width="300" height="200" /></a></td>
+</tr>
+<tr>
+<td>The printer so far.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-084.jpg" rel="attachment wp-att-17094"><img class="alignnone size-medium wp-image-17094" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-084-300x200.jpg" alt="RRP-FISH1-084" width="300" height="200" /></a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+    </div>
+    <footer class="single-footer">
+                                  </footer>
+    
+  
+    <nav id="post-entries" class="fix">
+        <div class="nav-prev fl"><a href="http://emaker.github.io/Fisher/documentation/extruder-drive/" rel="next"><span class="meta-nav">&larr;</span> Extruder drive</a></div>
+        <div class="nav-next fr"><a href="http://emaker.github.io/Fisher/documentation/electronics/" rel="prev">Electronics <span class="meta-nav">&rarr;</span></a></div>
+    </nav>
+  </article>
+</div>
+
+            
+                      <aside class="col-lg-3 col-md-4 kad-sidebar" role="complementary">
+              <div class="sidebar">
+                <section id="nav_menu-2" class="widget-1 widget-first widget widget_nav_menu"><div class="widget-inner"><ul id="menu-side-nav" class="menu"><li  class="menu-base-assembly menu-item-18331"><a href="http://emaker.github.io/Fisher/documentation/base-assembly/">Base assembly</a></li>
+<li  class="menu-tower-assembly menu-item-18332"><a href="http://emaker.github.io/Fisher/documentation/tower-assembly/">Tower assembly</a></li>
+<li  class="menu-panels-and-rods menu-item-18333"><a href="http://emaker.github.io/Fisher/documentation/panels-and-rods/">Panels and rods</a></li>
+<li  class="menu-effector-assembly menu-item-18334"><a href="http://emaker.github.io/Fisher/documentation/effector-assembly/">Effector assembly</a></li>
+<li  class="menu-extruder-drive menu-item-18335"><a href="http://emaker.github.io/Fisher/documentation/extruder-drive/">Extruder drive</a></li>
+<li  class="menu-hot-end-assembly current-menu-item menu-item-18336"><a href="http://emaker.github.io/Fisher/documentation/hot-end-assembly/">Hot end assembly</a></li>
+<li  class="menu-electronics menu-item-18337"><a href="http://emaker.github.io/Fisher/documentation/electronics/">Electronics</a></li>
+<li  class="menu-bed-top-plate-and-belts menu-item-18338"><a href="http://emaker.github.io/Fisher/documentation/bed-top-plate-and-belts/">Bed, top plate and belts</a></li>
+<li  class="menu-commissioning menu-item-18339"><a href="http://emaker.github.io/Fisher/documentation/commissioning/">Commissioning</a></li>
+<li  class="menu-printing menu-item-18340"><a href="http://emaker.github.io/Fisher/documentation/printing/">Printing</a></li>
+</ul></div></section>              </div><!-- /.sidebar -->
+            </aside><!-- /aside -->
+                    </div><!-- /.row-->
+        </div><!-- /.content -->
+      </div><!-- /.wrap -->
+      <footer id="containerfooter" class="footerclass" role="contentinfo">
+  <div class="container">
+  	<div class="row">
+  				        		                </div>
+        <div class="footercredits clearfix">
+    		
+    		        	<p>&copy; 2016 Fisher Delta 3D printer - WordPress Theme by <a href="http://www.kadencethemes.com/" target="_blank">Kadence Themes</a></p>
+    	</div>
+
+  </div>
+
+</footer>
+
+<link rel='stylesheet' id='font-awesome-css'  href='//netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css?ver=4.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='su-box-shortcodes-css'  href='http://emaker.github.io/Fisher/wp-content/plugins/shortcodes-ultimate/assets/css/box-shortcodes.css?ver=4.9.9' type='text/css' media='all' />
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-includes/js/masonry.min.js?ver=3.1.2'></script>
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-content/themes/virtue/assets/js/min/plugins-min.js?ver=266'></script>
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-content/themes/virtue/assets/js/main.js?ver=266'></script>
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-includes/js/wp-embed.min.js?ver=4.4.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var su_other_shortcodes = {"no_preview":"This shortcode doesn't work in live preview. Please insert it into editor and preview on the site."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-content/plugins/shortcodes-ultimate/assets/js/other-shortcodes.js?ver=4.9.9'></script>
+    </div><!--Wrapper-->
+  </body>
+</html>
