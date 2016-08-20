@@ -3,6 +3,10 @@ jQuery( function( $ ) {
 	// Quantity buttons
 	$( 'div.quantity:not(.buttons_added), td.quantity:not(.buttons_added)' ).addClass( 'buttons_added' ).append( '<input type="button" value="+" class="plus" />' ).prepend( '<input type="button" value="-" class="minus" />' );
 
+	$( document ).on( 'updated_cart_totals', function() {
+		$( 'div.quantity:not(.buttons_added), td.quantity:not(.buttons_added)' ).addClass( 'buttons_added' ).append( '<input type="button" value="+" class="plus" />' ).prepend( '<input type="button" value="-" class="minus" />' );
+	}); 
+
 	$( document ).on( 'click', '.plus, .minus', function() {
 
 		// Get values

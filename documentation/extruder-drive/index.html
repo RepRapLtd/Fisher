@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en-US"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en-US"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en-US"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<html class="no-js" lang="en-US" itemscope="itemscope" itemtype="http://schema.org/WebPage">
 <head>
 <base href="http://emaker.github.io/Fisher" />
 
@@ -11,11 +8,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Extruder drive &#8211; Fisher Delta 3D printer</title>
 <meta name='robots' content='noindex,follow' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com'>
+<link rel='dns-prefetch' href='//s.w.org'>
 
 
 		<script type="text/javascript">
-			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/localhost\/wordpress\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
-			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/wordpress.local\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
 		</script>
 		<style type="text/css">
 img.wp-smiley,
@@ -31,13 +30,12 @@ img.emoji {
 	padding: 0 !important;
 }
 </style>
-<link rel='stylesheet' id='kadence_theme-css'  href='http://emaker.github.io/Fisher/wp-content/themes/virtue/assets/css/virtue.css?ver=266' type='text/css' media='all' />
+<link rel='stylesheet' id='kadence_theme-css'  href='http://emaker.github.io/Fisher/wp-content/themes/virtue/assets/css/virtue.css?ver=276' type='text/css' media='all' />
 <link rel='stylesheet' id='virtue_skin-css'  href='http://emaker.github.io/Fisher/wp-content/themes/virtue/assets/css/skins/default.css' type='text/css' media='all' />
 <link rel='stylesheet' id='virtue_child-css'  href='http://emaker.github.io/Fisher/wp-content/themes/virtue-child/style.css' type='text/css' media='all' />
 <link rel='stylesheet' id='redux-google-fonts-virtue-css'  href='http://fonts.googleapis.com/css?family=Lato%3A400%2C700&#038;ver=1457962026' type='text/css' media='all' />
-<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
-<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
-<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-content/themes/virtue/assets/js/vendor/modernizr.min.js'></script>
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
 <link rel='https://api.w.org/' href='http://emaker.github.io/Fisher/wp-json/' />
 
  
@@ -184,7 +182,7 @@ body.single-documentation table.docs-table tr:hover {background:#AAFFAA;}
 <tbody>
 <tr>
 <td>By the end of this section, you will have assembled the extruder drive.</td>
-<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-110.jpg" rel="attachment wp-att-17120"><img class="alignnone size-medium wp-image-17120" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-110-300x200.jpg" alt="RRP-FISH1-110" width="300" height="200" /></a></td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2016/08/20160817_122238_HDR.jpg"><img class="alignnone wp-image-18425" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/08/20160817_122238_HDR.jpg" alt="20160817_122238_HDR" width="300" height="225" /></a></td>
 </tr>
 </tbody>
 </table>
@@ -252,7 +250,7 @@ body.single-documentation table.docs-table tr:hover {background:#AAFFAA;}
 </tbody>
 </table>
 </td>
-<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-085.jpg" rel="attachment wp-att-17095"><img class="alignnone size-medium wp-image-17095" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-085-300x200.jpg" alt="RRP-FISH1-085" width="300" height="200" /></a></td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2016/08/20160817_115942_HDR.jpg"><img class="alignnone wp-image-18427" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/08/20160817_115942_HDR.jpg" alt="20160817_115942_HDR" width="300" height="225" /></a></td>
 </tr>
 </tbody>
 </table>
@@ -264,15 +262,15 @@ body.single-documentation table.docs-table tr:hover {background:#AAFFAA;}
 </tr>
 <tr>
 <td>Line up the drive block spacer with the drive block, as shown.</td>
-<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-087.jpg" rel="attachment wp-att-17097"><img class="alignnone size-medium wp-image-17097" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-087-300x200.jpg" alt="RRP-FISH1-087" width="300" height="200" /></a></td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2016/08/20160817_120030_HDR.jpg"><img class="alignnone wp-image-18428" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/08/20160817_120030_HDR.jpg" alt="20160817_120030_HDR" width="300" height="225" /></a></td>
 </tr>
 <tr>
 <td>Fit the motor to the drive block. Note the orientation of the motor wiring connector, relative to the drive block.</td>
-<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-088.jpg" rel="attachment wp-att-17098"><img class="alignnone size-medium wp-image-17098" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-088-300x200.jpg" alt="RRP-FISH1-088" width="300" height="200" /></a></td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2016/08/20160817_120100_HDR.jpg"><img class="alignnone wp-image-18429" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/08/20160817_120100_HDR.jpg" alt="20160817_120100_HDR" width="300" height="225" /></a></td>
 </tr>
 <tr>
 <td>Turn the block over, and fasten the motor with four M3x12mm cap head screws. Don&#8217;t fully tighten these; the motor, spacer and block need to be able to slide.</td>
-<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-089.jpg" rel="attachment wp-att-17099"><img class="alignnone size-medium wp-image-17099" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-089-300x200.jpg" alt="RRP-FISH1-089" width="300" height="200" /></a></td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2016/08/20160817_120136_HDR.jpg"><img class="alignnone wp-image-18430" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/08/20160817_120136_HDR.jpg" alt="20160817_120136_HDR" width="300" height="225" /></a></td>
 </tr>
 <tr>
 <td>Take the small gear, and put the M3 nut in the nut trap.</td>
@@ -473,48 +471,48 @@ body.single-documentation table.docs-table tr:hover {background:#AAFFAA;}
 <tbody>
 <tr>
 <td>Take the extruder body. Line up the large hole in the printed drive block and the acrylic drive block spacer. Move the motor as far away from the hole as possible, to give the large gear clearance to go in.</td>
-<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-098.jpg" rel="attachment wp-att-17108"><img class="alignnone size-medium wp-image-17108" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-098-300x200.jpg" alt="RRP-FISH1-098" width="300" height="200" /></a></td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2016/08/20160817_121330_HDR.jpg"><img class="alignnone wp-image-18431" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/08/20160817_121330_HDR.jpg" alt="20160817_121330_HDR" width="300" height="225" /></a></td>
 </tr>
 <tr>
 <td>Push the large gear in from the other side. This can be quite a tight fit!</td>
-<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-099.jpg" rel="attachment wp-att-17109"><img class="alignnone size-medium wp-image-17109" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-099-300x200.jpg" alt="RRP-FISH1-099" width="300" height="200" /></a></td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2016/08/20160817_121414_HDR.jpg"><img class="alignnone wp-image-18432" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/08/20160817_121414_HDR.jpg" alt="20160817_121414_HDR" width="300" height="225" /></a></td>
 </tr>
 <tr>
 <td>When in the correct place, the teeth of the hobbed insert should line up with the two small holes in the extruder body. This is where the filament runs, so these need to line up.</td>
-<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-100.jpg" rel="attachment wp-att-17110"><img class="alignnone size-medium wp-image-17110" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-100-300x200.jpg" alt="RRP-FISH1-100" width="300" height="200" /></a></td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2016/08/20160817_121501_HDR.jpg"><img class="alignnone wp-image-18433" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/08/20160817_121501_HDR.jpg" alt="20160817_121501_HDR" width="300" height="225" /></a></td>
 </tr>
 <tr>
 <td>Push the motor towards the large gear. The small gear should engage with the large gear. Turn the handle on the small gear to check the gear rotation is smooth with the large gear, then tighten the four M3x12mm cap head screws that hold the motor to the drive block. The two under the large gear can be difficult to access, without a ball-end Allen screw, but they don&#8217;t actually have to be tight for the drive to work.</td>
-<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-101.jpg" rel="attachment wp-att-17111"><img class="alignnone size-medium wp-image-17111" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-101-300x200.jpg" alt="RRP-FISH1-101" width="300" height="200" /></a></td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2016/08/20160817_121551_HDR.jpg"><img class="alignnone wp-image-18434" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/08/20160817_121551_HDR.jpg" alt="20160817_121551_HDR" width="300" height="225" /></a></td>
 </tr>
 <tr>
 <td>Take a piece of filament, and make sure that it passes through the drive, and engages with the hobbed insert. Adjust the large and small gear as necessary. Time spent getting this perfect will save you time later!</td>
-<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-102.jpg" rel="attachment wp-att-17112"><img class="alignnone size-medium wp-image-17112" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-102-300x200.jpg" alt="RRP-FISH1-102" width="300" height="200" /></a></td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2016/08/20160817_121704_HDR.jpg"><img class="alignnone wp-image-18435" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/08/20160817_121704_HDR.jpg" alt="20160817_121704_HDR" width="300" height="225" /></a></td>
 </tr>
 <tr>
 <td>Now attach the idler. This will push the filament onto the hobbed insert, so the teeth on the hobbed insert will grip the filament, and can push it firmly into the hot end. Push the M4 nut into the nut trap on the end of the drive block.</td>
-<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-109.jpg" rel="attachment wp-att-17119"><img class="alignnone size-medium wp-image-17119" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-109-300x200.jpg" alt="RRP-FISH1-109" width="300" height="200" /></a></td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2016/08/20160817_121915_HDR.jpg"><img class="alignnone wp-image-18436" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/08/20160817_121915_HDR.jpg" alt="20160817_121915_HDR" width="300" height="225" /></a></td>
 </tr>
 <tr>
 <td>Push the idler into the drive block. Take the remaining M3x12mm cap head screw, and screw it through the idler, and into the drive block. It should go through the drive block, and engage in the acrylic lower lever on the other side.</td>
-<td>New picture needed</td>
+<td></td>
 </tr>
 <tr>
 <td>Test the extruder drive with a piece of filament, and set the tension. You don&#8217;t want too much tension on the idler, or the motor will struggle to move the filament, but too loose and the teeth will not grip the filament.</td>
-<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-110.jpg" rel="attachment wp-att-17120"><img class="alignnone size-medium wp-image-17120" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-110-300x200.jpg" alt="RRP-FISH1-110" width="300" height="200" /></a></td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2016/08/20160817_122007_HDR.jpg"><img class="alignnone wp-image-18437" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/08/20160817_122007_HDR.jpg" alt="20160817_122007_HDR" width="300" height="225" /></a></td>
 </tr>
 <tr>
 <td>A good test is to hold the filament as tight as you can between thumb and index finger, and turn the handle on the small gear. Adjust the tension so it is still easy to turn the small gear, but the extruder pulls the filament through your fingers.</td>
-<td>New picture needed</td>
+<td></td>
 </tr>
 <tr>
 <td>If the extruder slips on the filament, small pieces of the filament will get stuck in the teeth of the hobbed insert. Subsequently, the extruder is likely to slip as it extrudes, leading to poor extrusion, and poor quality printed parts. Make sure teeth of the hobbed insert are clean, by removing the filament, slackening the motor screws, and pulling out the large gear. Clean the teeth of hobbed insert with a pointy tool, then reassemble the extruder.</td>
-<td>New picture needed</td>
+<td></td>
 </tr>
 </tbody>
 </table>
-<h1>The tongue</h1>
-<p>The tongue holds the Bowden tube into the extruder. Don&#8217;t lose it! You will need the following parts:</p>
+<h1>Pneumatic fitting</h1>
+<p>The pneumatic fitting secures the Bowden tube in the extruder drive.</p>
 <table class="docs-table-container">
 <tbody>
 <tr>
@@ -530,23 +528,25 @@ body.single-documentation table.docs-table tr:hover {background:#AAFFAA;}
 </thead>
 <tbody>
 <tr>
-<td>1320</td>
-<td>Tongue</td>
+<td></td>
+<td>Pneumatic fitting</td>
 <td>1</td>
-<td>Printed</td>
+<td>Hardware</td>
 </tr>
 </tbody>
 </table>
 </td>
-<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-111.jpg" rel="attachment wp-att-17121"><img class="alignnone size-medium wp-image-17121" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-111-300x200.jpg" alt="RRP-FISH1-111" width="300" height="200" /></a></td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2016/08/20160817_122123_HDR.jpg"><img class="alignnone wp-image-18438" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/08/20160817_122123_HDR.jpg" alt="20160817_122123_HDR" width="300" height="225" /></a></td>
 </tr>
 </tbody>
 </table>
 <table class="docs-table">
 <tbody>
 <tr>
-<td>The tongue fits into the slot in the drive block, as shown.</td>
-<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-112.jpg" rel="attachment wp-att-17122"><img class="alignnone size-medium wp-image-17122" src="http://emaker.github.io/Fisher/wp-content/uploads/2015/10/RRP-FISH1-112-300x200.jpg" alt="RRP-FISH1-112" width="300" height="200" /></a></td>
+<td>The extruder drive block is printed with an internal thread which matches the thread on the pneumatic fitting.</p>
+<p>Visually align the fitting with the hole in the drive block, and begin by screwing the fitting in by hand taking car to</p>
+<p>keep it aligned. Once finger tight, use a 10mm spanner to screw the fitting fully home.</td>
+<td><a href="http://emaker.github.io/Fisher/wp-content/uploads/2016/08/20160817_122156_HDR.jpg"><img class="alignnone wp-image-18439" src="http://emaker.github.io/Fisher/wp-content/uploads/2016/08/20160817_122156_HDR.jpg" alt="20160817_122156_HDR" width="300" height="225" /></a></td>
 </tr>
 </tbody>
 </table>
@@ -581,23 +581,24 @@ body.single-documentation table.docs-table tr:hover {background:#AAFFAA;}
                     </div><!-- /.row-->
         </div><!-- /.content -->
       </div><!-- /.wrap -->
-      <footer id="containerfooter" class="footerclass" role="contentinfo">
+      <footer id="containerfooter" class="footerclass">
   <div class="container">
   	<div class="row">
   				        		                </div>
         <div class="footercredits clearfix">
     		
-    		        	<p>&copy; 2016 Fisher Delta 3D printer - WordPress Theme by <a href="http://www.kadencethemes.com/" target="_blank">Kadence Themes</a></p>
+    		        	<p>&copy; 2016 Fisher Delta 3D printer - WordPress Theme by <a href="https://www.kadencethemes.com/" target="_blank">Kadence Themes</a></p>
     	</div>
 
   </div>
 
 </footer>
 
-<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-includes/js/masonry.min.js?ver=3.1.2'></script>
-<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-content/themes/virtue/assets/js/min/plugins-min.js?ver=266'></script>
-<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-content/themes/virtue/assets/js/main.js?ver=266'></script>
-<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-includes/js/wp-embed.min.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-includes/js/imagesloaded.min.js?ver=3.2.0'></script>
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-includes/js/masonry.min.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-content/themes/virtue/assets/js/min/plugins-min.js?ver=276'></script>
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-content/themes/virtue/assets/js/main.js?ver=276'></script>
+<script type='text/javascript' src='http://emaker.github.io/Fisher/wp-includes/js/wp-embed.min.js?ver=4.6'></script>
     </div><!--Wrapper-->
   </body>
 </html>

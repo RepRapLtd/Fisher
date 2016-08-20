@@ -914,7 +914,7 @@ html[dir=rtl] .select2-search-choice-close {
     transform: rotate(359deg);
   }
 }
-/*!
+/*
  *  Font Awesome 3.2.1
  *  the iconic font designed for Bootstrap
  *  ------------------------------------------------------------------------------
@@ -938,23 +938,34 @@ html[dir=rtl] .select2-search-choice-close {
  *  Email: dave@fontawesome.io
  *  Twitter: http://twitter.com/davegandy
  *  Work: Lead Product Designer @ Kyruus - http://kyruus.com
-
  */
+/* FONT PATH
+ * -------------------------- */
 @font-face {
-  font-family: 'FontAwesome';
-  src: url('fonts/fontawesome-webfont.eot?v=3.2.1');
-  src: url('fonts/fontawesome-webfont.eot?#iefix&v=3.2.1') format('embedded-opentype'), url('fonts/fontawesome-webfont.woff?v=3.2.1') format('woff'), url('fonts/fontawesome-webfont.ttf?v=3.2.1') format('truetype'), url('fonts/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1') format('svg');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'FontAwesome';
+    src:    url('fonts/FontAwesome.eot');
+    src:    url('fonts/FontAwesome.eot#iefix') format('embedded-opentype'),
+        url('fonts/FontAwesome.ttf') format('truetype'),
+        url('fonts/FontAwesome.woff') format('woff'),
+        url('fonts/FontAwesome.svg#FontAwesome') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
+/* FONT AWESOME CORE
+ * -------------------------- */
 [class^="icon-"],
 [class*=" icon-"] {
-  font-family: FontAwesome;
-  font-weight: normal;
-  font-style: normal;
-  text-decoration: inherit;
-  -webkit-font-smoothing: antialiased;
-  *margin-right: 0.3em;
+    font-family: FontAwesome;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
@@ -962,24 +973,27 @@ html[dir=rtl] .select2-search-choice-close {
   display: inline-block;
   speak: none;
 }
+/* makes the font 33% larger relative to the icon container */
 .icon-large:before {
   vertical-align: -10%;
-  font-size: 1.33333333em;
+  font-size: 1.3333333333333333em;
 }
+/* makes sure icons active on rollover in links */
 a [class^="icon-"],
 a [class*=" icon-"] {
   display: inline;
 }
+/* increased font size for icon-large */
 [class^="icon-"].icon-fixed-width,
 [class*=" icon-"].icon-fixed-width {
   display: inline-block;
   width: 1.1428571428571428em;
   text-align: right;
-  padding-right: 0.28571429em;
+  padding-right: 0.2857142857142857em;
 }
 [class^="icon-"].icon-fixed-width.icon-large,
 [class*=" icon-"].icon-fixed-width.icon-large {
-  width: 1.42857143em;
+  width: 1.4285714285714286em;
 }
 .icons-ul {
   margin-left: 2.142857142857143em;
@@ -990,7 +1004,7 @@ a [class*=" icon-"] {
 }
 .icons-ul .icon-li {
   position: absolute;
-  left: -2.14285714em;
+  left: -2.142857142857143em;
   width: 2.142857142857143em;
   text-align: center;
   line-height: inherit;
@@ -1009,7 +1023,7 @@ a [class*=" icon-"] {
   color: #333333;
 }
 .icon-border {
-  border: solid 1px #eee;
+  border: solid 1px #eeeeee;
   padding: .2em .25em .15em;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -1059,12 +1073,25 @@ a [class*=" icon-"] {
 }
 [class^="icon-"].pull-left,
 [class*=" icon-"].pull-left {
-  margin-right: 0.3em;
+  margin-right: .3em;
 }
 [class^="icon-"].pull-right,
 [class*=" icon-"].pull-right {
-  margin-left: 0.3em;
+  margin-left: .3em;
 }
+
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
+.icon-soundcloud:before {
+    content: "\f1be";
+}
+.icon-google-plus-square:before {
+    content: "\e900";
+}
+.icon-google-plus2:before {
+    content: "\e901";
+}
+
 .icon-glass:before {
   content: "\f000";
 }
@@ -2165,6 +2192,7 @@ a [class*=" icon-"] {
 .icon-renren:before {
   content: "\f18b";
 }
+
 .menu-icon-portfolio div.wp-menu-image img {
   display: none!important;
 }
@@ -2204,4 +2232,7 @@ a [class*=" icon-"] {
 }
 .cmb-type-kad_gallery .kad-gallery #edit-gallery {
   margin-right: 10px;
+}
+.select2-container .select2-choice {
+  height: auto;
 }

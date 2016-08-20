@@ -20,7 +20,7 @@ Yes, go here: http://docs.kadencethemes.com/virtue/
 
 = Is there demo content available? =
 
-Yes, go here: http://www.kadencethemes.com/kadence-themes-demo-content/
+Yes, go here: https://www.kadencethemes.com/kadence-themes-demo-content/
 
 = Is there a free support form for this theme? =
 
@@ -29,6 +29,53 @@ Yes, go here: https://wordpress.org/support/theme/virtue
 == Changelog ==
 
 = Theme Name: Virtue =
+
+= Version 2.7.6 | 21st July 2016 =
+* Fix: Empty category Image issue.
+
+= Version 2.7.5 | 19th July 2016 =
+* Update: Woo files.
+* Fix: Issue with category images.
+
+= Version 2.7.4 | 13th July 2016 =
+* Update: Contact form Map API input. 
+* Update: Google plus icon.
+* Update: Content Single template.
+* Update: woo templates.
+* Fix: woo issue with quantity in cart when updated.
+
+= Version 2.7.3 | 16th June 2016 =
+* Update: woo files
+
+= Version 2.7.2 | 9th June 2016 =
+* Update: Docs link for new docs.
+* Update: Theme options.
+* Update: WC 2.5.
+* Update: RTL beta support.
+
+= Version 2.7.1 | 13th May 2016 =
+* Fix: Embed layout issue.
+* Fix: Img srcset issue.
+* Update: imageloaded.
+
+= Version 2.7.0 | 4th May 2016 =
+* Fix: Archive title with polylang.
+* Update: Small woocommerce changes.
+
+= Version 2.6.9 | 27th April 2016 =
+* Fix: Portfolio single.
+
+= Version 2.6.8 | 27th April 2016 =
+* Update: Cat issue.
+* Update: Screenshot.
+* Update: Remove gallery boxshaddow if image border off.
+* Update: Srcset for product images.
+* Add: Filter for banner.
+
+= Version 2.6.7 | 22nd March 2016 =
+* Update: Cat issue.
+* Update: Blog carousel issue.
+* Update: Admin css.
 
 = Version 2.6.6 | 2nd March 2016 =
 * Update: Language strings.
