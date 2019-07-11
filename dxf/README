@@ -1,0 +1,13 @@
+Editing .dxfs
+-------------
+
+Before save:
+
+  1. Select all.
+  2. Modify attributes-
+       Layer: 0
+       Colour: Black/white
+       Line width: 0.15mm
+       Line type: continuous
+  3. Save
+

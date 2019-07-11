@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-185.0230578524589
+184.984371682013
  22
-158.1768394692002
+158.1619601728748
  13
 0
  23
@@ -1143,9 +1143,9 @@ AcDbViewportTableRecord
  37
 0
  40
-53.01790866643554
+111.2872169826261
  41
-3.638676844783715
+1.733487833140209
  42
 50
  43
@@ -3249,11 +3249,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -3273,11 +3273,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -3297,11 +3297,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -3321,11 +3321,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -4297,11 +4297,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -4349,11 +4349,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -4377,11 +4377,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -4429,11 +4429,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -4481,11 +4481,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -4509,11 +4509,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -5489,11 +5489,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -5541,11 +5541,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -5569,11 +5569,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -5621,11 +5621,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -5673,11 +5673,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -5701,11 +5701,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10

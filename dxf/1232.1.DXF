@@ -1117,7 +1117,7 @@ AcDbViewportTableRecord
  12
 42.84929078014184
  22
-10.66737588652482
+10.71232269503546
  13
 0
  23
@@ -1143,9 +1143,9 @@ AcDbViewportTableRecord
  37
 0
  40
-42.54964539007092
+98.87416562369629
  41
-4.028169014084507
+1.733487833140209
  42
 50
  43
@@ -3609,11 +3609,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -3661,11 +3661,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -3689,11 +3689,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -3741,11 +3741,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -3793,11 +3793,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -3821,11 +3821,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10

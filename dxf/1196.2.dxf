@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-216.6885752906092
+220.2545799457995
  22
-175.4289441438331
+210.5374661246613
  13
 0
  23
@@ -1143,9 +1143,9 @@ AcDbViewportTableRecord
  37
 0
  40
-103.7833767352291
+254.1172493224933
  41
-1.741559953434226
+1.733487833140209
  42
 50
  43
@@ -2697,7 +2697,7 @@ CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -2721,7 +2721,7 @@ CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -2749,7 +2749,7 @@ CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -2773,7 +2773,7 @@ CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -2801,7 +2801,7 @@ CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -2825,7 +2825,7 @@ CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -2853,7 +2853,7 @@ CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -2877,7 +2877,7 @@ CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -2905,7 +2905,7 @@ CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -2929,7 +2929,7 @@ CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -2957,7 +2957,7 @@ CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -2981,7 +2981,7 @@ CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -3009,7 +3009,7 @@ CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -3037,7 +3037,7 @@ CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -3065,7 +3065,7 @@ CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -3089,7 +3089,7 @@ CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -3117,7 +3117,7 @@ CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -3141,7 +3141,7 @@ CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -3169,7 +3169,7 @@ CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -3191,7 +3191,7 @@ CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -3213,7 +3213,7 @@ CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -3249,11 +3249,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -3325,11 +3325,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -3401,11 +3401,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -3477,11 +3477,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -3553,11 +3553,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -3629,11 +3629,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -3705,11 +3705,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -3781,11 +3781,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -3857,11 +3857,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -3933,11 +3933,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -4009,11 +4009,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -4085,11 +4085,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -4161,11 +4161,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -4237,11 +4237,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -4313,11 +4313,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -4389,11 +4389,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -4465,11 +4465,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -4541,11 +4541,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -4617,11 +4617,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -4693,11 +4693,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -4769,11 +4769,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -4845,11 +4845,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -4921,11 +4921,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -4997,11 +4997,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -5073,11 +5073,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -5149,11 +5149,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -5225,11 +5225,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -5301,11 +5301,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -5377,11 +5377,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -5453,11 +5453,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -5529,11 +5529,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -5605,11 +5605,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -5681,11 +5681,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -5757,11 +5757,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -5833,11 +5833,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -5909,11 +5909,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -5985,11 +5985,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -6061,11 +6061,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -6137,11 +6137,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -6213,11 +6213,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -6289,11 +6289,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -6365,11 +6365,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -6441,11 +6441,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -6517,11 +6517,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -6593,11 +6593,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -6669,11 +6669,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -6745,11 +6745,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -6821,11 +6821,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -6897,11 +6897,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -6973,11 +6973,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -7049,11 +7049,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -7125,11 +7125,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -7201,11 +7201,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -7277,11 +7277,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -7353,11 +7353,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -7429,11 +7429,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -7505,11 +7505,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -7581,11 +7581,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -7657,11 +7657,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -7733,11 +7733,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -7809,11 +7809,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -7885,11 +7885,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -7961,11 +7961,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -8037,11 +8037,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -8113,11 +8113,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -8189,11 +8189,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -8265,11 +8265,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -8341,11 +8341,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -8417,11 +8417,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -8493,11 +8493,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -8569,11 +8569,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -8645,11 +8645,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -8721,11 +8721,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -8745,11 +8745,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -8769,11 +8769,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -8793,11 +8793,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -8817,11 +8817,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -8841,11 +8841,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -8865,11 +8865,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -8889,11 +8889,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -8913,11 +8913,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -8937,11 +8937,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -8961,11 +8961,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -8985,11 +8985,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -9009,11 +9009,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -9033,11 +9033,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -9057,11 +9057,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -9081,11 +9081,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -9105,11 +9105,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -9129,11 +9129,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -9153,11 +9153,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -9177,11 +9177,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -9201,11 +9201,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -9225,11 +9225,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -9249,11 +9249,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -9273,11 +9273,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -9297,11 +9297,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -9321,11 +9321,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -9345,11 +9345,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -9369,11 +9369,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -9393,11 +9393,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -9417,11 +9417,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -9441,11 +9441,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -9465,11 +9465,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -9489,11 +9489,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -9513,11 +9513,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -9537,11 +9537,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -9561,11 +9561,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -9585,11 +9585,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -9609,11 +9609,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -9633,11 +9633,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -9657,11 +9657,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -9681,11 +9681,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -9705,11 +9705,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -9729,11 +9729,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -9753,11 +9753,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -9777,11 +9777,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -9801,11 +9801,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -9825,11 +9825,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -9849,11 +9849,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -9873,11 +9873,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -9897,11 +9897,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -9921,11 +9921,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -9945,11 +9945,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -9969,11 +9969,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -9993,11 +9993,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -10017,11 +10017,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -10041,11 +10041,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -10065,11 +10065,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -10089,11 +10089,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -10113,11 +10113,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -10137,11 +10137,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -10161,11 +10161,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -10185,11 +10185,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -10209,11 +10209,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -10233,11 +10233,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -10257,11 +10257,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -10281,11 +10281,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -10305,11 +10305,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -10329,11 +10329,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -10353,11 +10353,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -10377,11 +10377,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -10401,11 +10401,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -10425,11 +10425,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -10449,11 +10449,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -10473,11 +10473,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -10497,11 +10497,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -10521,11 +10521,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -10545,11 +10545,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -10569,11 +10569,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -10593,11 +10593,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -10617,11 +10617,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -10641,11 +10641,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -10665,11 +10665,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -10689,11 +10689,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -10713,11 +10713,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -10737,11 +10737,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -10761,11 +10761,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -10785,11 +10785,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -10809,11 +10809,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -10833,11 +10833,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -10857,11 +10857,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -10881,11 +10881,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -10905,11 +10905,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -10929,11 +10929,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -10953,11 +10953,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -10977,11 +10977,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -11001,11 +11001,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -11025,11 +11025,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -11049,11 +11049,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -11073,11 +11073,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -11097,11 +11097,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -11121,11 +11121,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -11145,11 +11145,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -11169,11 +11169,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -11193,11 +11193,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -11217,11 +11217,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -11241,11 +11241,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -11265,11 +11265,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -11289,11 +11289,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -11313,11 +11313,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -11337,11 +11337,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -11361,11 +11361,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -11385,11 +11385,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -11409,11 +11409,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -11433,11 +11433,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -11457,11 +11457,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -11481,11 +11481,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -11505,11 +11505,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -11529,11 +11529,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -11553,11 +11553,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -11577,11 +11577,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -11601,11 +11601,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -11625,11 +11625,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -11649,11 +11649,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -11673,11 +11673,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -11697,11 +11697,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -11721,11 +11721,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -11745,11 +11745,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -11769,11 +11769,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -11793,11 +11793,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -11817,11 +11817,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -11841,11 +11841,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -11865,11 +11865,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -11889,11 +11889,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -11913,11 +11913,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -11937,11 +11937,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -11961,11 +11961,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -11985,11 +11985,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -12009,11 +12009,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -12033,11 +12033,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -12057,11 +12057,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -12081,11 +12081,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -12105,11 +12105,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -12129,11 +12129,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -12153,11 +12153,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -12177,11 +12177,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -12201,11 +12201,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -12225,11 +12225,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -12249,11 +12249,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -12273,11 +12273,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -12297,11 +12297,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -12321,11 +12321,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -12345,11 +12345,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -12369,11 +12369,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -12393,11 +12393,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -12417,11 +12417,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -12441,11 +12441,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -12465,11 +12465,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -12489,11 +12489,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -12513,11 +12513,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -12537,11 +12537,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -12561,11 +12561,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -12585,11 +12585,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -12609,11 +12609,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -12633,11 +12633,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -12657,11 +12657,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -12681,11 +12681,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -12705,11 +12705,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -12729,11 +12729,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -12753,11 +12753,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -12777,11 +12777,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -12801,11 +12801,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -12825,11 +12825,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -12849,11 +12849,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -12873,11 +12873,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -12897,11 +12897,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -12921,11 +12921,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -12945,11 +12945,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -12969,11 +12969,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -12993,11 +12993,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -13017,11 +13017,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -13041,11 +13041,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -13065,11 +13065,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -13089,11 +13089,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -13113,11 +13113,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -13137,11 +13137,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -13161,11 +13161,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -13185,11 +13185,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -13209,11 +13209,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -13233,11 +13233,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -13257,11 +13257,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -13281,11 +13281,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -13305,11 +13305,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -13329,11 +13329,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -13353,11 +13353,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -13377,11 +13377,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -13401,11 +13401,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -13425,11 +13425,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -13449,11 +13449,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -13473,11 +13473,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -13497,11 +13497,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -13521,11 +13521,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -13545,11 +13545,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -13569,11 +13569,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -13593,11 +13593,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -13617,11 +13617,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -13641,11 +13641,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -13665,11 +13665,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -13689,11 +13689,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -13713,11 +13713,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -13737,11 +13737,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -13761,11 +13761,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -13785,11 +13785,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -13809,11 +13809,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -13833,11 +13833,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -13857,11 +13857,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -13881,11 +13881,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -13905,11 +13905,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -13929,11 +13929,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -13953,11 +13953,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -13977,11 +13977,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -14001,11 +14001,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -14025,11 +14025,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -14049,11 +14049,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -14073,11 +14073,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -14097,11 +14097,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -14121,11 +14121,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -14145,11 +14145,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -14169,11 +14169,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -14193,11 +14193,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -14217,11 +14217,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -14241,11 +14241,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -14265,11 +14265,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -14289,11 +14289,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -14313,11 +14313,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -14337,11 +14337,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -14361,11 +14361,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -14385,11 +14385,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -14409,11 +14409,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -14433,11 +14433,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -14457,11 +14457,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -14481,11 +14481,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -14505,11 +14505,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -14529,11 +14529,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -14553,11 +14553,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -14577,11 +14577,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -14601,11 +14601,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -14625,11 +14625,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -14649,11 +14649,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -14673,11 +14673,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -14697,11 +14697,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -14721,11 +14721,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -14745,11 +14745,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -14769,11 +14769,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -14793,11 +14793,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -14817,11 +14817,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -14841,11 +14841,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -14865,11 +14865,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -14889,11 +14889,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -14913,11 +14913,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -14937,11 +14937,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -14961,11 +14961,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -14985,11 +14985,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -15009,11 +15009,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -15033,11 +15033,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -15057,11 +15057,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -15081,11 +15081,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -15105,11 +15105,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -15129,11 +15129,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -15153,11 +15153,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -15177,11 +15177,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -15201,11 +15201,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -15225,11 +15225,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -15249,11 +15249,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -15273,11 +15273,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -15297,11 +15297,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -15321,11 +15321,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -15345,11 +15345,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -15369,11 +15369,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -15393,11 +15393,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -15417,11 +15417,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -15441,11 +15441,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -15465,11 +15465,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -15489,11 +15489,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -15513,11 +15513,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -15537,11 +15537,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -15561,11 +15561,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -15585,11 +15585,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -15609,11 +15609,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -15633,11 +15633,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -15657,11 +15657,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -15681,11 +15681,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -15705,11 +15705,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -15729,11 +15729,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -15753,11 +15753,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -15777,11 +15777,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -15801,11 +15801,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -15825,11 +15825,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -15849,11 +15849,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -15873,11 +15873,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -15897,11 +15897,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -15921,11 +15921,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -15945,11 +15945,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -15969,11 +15969,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -15993,11 +15993,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -16017,11 +16017,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -16041,11 +16041,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -16065,11 +16065,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -16089,11 +16089,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -16113,11 +16113,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -16137,11 +16137,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -16161,11 +16161,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -16185,11 +16185,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -16209,11 +16209,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -16233,11 +16233,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -16257,11 +16257,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -16281,11 +16281,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -16305,11 +16305,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -16329,11 +16329,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -16353,11 +16353,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -16377,11 +16377,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -16401,11 +16401,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -16425,11 +16425,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -16449,11 +16449,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -16473,11 +16473,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -16497,11 +16497,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -16521,11 +16521,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -16545,11 +16545,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -16569,11 +16569,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -16593,11 +16593,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -16617,11 +16617,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -16641,11 +16641,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -16665,11 +16665,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -16689,11 +16689,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -16713,11 +16713,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -16737,11 +16737,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -16761,11 +16761,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -16785,11 +16785,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -16809,11 +16809,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -16833,11 +16833,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -16857,11 +16857,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -16881,11 +16881,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -16905,11 +16905,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -16929,11 +16929,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -16953,11 +16953,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -16977,11 +16977,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -17001,11 +17001,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -17025,11 +17025,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -17049,11 +17049,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -17073,11 +17073,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -17097,11 +17097,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -17121,11 +17121,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -17145,11 +17145,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -17169,11 +17169,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -17193,11 +17193,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -17217,11 +17217,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -17241,11 +17241,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -17265,11 +17265,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -17289,11 +17289,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -17313,11 +17313,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -17337,11 +17337,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -17361,11 +17361,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -17385,11 +17385,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -17409,11 +17409,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -17433,11 +17433,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -17457,11 +17457,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -17481,11 +17481,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -17505,11 +17505,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -17529,11 +17529,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -17553,11 +17553,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -17577,11 +17577,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -17601,11 +17601,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -17625,11 +17625,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -17649,11 +17649,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -17673,11 +17673,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -17697,11 +17697,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -17721,11 +17721,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -17745,11 +17745,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -17769,11 +17769,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -17793,11 +17793,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -17817,11 +17817,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -17841,11 +17841,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -17865,11 +17865,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -17889,11 +17889,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -17913,11 +17913,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -17937,11 +17937,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -17961,11 +17961,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -17985,11 +17985,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -18009,11 +18009,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -18033,11 +18033,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -18057,11 +18057,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -18081,11 +18081,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -18105,11 +18105,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -18129,11 +18129,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -18153,11 +18153,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -18177,11 +18177,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -18201,11 +18201,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -18225,11 +18225,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -18249,11 +18249,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -18273,11 +18273,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -18297,11 +18297,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -18321,11 +18321,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -18345,11 +18345,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -18369,11 +18369,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -18393,11 +18393,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -18417,11 +18417,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -18441,11 +18441,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -18465,11 +18465,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -18489,11 +18489,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -18513,11 +18513,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -18537,11 +18537,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -18561,11 +18561,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -18585,11 +18585,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -18609,11 +18609,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -18633,11 +18633,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -18657,11 +18657,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -18681,11 +18681,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -18705,11 +18705,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -18729,11 +18729,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -18753,11 +18753,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -18777,11 +18777,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -18801,11 +18801,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -18825,11 +18825,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -18849,11 +18849,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -18873,11 +18873,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -18897,11 +18897,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -18921,11 +18921,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -18945,11 +18945,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -18969,11 +18969,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -18993,11 +18993,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -19017,11 +19017,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -19041,11 +19041,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -19065,11 +19065,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -19089,11 +19089,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -19113,11 +19113,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -19137,11 +19137,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -19161,11 +19161,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -19185,11 +19185,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -19209,11 +19209,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -19233,11 +19233,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -19257,11 +19257,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -19281,11 +19281,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -19305,11 +19305,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -19329,11 +19329,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -19353,11 +19353,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -19377,11 +19377,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -19401,11 +19401,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -19425,11 +19425,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -19449,11 +19449,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -19473,11 +19473,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -19497,11 +19497,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -19521,11 +19521,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -19545,11 +19545,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -19569,11 +19569,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -19593,11 +19593,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -19617,11 +19617,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -19641,11 +19641,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -19665,11 +19665,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -19689,11 +19689,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -19713,11 +19713,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -19737,11 +19737,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -19761,11 +19761,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -19785,11 +19785,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -19809,11 +19809,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -19833,11 +19833,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -19857,11 +19857,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -19881,11 +19881,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -19905,11 +19905,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -19929,11 +19929,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -19953,11 +19953,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -19977,11 +19977,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -20001,11 +20001,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -20025,11 +20025,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -20049,11 +20049,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -20073,11 +20073,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -20097,11 +20097,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -20121,11 +20121,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -20145,11 +20145,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -20169,11 +20169,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -20193,11 +20193,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -20217,11 +20217,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -20241,11 +20241,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -20265,11 +20265,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -20289,11 +20289,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -20313,11 +20313,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -20389,11 +20389,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -20465,11 +20465,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -20541,11 +20541,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -20617,11 +20617,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -20693,11 +20693,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -20769,11 +20769,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -20845,11 +20845,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -20921,11 +20921,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -20997,11 +20997,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -21073,11 +21073,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -21149,11 +21149,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -21225,11 +21225,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -21301,11 +21301,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -21377,11 +21377,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -21453,11 +21453,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -21529,11 +21529,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -21605,11 +21605,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -21681,11 +21681,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -21757,11 +21757,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -21833,11 +21833,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -21909,11 +21909,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -21985,11 +21985,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -22061,11 +22061,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -22137,11 +22137,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -22213,11 +22213,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -22289,11 +22289,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -22365,11 +22365,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -22441,11 +22441,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -22517,11 +22517,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -22593,11 +22593,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -22669,11 +22669,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -22745,11 +22745,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -22821,11 +22821,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -22897,11 +22897,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -22973,11 +22973,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -23049,11 +23049,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -23125,11 +23125,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -23201,11 +23201,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -23277,11 +23277,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -23353,11 +23353,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -23429,11 +23429,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -23505,11 +23505,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -23581,11 +23581,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -23657,11 +23657,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -23733,11 +23733,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -23809,11 +23809,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -23885,11 +23885,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -23961,11 +23961,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -24037,11 +24037,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -24113,11 +24113,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -24189,11 +24189,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -24265,11 +24265,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -24341,11 +24341,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -24417,11 +24417,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -24493,11 +24493,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -24569,11 +24569,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -24645,11 +24645,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -24721,11 +24721,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -24797,11 +24797,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -24873,11 +24873,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -24949,11 +24949,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -25025,11 +25025,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -25101,11 +25101,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -25177,11 +25177,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -25253,11 +25253,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -25329,11 +25329,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -25405,11 +25405,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -25481,11 +25481,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -25557,11 +25557,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -25633,11 +25633,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -25709,11 +25709,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -25785,11 +25785,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -25861,11 +25861,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -25937,11 +25937,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -26013,11 +26013,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -26089,11 +26089,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -26165,11 +26165,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -26241,11 +26241,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -26317,11 +26317,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -26393,11 +26393,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -26469,11 +26469,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -26545,11 +26545,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -26621,11 +26621,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -26697,11 +26697,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -26773,11 +26773,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -26849,11 +26849,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -26925,11 +26925,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -27001,11 +27001,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -27077,11 +27077,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -27153,11 +27153,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -27229,11 +27229,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -27305,11 +27305,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -27381,11 +27381,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -27457,11 +27457,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -27533,11 +27533,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -27609,11 +27609,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -27685,11 +27685,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -27761,11 +27761,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -27837,11 +27837,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -27913,11 +27913,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -27989,11 +27989,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -28065,11 +28065,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -28141,11 +28141,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -28217,11 +28217,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -28293,11 +28293,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -28369,11 +28369,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -28445,11 +28445,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -28521,11 +28521,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -28597,11 +28597,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -28673,11 +28673,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -28749,11 +28749,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -28825,11 +28825,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -28901,11 +28901,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -28977,11 +28977,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -29053,11 +29053,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -29129,11 +29129,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -29205,11 +29205,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -29281,11 +29281,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -29357,11 +29357,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -29433,11 +29433,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -29509,11 +29509,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -29585,11 +29585,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -29661,11 +29661,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -29737,11 +29737,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -29813,11 +29813,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -29889,11 +29889,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -29965,11 +29965,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -30041,11 +30041,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -30117,11 +30117,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -30193,11 +30193,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -30269,11 +30269,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -30345,11 +30345,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -30421,11 +30421,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -30497,11 +30497,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -30521,11 +30521,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -30545,11 +30545,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -30621,11 +30621,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -30697,11 +30697,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -30721,11 +30721,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -30797,11 +30797,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -30873,11 +30873,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -30949,11 +30949,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -30973,11 +30973,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -31049,11 +31049,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -31125,11 +31125,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -31201,11 +31201,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -31225,11 +31225,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -31301,11 +31301,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -31377,11 +31377,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -31453,11 +31453,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -31477,11 +31477,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -31553,11 +31553,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -31629,11 +31629,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -31705,11 +31705,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -31729,11 +31729,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -31805,11 +31805,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -31881,11 +31881,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -31957,11 +31957,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -31981,11 +31981,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -32057,11 +32057,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -32133,11 +32133,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -32209,11 +32209,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -32233,11 +32233,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -32309,11 +32309,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -32385,11 +32385,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -32409,11 +32409,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -32485,11 +32485,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -32561,11 +32561,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -32637,11 +32637,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -32661,11 +32661,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -32737,11 +32737,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -32761,11 +32761,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -32837,11 +32837,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -32861,11 +32861,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -32937,11 +32937,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -32961,11 +32961,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -33037,11 +33037,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -33061,11 +33061,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -33137,11 +33137,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -33213,11 +33213,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -33289,11 +33289,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -33313,11 +33313,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -33389,11 +33389,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -33465,11 +33465,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -33489,11 +33489,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -33565,11 +33565,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -33641,11 +33641,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -33717,11 +33717,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -33741,11 +33741,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -33817,11 +33817,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -33893,11 +33893,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -33969,11 +33969,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -33993,11 +33993,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -34069,11 +34069,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -34145,11 +34145,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -34221,11 +34221,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -34245,11 +34245,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -34321,11 +34321,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -34397,11 +34397,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -34473,11 +34473,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -34497,11 +34497,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -34573,11 +34573,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -34649,11 +34649,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -34725,11 +34725,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -34749,11 +34749,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -34825,11 +34825,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -34901,11 +34901,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -34977,11 +34977,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -35001,11 +35001,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -35077,11 +35077,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -35153,11 +35153,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -35177,11 +35177,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -35201,11 +35201,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -35277,11 +35277,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -35353,11 +35353,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -35429,11 +35429,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -35505,11 +35505,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -35581,11 +35581,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -35657,11 +35657,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -35733,11 +35733,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -35809,11 +35809,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -35885,11 +35885,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -35909,11 +35909,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -35985,11 +35985,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -36061,11 +36061,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -36137,11 +36137,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -36213,11 +36213,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -36289,11 +36289,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -36365,11 +36365,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -36389,11 +36389,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -36465,11 +36465,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -36541,11 +36541,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -36617,11 +36617,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -36693,11 +36693,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -36769,11 +36769,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -36845,11 +36845,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -36869,11 +36869,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -36945,11 +36945,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -37021,11 +37021,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -37097,11 +37097,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -37173,11 +37173,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -37249,11 +37249,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -37325,11 +37325,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -37349,11 +37349,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -37425,11 +37425,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -37501,11 +37501,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -37577,11 +37577,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -37653,11 +37653,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -37729,11 +37729,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -37805,11 +37805,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -37829,11 +37829,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -37905,11 +37905,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -37981,11 +37981,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -38057,11 +38057,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -38133,11 +38133,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -38209,11 +38209,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -38285,11 +38285,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -38309,11 +38309,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -38385,11 +38385,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -38461,11 +38461,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -38537,11 +38537,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -38613,11 +38613,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -38689,11 +38689,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -38765,11 +38765,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -38789,11 +38789,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -38865,11 +38865,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -38941,11 +38941,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -39017,11 +39017,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -39093,11 +39093,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -39169,11 +39169,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -39245,11 +39245,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -39269,11 +39269,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -39345,11 +39345,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -39421,11 +39421,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -39497,11 +39497,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -39573,11 +39573,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -39649,11 +39649,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -39725,11 +39725,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -39749,11 +39749,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -39825,11 +39825,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -39901,11 +39901,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -39977,11 +39977,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -40053,11 +40053,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -40129,11 +40129,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -40205,11 +40205,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -40229,11 +40229,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -40305,11 +40305,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -40381,11 +40381,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -40457,11 +40457,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -40533,11 +40533,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -40609,11 +40609,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -40685,11 +40685,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -40761,11 +40761,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -40837,11 +40837,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -40913,11 +40913,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -40937,11 +40937,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -41013,11 +41013,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -41089,11 +41089,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -41165,11 +41165,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -41241,11 +41241,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -41317,11 +41317,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -41393,11 +41393,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -41417,11 +41417,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -41493,11 +41493,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -41569,11 +41569,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -41645,11 +41645,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -41721,11 +41721,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -41797,11 +41797,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -41873,11 +41873,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -41897,11 +41897,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -41973,11 +41973,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -42049,11 +42049,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -42125,11 +42125,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -42201,11 +42201,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -42277,11 +42277,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -42353,11 +42353,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -42377,11 +42377,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -42453,11 +42453,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -42529,11 +42529,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -42605,11 +42605,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -42681,11 +42681,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -42757,11 +42757,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -42833,11 +42833,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -42857,11 +42857,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -42933,11 +42933,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -43009,11 +43009,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -43085,11 +43085,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -43161,11 +43161,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -43237,11 +43237,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -43313,11 +43313,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -43337,11 +43337,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -43413,11 +43413,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -43489,11 +43489,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -43565,11 +43565,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -43589,11 +43589,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -43665,11 +43665,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -43741,11 +43741,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -43817,11 +43817,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -43841,11 +43841,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -43917,11 +43917,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -43993,11 +43993,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -44069,11 +44069,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -44093,11 +44093,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -44169,11 +44169,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -44245,11 +44245,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -44321,11 +44321,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -44345,11 +44345,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -44421,11 +44421,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -44497,11 +44497,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -44573,11 +44573,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -44597,11 +44597,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -44673,11 +44673,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -44749,11 +44749,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -44825,11 +44825,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -44849,11 +44849,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -44925,11 +44925,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -45001,11 +45001,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -45077,11 +45077,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -45101,11 +45101,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -45177,11 +45177,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -45253,11 +45253,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -45329,11 +45329,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -45353,11 +45353,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -45429,11 +45429,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -45505,11 +45505,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -45581,11 +45581,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -45605,11 +45605,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -45681,11 +45681,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -45757,11 +45757,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -45833,11 +45833,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -45857,11 +45857,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -45933,11 +45933,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -46009,11 +46009,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -46085,11 +46085,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -46109,11 +46109,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -46185,11 +46185,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -46261,11 +46261,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -46337,11 +46337,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -46361,11 +46361,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -46437,11 +46437,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -46513,11 +46513,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -46589,11 +46589,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -46613,11 +46613,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -46689,11 +46689,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -46765,11 +46765,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -46841,11 +46841,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -46865,11 +46865,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -46941,11 +46941,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -47017,11 +47017,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -47093,11 +47093,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -47117,11 +47117,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -47193,11 +47193,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -47269,11 +47269,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -47345,11 +47345,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -47369,11 +47369,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -47445,11 +47445,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -47521,11 +47521,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -47597,11 +47597,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -47621,11 +47621,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -47697,11 +47697,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -47773,11 +47773,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -47849,11 +47849,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -47873,11 +47873,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -47949,11 +47949,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -48025,11 +48025,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -48101,11 +48101,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -48125,11 +48125,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -48201,11 +48201,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -48277,11 +48277,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -48353,11 +48353,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -48377,11 +48377,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -48401,11 +48401,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -48477,11 +48477,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -48553,11 +48553,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -48629,11 +48629,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -48653,11 +48653,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -48729,11 +48729,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -48805,11 +48805,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -48881,11 +48881,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -48905,11 +48905,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -48981,11 +48981,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -49057,11 +49057,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -49133,11 +49133,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -49157,11 +49157,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -49233,11 +49233,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -49309,11 +49309,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -49385,11 +49385,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -49409,11 +49409,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -49485,11 +49485,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -49561,11 +49561,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -49637,11 +49637,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -49713,11 +49713,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -49789,11 +49789,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -49865,11 +49865,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -49889,11 +49889,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -49965,11 +49965,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -50041,11 +50041,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -50117,11 +50117,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -50193,11 +50193,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -50269,11 +50269,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -50345,11 +50345,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -50369,11 +50369,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -50445,11 +50445,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -50521,11 +50521,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -50597,11 +50597,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -50673,11 +50673,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -50749,11 +50749,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -50825,11 +50825,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -50849,11 +50849,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -50925,11 +50925,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -51001,11 +51001,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -51077,11 +51077,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -51153,11 +51153,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -51229,11 +51229,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -51305,11 +51305,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -51381,11 +51381,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -51457,11 +51457,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -51533,11 +51533,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -51609,11 +51609,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -51685,11 +51685,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -51761,11 +51761,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -51785,11 +51785,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -51861,11 +51861,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -51937,11 +51937,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -52013,11 +52013,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -52089,11 +52089,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -52165,11 +52165,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -52241,11 +52241,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -52265,11 +52265,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -52341,11 +52341,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -52417,11 +52417,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -52493,11 +52493,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -52569,11 +52569,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -52645,11 +52645,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -52721,11 +52721,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -52745,11 +52745,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -52821,11 +52821,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -52897,11 +52897,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -52973,11 +52973,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -53049,11 +53049,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -53125,11 +53125,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -53201,11 +53201,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -53225,11 +53225,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -53249,11 +53249,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -53273,11 +53273,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -53297,11 +53297,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -53321,11 +53321,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -53345,11 +53345,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -53369,11 +53369,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -53445,11 +53445,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -53521,11 +53521,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -53597,11 +53597,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -53673,11 +53673,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -53749,11 +53749,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -53825,11 +53825,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -53901,11 +53901,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -53977,11 +53977,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -54053,11 +54053,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -54129,11 +54129,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -54205,11 +54205,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -54281,11 +54281,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -54357,11 +54357,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -54433,11 +54433,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -54509,11 +54509,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -54585,11 +54585,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -54661,11 +54661,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -54737,11 +54737,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -54813,11 +54813,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -54889,11 +54889,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -54965,11 +54965,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -55041,11 +55041,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -55117,11 +55117,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -55193,11 +55193,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -55269,11 +55269,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -55345,11 +55345,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -55421,11 +55421,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -55497,11 +55497,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -55573,11 +55573,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -55649,11 +55649,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -55725,11 +55725,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -55801,11 +55801,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -55877,11 +55877,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -55953,11 +55953,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -56029,11 +56029,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -56105,11 +56105,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -56181,11 +56181,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -56257,11 +56257,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -56333,11 +56333,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -56409,11 +56409,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -56485,11 +56485,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -56561,11 +56561,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -56637,11 +56637,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -56713,11 +56713,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -56789,11 +56789,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -56865,11 +56865,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -56941,11 +56941,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
     7
 370
-   -1
+   15
 100
 AcDbSpline
 210
@@ -57017,11 +57017,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -57041,11 +57041,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -57065,11 +57065,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -57089,11 +57089,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -57113,11 +57113,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -57137,11 +57137,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -57161,11 +57161,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -57185,11 +57185,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -57209,11 +57209,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -57233,11 +57233,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -57257,11 +57257,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -57281,11 +57281,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -57305,11 +57305,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -57329,11 +57329,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -57353,11 +57353,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -57377,11 +57377,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -57401,11 +57401,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -57425,11 +57425,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -57449,11 +57449,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -57473,11 +57473,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -57497,11 +57497,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -57521,11 +57521,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -57545,11 +57545,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -57569,11 +57569,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -57593,11 +57593,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -57617,11 +57617,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -57641,11 +57641,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -57665,11 +57665,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -57689,11 +57689,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -57713,11 +57713,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -57737,11 +57737,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -57761,11 +57761,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -57785,11 +57785,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -57809,11 +57809,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -57833,11 +57833,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -57857,11 +57857,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -57881,11 +57881,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -57905,11 +57905,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -57929,11 +57929,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -57953,11 +57953,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -57977,11 +57977,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -58001,11 +58001,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -58025,11 +58025,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -58049,11 +58049,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -58073,11 +58073,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -58097,11 +58097,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -58121,11 +58121,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -58145,11 +58145,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -58169,11 +58169,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -58193,11 +58193,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -58217,11 +58217,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -58241,11 +58241,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -58265,11 +58265,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -58289,11 +58289,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -58313,11 +58313,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -58337,11 +58337,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -58361,11 +58361,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -58385,11 +58385,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -58409,11 +58409,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -58433,11 +58433,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -58457,11 +58457,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -58481,11 +58481,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -58505,11 +58505,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -58529,11 +58529,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -58553,11 +58553,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -58577,11 +58577,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -58601,11 +58601,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -58625,11 +58625,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -58649,11 +58649,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -58673,11 +58673,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -58697,11 +58697,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -58721,11 +58721,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -58745,11 +58745,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -58769,11 +58769,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -58793,11 +58793,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -58817,11 +58817,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -58841,11 +58841,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -58865,11 +58865,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -58889,11 +58889,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -58913,11 +58913,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -58937,11 +58937,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -58961,11 +58961,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -58985,11 +58985,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -59009,11 +59009,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -59033,11 +59033,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -59057,11 +59057,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -59081,11 +59081,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -59105,11 +59105,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -59129,11 +59129,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -59153,11 +59153,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -59177,11 +59177,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -59201,11 +59201,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -59225,11 +59225,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -59249,11 +59249,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -59273,11 +59273,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -59297,11 +59297,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -59321,11 +59321,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -59345,11 +59345,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -59369,11 +59369,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -59393,11 +59393,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -59417,11 +59417,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -59441,11 +59441,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -59465,11 +59465,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -59489,11 +59489,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -59513,11 +59513,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -59537,11 +59537,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -59561,11 +59561,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -59585,11 +59585,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -59609,11 +59609,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -59633,11 +59633,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -59657,11 +59657,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -59681,11 +59681,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -59705,11 +59705,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -59729,11 +59729,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -59753,11 +59753,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -59777,11 +59777,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -59801,11 +59801,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -59825,11 +59825,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -59849,11 +59849,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -59873,11 +59873,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -59897,11 +59897,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -59921,11 +59921,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -59945,11 +59945,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -59969,11 +59969,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -59993,11 +59993,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -60017,11 +60017,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -60041,11 +60041,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -60065,11 +60065,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -60089,11 +60089,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -60113,11 +60113,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -60137,11 +60137,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -60161,11 +60161,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -60185,11 +60185,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -60209,11 +60209,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -60233,11 +60233,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -60257,11 +60257,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -60281,11 +60281,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -60305,11 +60305,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -60329,11 +60329,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -60353,11 +60353,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -60377,11 +60377,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -60401,11 +60401,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -60425,11 +60425,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -60449,11 +60449,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -60473,11 +60473,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -60497,11 +60497,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -60521,11 +60521,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -60545,11 +60545,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -60569,11 +60569,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -60593,11 +60593,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -60617,11 +60617,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -60641,11 +60641,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -60665,11 +60665,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -60689,11 +60689,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -60713,11 +60713,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -60737,11 +60737,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -60761,11 +60761,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -60785,11 +60785,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -60809,11 +60809,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -60833,11 +60833,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -60857,11 +60857,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -60881,11 +60881,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -60905,11 +60905,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -60929,11 +60929,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -60953,11 +60953,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -60977,11 +60977,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -61001,11 +61001,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -61025,11 +61025,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -61049,11 +61049,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -61073,11 +61073,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -61097,11 +61097,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -61121,11 +61121,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -61145,11 +61145,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -61169,11 +61169,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -61193,11 +61193,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -61217,11 +61217,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -61241,11 +61241,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -61265,11 +61265,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -61289,11 +61289,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -61313,11 +61313,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -61337,11 +61337,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -61361,11 +61361,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -61385,11 +61385,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -61409,11 +61409,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -61433,11 +61433,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -61457,11 +61457,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -61481,11 +61481,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -61505,11 +61505,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -61529,11 +61529,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -61553,11 +61553,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -61577,11 +61577,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -61601,11 +61601,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -61625,11 +61625,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -61649,11 +61649,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -61673,11 +61673,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -61697,11 +61697,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -61721,11 +61721,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -61745,11 +61745,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -61769,11 +61769,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -61793,11 +61793,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -61817,11 +61817,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -61841,11 +61841,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -61865,11 +61865,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -61889,11 +61889,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -61913,11 +61913,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -61937,11 +61937,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -61961,11 +61961,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -61985,11 +61985,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -62009,11 +62009,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -62033,11 +62033,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -62057,11 +62057,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -62081,11 +62081,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -62105,11 +62105,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -62129,11 +62129,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -62153,11 +62153,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -62177,11 +62177,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -62201,11 +62201,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -62225,11 +62225,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -62249,11 +62249,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -62273,11 +62273,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -62297,11 +62297,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -62321,11 +62321,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -62345,11 +62345,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -62369,11 +62369,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -62393,11 +62393,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -62417,11 +62417,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -62441,11 +62441,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -62465,11 +62465,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -62489,11 +62489,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -62513,11 +62513,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -62537,11 +62537,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -62561,11 +62561,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -62585,11 +62585,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -62609,11 +62609,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -62633,11 +62633,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -62657,11 +62657,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -62681,11 +62681,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -62705,11 +62705,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -62729,11 +62729,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -62753,11 +62753,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -62777,11 +62777,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -62801,11 +62801,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -62825,11 +62825,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -62849,11 +62849,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -62873,11 +62873,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -62897,11 +62897,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -62921,11 +62921,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -62945,11 +62945,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -62969,11 +62969,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -62993,11 +62993,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -63017,11 +63017,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -63041,11 +63041,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -63065,11 +63065,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -63089,11 +63089,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -63113,11 +63113,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -63137,11 +63137,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -63161,11 +63161,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -63185,11 +63185,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -63209,11 +63209,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -63233,11 +63233,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -63257,11 +63257,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -63281,11 +63281,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -63305,11 +63305,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -63329,11 +63329,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -63353,11 +63353,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -63377,11 +63377,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -63401,11 +63401,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -63425,11 +63425,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -63449,11 +63449,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -63473,11 +63473,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -63497,11 +63497,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -63521,11 +63521,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -63545,11 +63545,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -63569,11 +63569,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -63593,11 +63593,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -63617,11 +63617,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -63641,11 +63641,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -63665,11 +63665,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -63689,11 +63689,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -63713,11 +63713,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -63737,11 +63737,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -63761,11 +63761,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -63785,11 +63785,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -63809,11 +63809,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -63833,11 +63833,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -63857,11 +63857,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -63881,11 +63881,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -63905,11 +63905,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -63929,11 +63929,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -63953,11 +63953,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -63977,11 +63977,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -64001,11 +64001,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -64025,11 +64025,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -64049,11 +64049,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -64073,11 +64073,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -64097,11 +64097,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -64121,11 +64121,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -64145,11 +64145,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -64169,11 +64169,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -64193,11 +64193,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -64217,11 +64217,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -64241,11 +64241,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -64265,11 +64265,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -64289,11 +64289,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -64313,11 +64313,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -64337,11 +64337,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -64361,11 +64361,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -64385,11 +64385,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -64409,11 +64409,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -64433,11 +64433,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -64457,11 +64457,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -64481,11 +64481,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -64505,11 +64505,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -64529,11 +64529,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -64553,11 +64553,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -64577,11 +64577,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -64601,11 +64601,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -64625,11 +64625,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -64649,11 +64649,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -64673,11 +64673,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -64697,11 +64697,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -64721,11 +64721,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-    0
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -64745,11 +64745,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbBlockReference
   2
@@ -65737,11 +65737,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -65789,11 +65789,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -65817,11 +65817,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -65869,11 +65869,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -65921,11 +65921,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -65949,11 +65949,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -66929,11 +66929,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -66981,11 +66981,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -67009,11 +67009,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -67061,11 +67061,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -67113,11 +67113,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -67141,11 +67141,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -68121,11 +68121,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -68173,11 +68173,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -68201,11 +68201,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -68253,11 +68253,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -68305,11 +68305,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -68333,11 +68333,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -69313,11 +69313,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -69365,11 +69365,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -69393,11 +69393,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -69445,11 +69445,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -69497,11 +69497,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -69525,11 +69525,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -69553,11 +69553,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -69581,11 +69581,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -69605,11 +69605,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -69633,11 +69633,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -69657,11 +69657,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
@@ -69685,11 +69685,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -69709,11 +69709,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbLine
  10
@@ -69733,11 +69733,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
-  256
+    7
 370
-   -1
+   15
 100
 AcDbCircle
  10
