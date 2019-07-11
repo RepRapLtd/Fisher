@@ -1,0 +1,4 @@
+2013-01-04 11:51:25 Event logging started
+2013-01-04 11:52:06 Event logging stopped
+2019-06-04 13:08:06 Event logging started
+2019-06-04 13:08:35 HTTP client 192.168.1.104 disconnected
