@@ -54,6 +54,8 @@ M301 H1 P12 I0.4 D80 W180 B300 ; Set heater PID parameters
 M92 E310 ; Set extruder steps per mm for geared drive
 ;M92 E144 ; Set extruder steps per mm for direct drive
 
+;Define the mesh for mapping the bed
+M557 R75 S20
 
 ;// Z probe and compensation definition
 ;*** If you have an IR zprobe instead of a switch, change P4 to P1 in the following M558 command

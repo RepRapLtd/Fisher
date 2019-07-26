@@ -3,7 +3,10 @@
 ; This does a single iteration of auto calibration. Run this file multiple times until the values converge.
 ; Then transfer the values to your config.g file.
 
-M561						; clear any bed transform, otherwise homing may be at the wrong height
+M561	; clear any bed transform, otherwise homing may be at the wrong height
+G29  ; Probe the mesh and make the map
+
+;******** Below commented out *************************************************
 ;G31 X0 Y0					; don't want any probe offset for this
 ;G28							; home the printer
 
@@ -16,15 +19,15 @@ M561						; clear any bed transform, otherwise homing may be at the wrong height
 ;G30 P0 X0 Y0 Z-99999
 
 ; Probe the bed and do auto calibration
-G1 X-64.95 Y-37.5 F12000
-G4 P300
-G30 P0 X-64.95 Y-37.5 Z-99999	    ; X tower
-G4 P300
-G30 P1 X64.95 Y-37.5 Z-99999	    	; Y tower
-G4 P300
-G30 P2 X0 Y75 Z-99999			; Z tower
-G4 P300
-G30 P3 X0 Y0 Z-99999 S0		; centre, and auto-calibrate
+;G1 X-64.95 Y-37.5 F12000
+;G4 P300
+;G30 P0 X-64.95 Y-37.5 Z-99999	    ; X tower
+;G4 P300
+;G30 P1 X64.95 Y-37.5 Z-99999	    	; Y tower
+;G4 P300
+;G30 P2 X0 Y75 Z-99999			; Z tower
+;G4 P300
+;G30 P3 X0 Y0 Z-99999 S0		; centre, and auto-calibrate
 
 ;*** Remove the following line if your Z probe does not need to be retracted
 ;M98 Pretractprobe.g			; deploy the mechanical Z probe
