@@ -7,6 +7,10 @@ Organised into the following folders:
 * sw/ Design files are in Solidworks 2016 format.
 * stl/ Printable files.
 * dxf/ Lasercut files.
-* software/ Current firmware as a compiled .bin file from [David Crocker](https://github.com/dc42/RepRapFirmware/releases) and [Duet3d](https://duet3d.dozuki.com/Wiki/Firmware_Overview).
+* step/ Designs in ISO STEP format.
+* FreeCAD/ Designs for the FreeCAD CAD system.
+* InDevelopment/ What it says...
+* Legacy/ Old files no longer current.
+* SoftwareXXX/ Current firmware as a compiled .bin file from [David Crocker](https://github.com/dc42/RepRapFirmware/releases) and [Duet3d](https://duet3d.dozuki.com/Wiki/Firmware_Overview).
 * Fisher-SD-image/ Working image for your sd card.
 

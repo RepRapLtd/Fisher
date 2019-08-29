@@ -51,7 +51,8 @@ G10 P0 S200 R0 ; Set tool 0 operating and standby temperatures
 ;G10 P3 S0 R0 ; Set tool 3 operating and standby temperatures
 
 
-M301 H1 P12 I0.4 D80 W180 B300 ; Set heater PID parameters
+;M301 H1 P12 I0.4 D80 W180 B300 ; Set heater PID parameters
+M307 H1 A201.5 C49.1 D2.2 B0 S1.0 V19
 M92 E310 ; Set extruder steps per mm for geared drive
 ;M92 E144 ; Set extruder steps per mm for direct drive
 
