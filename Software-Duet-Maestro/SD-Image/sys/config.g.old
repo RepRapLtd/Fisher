@@ -1,0 +1,96 @@
+; CONFIGURATION FILE FOR DUET MAESTRO SELF TEST
+
+
+
+;--------------------------------------------------------------------------------
+;-------------------------------------NOTE---------------------------------------
+;--------------------------------------------------------------------------------
+;--                   THIS FILE IS FOR FACTORY TESTING ONLY                    --
+;--                                                                            --
+;--            DO NOT USE THIS CONFIGURATION FILE FOR A 3D PRINTER             --
+;--                                                                            --
+;--                                                                            --
+;--  Use the reprapfirmware configurator to generate a configuration file      --
+;--   for your printer:                                                        --
+;--                     https://configurator.reprapfirmware.org/               --
+;--                                                                            --
+;--------------------------------------------------------------------------------
+
+; CREATED: 2018.06.21 MJC from Quad / Maestro / MB as baseline
+; Edited by tony@duet3d.com 2018.08.28
+; --- SECTION: GENERAL PREFERENCES ( ) ---
+
+
+M555 P2						; Set output to look like Marlin
+G21						; Work in millimetres
+G90						; Send absolute coordinates...
+M83						; ...but relative extruder moves
+
+
+
+
+; --- SECTION: Z-PROBE & MESH COMPENSATION (Z PROBE SECTION) ---
+; --- SECTION: DRIVES (MOVEMENT SECTION) & ENDSTOPS ---
+
+M667 S0 ; set corexy off
+M669 S0 ; cartesian
+M569 P0 S0
+M569 P1 S0
+M569 P2 S0
+M569 P3 S0
+M569 P4 S0
+M569 P5 S0
+M569 P6 S0
+
+M350 X16 Y16 Z16 E16 I1
+M92 X100 Y100 Z100 E100
+
+M906 X1000 Y1000 Z1000 E1000 I60			; Set motor currents (mA) and increase idle current to 60%
+M201 X1000 Y1000 Z1000 E1000			; Accelerations (mm/s^2)
+M203 X20000 Y20000 Z20000 E20000			; Maximum speeds (mm/min)
+M566 X1200 Y1200 Z1200 E1200			; Maximum instant speed changes mm/minute
+
+M574 X2 Y2 Z2 S1
+
+; --- SECTION: HEATERS (HEATER & THERMISTOR SECTION) ---
+
+M302 P1 ; Allow Cold extrudes
+
+; Thermistors
+M305 P0 T100000 B3950 R2200 H30 L0
+M305 P1 T100000 B3950 R2200 H30 L0
+M305 P2 T100000 B3950 R2200 H30 L0
+
+M570 S180					; allow it 180 seconds before gving a heating warning and test hotends wont be tuned.
+
+; Tool definitions
+M563 P0 D0 H1					; Define tool 0
+G10 P0 S0 R0					; Set tool 0 operating and standby temperatures
+M563 P1 D1 H2					; Define tool 1
+G10 P1 S0 R0					; Set tool 1 operating and standby temperatures
+
+; --- SECTION: FANS ( ) ---
+; Disable Fan 1 thermostatic mode
+M106 P1 H-1
+
+;Define the 4th fan
+
+
+; --- SECTION: TOOLS (TOOL DEFINITION SECTION) ---
+
+
+; --- SECTION: NETWORKS (PROLOGUE & COMMUNCATIONS SECTION) ---
+
+; Network
+M550 PMaestroTest               ; Set machine name
+M552 P192.168.1.14 S1          ; Enable network and set IP address
+M553 P255.255.255.0            ; Set netmask
+M554 P192.168.1.254            ; Set gateway
+M586 P0 S1                     ; Enable HTTP
+
+
+; --- SECTION: MISCELLANEOUS ---
+
+G4 S2
+G92 X100 Y100 Z100 E100
+G91

@@ -1,0 +1,2 @@
+2013-01-04 11:49:02 Event logging started
+2013-01-04 11:49:11 Event logging stopped

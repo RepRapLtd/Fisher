@@ -62,7 +62,7 @@ M557 R75 S20
 ;// Z probe and compensation definition
 ;*** If you have an IR zprobe instead of a switch, change P4 to P1 in the following M558 command
 M558 P4 X0 Y0 Z0 H4 ; Z probe is a switch and is not used for homing any axes
-G31 X0 Y0 Z-0.25 P200 ; Set the zprobe height and threshold (put your own values here)
+G31 X0 Y0 Z0.0 P200 ; Set the zprobe height and threshold (put your own values here)
 
 ;*** If you are using axis compensation, put the figures in the following command
 M556 S78 X0 Y0 Z0 ; Axis compensation here

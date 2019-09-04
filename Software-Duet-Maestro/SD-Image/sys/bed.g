@@ -3,7 +3,7 @@
 ; This does a single iteration of auto calibration. Run this file multiple times until the values converge.
 ; Then transfer the values to your config.g file.
 
-M561	; clear any bed transform, otherwise homing may be at the wrong height
+M561 ; clear any bed transform, otherwise homing may be at the wrong height
 G29  ; Probe the mesh and make the map
 
 ;******** Below commented out *************************************************
