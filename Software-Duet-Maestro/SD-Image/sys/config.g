@@ -26,7 +26,6 @@ M574 X2 Y2 Z2 S1 ; set endstop configuration (all endstops at high end, active h
 
 ;*** The homed height (H150) is deliberately set too high in the following - you will adjust it during calibration
 M665 R81.0 L160.0 B75 H150      ; set delta radius, diagonal rod length, printable radius and homed height
-M666 X0.0 Y0.0 Z0.0             ; put your endstop adjustments here
 M92 X87.489 Y87.489 Z87.489     ; Set axis steps/mm
 M906 X800 Y800 Z800 E800        ; Set motor currents (mA)
 M201 X4000 Y4000 Z4000 E4000    ; Accelerations (mm/s^2)
@@ -62,6 +61,9 @@ M557 R75 S20
 ;*** If you have an IR zprobe instead of a switch, change P4 to P1 in the following M558 command
 M558 P4 X0 Y0 Z0 H4 ; Z probe is a switch and is not used for homing any axes
 G31 X0 Y0 Z0.0 P200 ; Set the zprobe height and threshold (put your own values here)
+
+; put your endstop adjustments here
+M666 X0.0 Y0.0 Z0.0
 
 ;*** If you are using axis compensation, put the figures in the following command
 M556 S78 X0 Y0 Z0 ; Axis compensation here
