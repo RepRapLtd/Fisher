@@ -6,10 +6,10 @@ M550 Pfisher1                       ; Machine name (can be anything you like)
 M551 Preprap                        ; Machine password (used for FTP)
 M540 P0xBE:0xEF:0xDE:0xAD:0xFE:0xFD ; MAC Address
 ;*** Adjust the IP address and gateway in the following lines to suit your network
-M552 P0.0.0.0                       ; IP address
-;M552 P10.0.0.2                     ; Direct connection IP address
-;M554 P10.0.0.1                     ; Gateway
-;M553 P255.255.255.0                ; Netmask
+M552 P0.0.0.0 S1                    ; DHCP IP address
+;M552 P192.168.1.10                 ; Set the IP address
+;M553 P255.255.255.0                ; Set netmask
+;M554 P192.168.1.1                  ; Set the gateway
 M555 P2                             ; Set output to look like Marlin
 G21                                 ; Work in millimetres
 G90                                 ; Send absolute coordinates...
@@ -33,7 +33,7 @@ M210 Z50                        ; Homing feedrate
 M566 X1200 Y1200 Z1200 E1200    ; Maximum instant speed changes mm/minute
 
 ; Thermistors and heaters
-M305 P1 R4700 ; Put your own H and/or L values here to set the first nozzle thermistor ADC correction
+M305 P1 R4700 ; Thermistor series resistor
 M140 H-1      ; Disable heatbed
 
 ; Tool definitions
