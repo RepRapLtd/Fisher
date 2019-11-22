@@ -66,3 +66,5 @@ M666 X0.0 Y0.0 Z0.0
 ;*** If you are using axis compensation, put the figures in the following command
 M556 S78 X0 Y0 Z0 ; Axis compensation here
 
+; Put your final XY calibration figures here (see instructions).
+M579 X1.0 Y1.0
